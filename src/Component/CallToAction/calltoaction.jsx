@@ -1,0 +1,97 @@
+import React from "react";
+import { ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
+
+const ctaData = {
+  solarEpc: {
+    tag: "Let’s Build Smarter Energy Systems",
+    title:
+      "Ready to power your project with reliable solar, O&M, and energy storage solutions?",
+    primaryButtonText: "Get Free Consultation",
+    primaryButtonLink: "/contact/#ContactFormSection",
+    secondaryButtonText: "View Projects",
+    secondaryButtonLink: "#projects",
+  },
+
+  batteryStorage: {
+    tag: "Take control of your energy today",
+    title:
+      "Start saving power and enjoy uninterrupted electricity with our smart solutions.",
+    primaryButtonText: "Request Consultation",
+    primaryButtonLink: "/contact/#ContactFormSection",
+    secondaryButtonText: "Explore Service",
+    secondaryButtonLink: "/services/battery-storage",
+    path:"/services/battery-storage",
+  },
+
+  operationMaintenance: {
+    tag: "Reliable Operations & Maintenance",
+    title:
+      "Keep your solar assets running at peak performance with proactive monitoring, servicing, and technical support.",
+    primaryButtonText: "Get Started",
+    primaryButtonLink: "/contact/#ContactFormSection",
+    secondaryButtonText: "View Service",
+    secondaryButtonLink: "/services/operations-maintenance",
+  },
+
+  energyConsulting: {
+    tag: "Smart Energy Consulting",
+    title:
+      "Plan the right renewable energy strategy with expert consulting for efficient, future-ready business solutions.",
+    primaryButtonText: "Talk to Experts",
+    primaryButtonLink: "/contact/#ContactFormSection",
+    secondaryButtonText: "Learn More",
+    secondaryButtonLink: "/services/energy-consulting",
+  },
+};
+
+function CTASection({ page }) {
+  const data = ctaData[page];
+
+  if (!data) return null;
+
+  return (
+    <section className="bg-slate-950">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="border-b border-white/10 py-12">
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.5 }}
+            className="flex flex-col gap-8 rounded-[28px] border border-white/10 bg-white/5 px-6 py-8 backdrop-blur-sm md:flex-row md:items-center md:justify-between md:px-10"
+          >
+            <div className="max-w-2xl">
+              <p className="mb-3 text-base font-medium uppercase tracking-[0.2em] text-emerald-400">
+                {data.tag}
+              </p>
+
+              <h2 className="text-3xl font-semibold leading-tight text-white sm:text-4xl">
+                {data.title}
+              </h2>
+            </div>
+
+            <div className="flex flex-col gap-4 sm:flex-row md:justify-end">
+              <a
+                href={data.primaryButtonLink}
+                className="inline-flex items-center justify-center rounded-full bg-white px-7 py-3.5 text-base font-semibold text-slate-950 transition hover:bg-emerald-200"
+              >
+                {data.primaryButtonText}
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </a>
+
+              <a
+                href={data.secondaryButtonLink}
+                className="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-7 py-3.5 text-base font-semibold text-white transition hover:bg-white/10"
+              >
+                {data.secondaryButtonText}
+              </a>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default CTASection;
