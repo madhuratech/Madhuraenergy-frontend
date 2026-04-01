@@ -39,9 +39,9 @@ function Banner() {
 
     "operation-maintenance": {
       tag: "Service Details",
-      title: "O&M Services for Solar Energy Systems",
+      title: "Operations and Maintenance Services",
       description:
-        "Complete operations and maintenance services to ensure your solar systems are reliable every day. Through regular inspections, performance monitoring, preventative maintenance, and problem solutions, we support the long-term maintenance of consistent energy output and system stability.",
+        "Utilize professional operations and maintenance services to optimize solar performance. Through proactive monitoring, prompt service, and data driven optimization, we guarantee system efficiency, minimize downtime, and prolong asset life.",
       image:
         "https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1800&q=80",
       primaryButtonText: "Get Consultation",

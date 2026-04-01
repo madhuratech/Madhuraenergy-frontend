@@ -95,52 +95,52 @@ const serviceScopeData = {
 
   operationMaintenance: {
     tag: "WHAT WE PROVIDE: ",
-    title: "Operation & Maintenance Coverage in All Important Service Domains ",
+    title: "Operation & Maintenance Coverage in All Important Service Domains",
     items: [
       {
-        title: "Tracking Performance ",
+        title: "Monitoring Performance",
         description:
-          "System performance is continuously monitored using state-of-the-art monitoring tools to identify anomalies, optimize output, and ensure consistent energy generation. ",
+          "Use intelligent monitoring tools to keep an eye on your solar system in real time. Recognize performance declines early, maximize energy production, and guarantee steady power. ",
         icon: Wrench,
         image:
           "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Preventive Maintenance",
+        title: "Preventive Medical Care",
         description:
-          "Preventive maintenance includes planned inspections and routine maintenance to reduce system wear, prevent unanticipated issues, and maintain consistent performance. ",
+          "With planned maintenance and regular inspections, problems can be avoided before they arise. Minimize system wear, prevent expensive malfunctions, and maintain the effectiveness.",
         icon: ShieldCheck,
         image:
           "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Maintenance and Repair ",
+        title: "Assistance with Repairs",
         description:
-          "Quick issue identification and repair with coordinated troubleshooting and repair support to reduce downtime and restore system performance",
+          "For any system issues, get prompt and dependable repair assistance. To keep energy flowing, our staff promptly finds problems, fixes them, and reduces downtime.",
         icon: LineChart,
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Inspection and Reporting of Systems ",
+        title: "Analyzing the System ",
         description:
-          "Thorough site inspections and performance reports that offer lucid insights into operational effectiveness, system health, and areas for development. ",
+          "Extensive system checks assist identify hidden issues and ensure peak performance. Frequent evaluations can improve performance, safety, and long-term dependability. ",
         icon: LineChart,
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Cleaning and Asset Maintenance ",
+        title: "Washing Panels ",
         description:
-          "To avoid efficiency loss brought on by dust, debris, and environmental conditions, regular module cleaning and equipment maintenance are necessary. ",
+          "Keep your solar panels clear of dust and debris to maintain their optimal performance. Regular cleaning improves energy absorption and stops performance declines over time.",
         icon: LineChart,
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Remote Diagnostics & Support",
+        title: "Observing from a distance",
         description:
-          "Remote diagnostics and real-time system monitoring provide for quicker decision-making and responsiveness by identifying problems early.",
+          "Utilize advanced diagnostics to keep an eye on your solar system from a distance. Get alerts in real time, make decisions faster, and monitor performance all the time.",
         icon: LineChart,
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",

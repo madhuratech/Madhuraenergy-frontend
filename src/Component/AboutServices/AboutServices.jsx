@@ -52,13 +52,13 @@ function Aboutservice() {
 
     "operation-maintenance": {
       tag: "About Our Solutions",
-      title: "Reliable Solar O&M Made for Long-Term Use ",
+      title: "Dependable Solar System Operations and Maintenance Services",
       description:
-        "We provide planned operations and maintenance services to ensure that your solar systems continue to deliver dependable performance over time. Our approach places a strong emphasis on regular monitoring, preventative maintenance, and timely problem solving to save downtime and protect your energy output. ",
+        "With proactive monitoring, preventative maintenance, and quick problem solving, our operations and maintenance services guarantee optimal solar performance, reducing downtime and optimizing long-term energy output.",
       points: [
-        "Proactive monitoring and preventive maintenance",
-        "Performance-focused system management ",
-        "Reliable support for ongoing activities",
+        "Regular monitoring and maintenance ",
+        "System control for better performance ",
+        "Reliable support for daily operations",
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",

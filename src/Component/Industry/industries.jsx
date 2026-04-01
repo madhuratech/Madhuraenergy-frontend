@@ -69,11 +69,11 @@ function IndustriesWeServe() {
             Industries We Serve
           </p>
           <h2 className="mt-3 text-2xl font-bold text-white sm:text-3xl lg:text-4xl">
-            Serving Businesses Across Key Sectors
+           Services for Operations and Maintenance in Important Industries 
           </h2>
           <p className="mt-4 text-sm leading-7 text-slate-300 sm:text-base">
-            We deliver reliable and scalable solutions for a wide range of
-            industries with a focus on efficiency, performance, and long-term value.
+            With dependable, scalable solutions that guarantee effective solar performance, decreased downtime, and long-term value, our operations and maintenance services assist a variety of industries.
+
           </p>
         </motion.div>
 

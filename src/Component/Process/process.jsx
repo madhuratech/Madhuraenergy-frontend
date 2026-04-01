@@ -98,34 +98,34 @@ const processSectionData = {
     processSteps: [
       {
         number: "01",
-        title: "Monitoring Performance ",
+        title: "Performance Monitoring ",
         description:
-          "Modern monitoring technologies are used to continuously monitor system performance in order to spot abnormalities, maximize output, and guarantee steady energy production.",
+          "Track solar system performance in real time. Monitor output patterns, identify issues early, and ensure consistent energy production with continuous system visibility. ",
       },
       
       {
         number: "02",
-        title: "Upkeep and Repair ",
+        title: "Handling of Repairs",
         description:
-          "Rapid problem detection and resolution with coordinated troubleshooting and repair assistance to minimize downtime and restore system functionality",
+          "Determine and quickly resolve system problems with coordinated repair support. Minimize downtime, increase output, and keep generating energy.",
       },
       {
         number: "03",
-        title: "Preventive Maintenance",
+        title: "Preventive Maintenance ",
         description:
-          "In order to minimize system wear, avoid unforeseen problems, and ensure steady performance, preventive maintenance consists of scheduled inspections and regular maintenance.",
+          "To reduce wear and avoid unforeseen breakdowns, schedule routine maintenance. Ensure improved long-term system health, consistent performance, and operational reliability. ",
       },
       {
         number: "04",
-        title: "Asset Maintenance and Cleaning ",
+        title: "Asset Cleaning ",
         description:
-          "To avoid efficiency loss brought on by dust, debris, and environmental conditions, regular equipment maintenance and module cleaning are necessary.",
+          "Regular cleaning removes dust particles that reduce efficiency. You can maintain optimal energy absorption and boost system output by properly maintaining your equipment.",
       },
       {
         number: "05",
-        title: "Remote Assistance & Diagnostics ",
+        title: "Remote diagnostics",
         description:
-          "Remote diagnostics and real-time system monitoring provide for faster decision-making and responsiveness by identifying problems early.",
+          "Make use of remote technology to promptly monitor, detect, and fix issues. Reduce manual inspections, expedite decision-making, and efficiently oversee system performance.",
       },
     ],
     path:"/operation-maintenance",

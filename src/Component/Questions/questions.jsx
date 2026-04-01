@@ -46,44 +46,44 @@ const faqPagesData = {
       title: "Operations &",
       highlight: "Maintenance",
       description:
-        "Explore answers to common questions about our O&M services, preventive maintenance approach, monitoring, and performance optimization.",
+        "Discover comprehensive information about our operations and maintenance services, which include performance optimization, preventative care, and monitoring. ",
       contactTag: "Need more help?",
-      contactTitle: "Let’s optimize your plant performance.",
+      contactTitle: "Require More Assistance",
       contactDescription:
-        "We help businesses maintain solar system efficiency through preventive maintenance, inspections, monitoring, and issue resolution support.",
+        "To guarantee optimal operation, we provide professional monitoring, maintenance, inspections, and prompt problem solving for your solar system.",
       buttonText: "Contact Us",
       path: "/operation-maintenance",
     },
     faqData: [
       {
-        question: "Do you need more assistance?",
+        question: ". Do you offer more assistance when required? ",
         answer:
-          "Let's discuss the requirements for your system. Our specialists can help you with maintenance planning, performance monitoring, and ongoing support tailored to your solar system",
+          "In order to guarantee continued system performance, we do provide continuing assistance, which includes monitoring, maintenance, and prompt issue resolution.",
       },
       {
-        question: "What does your O&M service include?",
+        question: "What is included in your O&M service?",
         answer:
-          "Our O&M services include fault diagnosis, cleaning, system inspections, performance monitoring, preventive maintenance, and problem solving. We also often send out reports to keep you informed about system performance and maintenance chores.",
+          "For the best possible system functioning, we offer monitoring, preventive maintenance, inspections, cleaning, diagnostics, and repair assistance.",
       },
       {
-        question: "How often is maintenance performed?",
+        question: "How frequently is maintenance carried out? ",
         answer:
-          "When scheduling maintenance, the system's size, location, and usage circumstances are taken into account. We follow a predetermined schedule for inspections and preventive maintenance to ensure dependable system operation. ",
+          "Maintenance is planned according to the requirements of the system and usually consists of routine cleaning, inspections, and efficiency-boosting preventive servicing",
       },
       {
-        question: "When there are issues with the system, do you provide support?",
+        question: " Do you offer assistance when there are system problems?",
         answer:
-          "Yes, we closely monitor system performance and fix any issues that are discovered. Our team looks for practical ways to minimize downtime and maintain system stability.",
+          "Yes, we provide prompt troubleshooting and repair assistance to reduce downtime in your solar operations",
       },
       {
-        question: "Will I receive performance reports? ",
+        question: "Will performance reports be sent to me?",
         answer:
-          "Yes, we provide periodical reports with data on system performance, maintenance updates, and observations. This makes it possible for you to understand how your system is operating over time.",
+          "Yes, in order to help with decision-making, we regularly provide reports that include information on system health, performance trends, and maintenance actions. ",
       },
       {
-        question: "Can you oversee large-scale solar systems? ",
+        question: "Are you able to oversee large-scale solar systems? ",
         answer:
-          "Our services are designed to support systems of different capacities across commercial, industrial, and infrastructure projects with an organized approach to performance and maintenance management.",
+          "Yes, we manage systems of all sizes with organized procedures, sophisticated monitoring, and knowledgeable maintenance assistance.",
       },
 
     ],

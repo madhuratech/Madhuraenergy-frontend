@@ -76,36 +76,30 @@ const whyChooseData = {
     image:
       "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1200&q=80",
     description:
-      "We provide proactive maintenance support that improves uptime, reduces failures, and protects your energy investment over the long term.",
+      "Our operations and maintenance services are designed to maximize solar system performance, reduce unplanned failures, and increase asset longevity. With a proactive approach, real-time monitoring, and expert support, we ensure consistent energy output and long-term dependability. Our methodical procedures and data-driven choices maximize operational effectiveness while safeguarding your investment.",
     points: [
       {
-        title: "Reliable O&M Services for Solar Energy Systems",
+        title: "Dependable System Performance Assistance",
         description:
-          "In addition to maintaining systems, we also want to make sure that they continue to function reliably throughout time. To assist you prevent performance declines and operational disruptions, we offer a planned approach, skilled execution, and ongoing system care.",
+          "We guarantee the effective operation of your solar systems through competent maintenance and ongoing monitoring. Our method guarantees long-term system stability while reducing downtime and maintaining energy output. ",
         icon: Wrench,
       },
       {
-        title: "Performance-focused methodology ",
+        title: "The Performance-Driven Maintenance Method",
         description:
-          "To guarantee that your solar investment continues to yield the anticipated returns without suffering undue losses, we place a high priority on system production and efficiency.",
+          "Through data insights and routine inspections, our maintenance plan aims to maximize system efficiency. This enhances system performance, reduces energy loss, and increases output consistency.",
         icon: Settings,
       },
       {
-        title: "Methodical Maintenance Procedure ",
+        title: "Flow of a Structured Maintenance Process",
         description:
-          "Our O&M operations adhere to an open and methodical procedure that lowers uncertainty and guarantees consistent system administration.",
+          "For every maintenance task, we adhere to a clear and organized methodology. This lowers operational risks, guarantees seamless execution, and promotes steady system performance over time. ",
         icon: LineChart,
       },
       {
-        title: "Proactive Resolution of Issues",
+        title: "System for Proactive Issue Detection",
         description:
-          "By monitoring things and providing preventative services, we may spot possible problems early on and prevent significant interruptions and unplanned downtime. ",
-        icon: LineChart,
-      },
-      {
-        title: "Open Reporting",
-        description:
-          "Regular updates and performance reports allow you to stay informed about system status, maintenance chores, and areas for improvement.",
+          "We use preventive measures and real-time monitoring to identify possible problems early. This strategy aids in preventing significant malfunctions, minimizing downtime, and preserving continuous solar system operations.",
         icon: LineChart,
       },
     ],

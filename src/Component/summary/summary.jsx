@@ -32,7 +32,7 @@ const serviceContent = {
     tag: "About the Service",
     title: "Operation and Maintenance Services for Solar Systems",
     description:
-      "We are aware that in order for solar systems to function at their desired levels, ongoing monitoring is necessary. This need is the foundation of our O&M services, which guarantee that every component from panels to inverters is routinely inspected, maintained, and optimized. Our employees adhere to a methodical procedure that includes preventive maintenance, real- time keeping an eye on things and solving problems quickly. This strategy lowers the likelihood of unanticipated problems, assists in early risk identification, and preserves system functionality. Additionally, we offer concise, well-structured information so you can always monitor the general state of your system, the maintenance being performed, and its performance.  ",
+      "Your solar systems will operate at peak efficiency and dependability thanks to our operations and maintenance services. To identify problems early and prevent unplanned breakdowns, we offer preventative maintenance, routine inspections, and continuous monitoring. To reduce downtime and safeguard your investment, our methodical approach includes real-time performance tracking, prompt servicing, and quick problem solving. We increase system longevity and energy output by maintaining every part, from panels to inverters. You may make better decisions and achieve long-term operational success by having clear visibility into system health, maintenance activities, and performance trends through transparent reporting and data-driven insights.",
     path: "/operation-maintenance",
 },
 };

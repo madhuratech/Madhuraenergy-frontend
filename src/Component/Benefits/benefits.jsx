@@ -28,14 +28,14 @@ const benefitsContent = {
 
   operationMaintenance: {
     tag: "Benefits",
-    title: "Sustaining Efficiency and Increasing System Worth ",
+    title: "Benefits of Operations and Maintenance Services ",
     benefits: [
-      "Frequent maintenance and observation assist guarantee that your system produces energy in a reliable, consistent manner without experiencing performance declines. ",
-      "Early problem identification and prompt repair reduce unanticipated failures and maintain your system's continuous operation. ",
-      "Maintaining optimal efficiency and halting increasing energy losses is made simpler by cleaning, inspections, and performance evaluations.",
-      "Longer system life and improved asset utilization are supported by well-maintained components, which endure less stress and deterioration. ",
-      "Preventive maintenance eventually helps you better control operating expenses by lowering the need for costly repairs",
-      "Transparency is provided by regular reporting and data monitoring, which enables you to comprehend system behavior and make wise decisions."
+      "Consistent and dependable solar energy performance is guaranteed by routine maintenance",
+      "Early problem identification lowers failure rates and maintains daily system functionality ",
+      "Inspections and cleaning contribute to energy loss reduction and efficiency maintenance. ",
+      "Well-maintained systems perform better and endure longer",
+      "Preventive care enhances overall operational management and reduces repair costs.",
+      "Transparent reporting provides information for more intelligent system design and decision-making"
     ],
     path: "/services/operation-maintenance",
   },
