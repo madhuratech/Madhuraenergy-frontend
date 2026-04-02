@@ -5,7 +5,7 @@ const processSectionData = {
   solarEpc: {
     badge: "How It Works",
     title: "Simple and Efficient Solar EPC Services from Start to Finish",
-    highlightedLine: "To Work On Your Solar Project",
+    // highlightedLine: "To Work On Your Solar Project",
     description:
       "At solar EPC solutions, our focus is to provide quality, maintain transparency, and ensure that high performance standards are met in all projects that we handle.",
     backgroundImage:

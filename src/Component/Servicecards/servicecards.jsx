@@ -18,41 +18,73 @@ const serviceScopeData = {
     title: "Complete EPC Scope in 5 Key Service Areas",
     items: [
       {
-        title: "Engineering Design",
+        title: "Project Planning",
         description:
-          "Complete technical planning including plant layout, generation estimates, structural design, and electrical single-line diagrams.",
+          "We carefully plan every solar project by understanding your energy needs, budget, and site conditions. Our approach ensures the system is designed for maximum efficiency, better performance, and long-term savings, giving you a reliable and cost-effective solar solution.",
         icon: PanelsTopLeft,
         image:
           "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Procurement & Supply",
+        title: "Seamless Execution",
         description:
-          "Reliable sourcing of modules, inverters, structures, cables, and BOS components from trusted partners.",
+          "We execute every solar project with precision and careful planning, ensuring smooth and hassle-free execution at every stage. Our team focuses on quality, timely delivery, and efficient coordination to deliver reliable and long-lasting solar solutions.",
         icon: BadgeCheck,
         image:
           "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Installation & Execution",
+        title: "Custom System Design",
         description:
-          "Professional on-site installation with safety-first execution and strict quality control measures.",
+          "We design our solar systems in such a way that they meet your energy needs. Our solar systems are designed in such a way that they meet your needs and are the most efficient and effective.",
         icon: Wrench,
         image:
           "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Testing & Commissioning",
+        title: "Solar Panel Procurement",
         description:
-          "Detailed testing, inspections, and commissioning to ensure dependable and compliant system performance.",
+          "At our company, we procure the highest quality solar panel components that meet your specific energy needs. Our main focus is the quality and reliability of the solar panel components.",
         icon: ShieldCheck,
         image:
           "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Performance Monitoring",
+        title: "Efficient Engineering",
         description:
-          "Ongoing monitoring and reporting tools to optimize output and improve long-term system efficiency.",
+          "Our engineering process is designed in such a way that it ensures safety, efficiency, and maximum energy production. We follow tried and tested standards and smart planning to deliver efficient solar solutions that are reliable and consistent in nature.",
+        icon: LineChart,
+        image:
+          "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "Expert Installation",
+        description:
+          "Your solar system is installed with precision and accuracy by our experts to ensure maximum efficiency and durability in the long run. We also ensure that your solar system is installed safely and according to the best practices in the industry.",
+        icon: LineChart,
+        image:
+          "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "Compliance Support",
+        description:
+          "We take utmost care in ensuring that all the approvals, documentation, and regulations are taken care of. Our team ensures that all the processes are in accordance with the guidelines, saving your precious time and effort by making the process smooth, simple, and hassle-free.",
+        icon: LineChart,
+        image:
+          "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "Concept to Commissioning",
+        description:
+          "We ensure that your solar experience is taken care of with the utmost precision, right from the concept to the commissioning of the project. Our team of experts will be able to provide you with the most efficient, reliable, and high-performance solar solution with ease and no hassle at all.",
+        icon: LineChart,
+        image:
+          "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "Trusted Technical Support",
+        description:
+          "We are here to provide the best and most reliable support to your solar system. Our team is at your service and is willing to assist you in the maintenance and proper functioning of your solar system with the utmost efficiency and no interruptions.",
         icon: LineChart,
         image:
           "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1400&q=80",

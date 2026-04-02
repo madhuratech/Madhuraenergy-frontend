@@ -16,60 +16,42 @@ const whyChooseData = {
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
     description:
-      "At Madhura Energy, we believe in quality work and transparent communication. We provide our customers with the most efficient and cost-effective solar solutions with our expertise and make your solar experience smooth and hassle-free.",
+      "At Madhura Energy, we believe in quality work and transparent communication. We provide our customers with the most efficient and cost-effective solar solutions with our expertise and make your solar experience smooth and hassle-free",
     points: [
       {
-        title: "Project Planning",
+        title: "End-to-End Expertise",
         description:
-          "We plan all our solar projects according to your needs and requirements.",
+          "We handle everything from design and procurement to installation and commissioning, ensuring a smooth and hassle-free solar journey.",
         icon: Sun,
       },
       {
-        title: "Seamless Execution",
+        title: "Customized Solar Solutions",
         description:
-          "We execute all our solar projects with utmost precision and make the process smooth and efficient.",
+          "Every project is tailored to your energy needs, site conditions, and budget for maximum efficiency and performance..",
         icon: PanelsTopLeft,
       },
       {
-        title: "Custom System Design",
+        title: "High-Quality Components",
         description:
-          "We design our solar systems according to your needs and requirements.",
+          "We use reliable and durable solar equipment to ensure long-term performance, safety, and minimal maintenance.",
         icon: Settings,
       },
        {
-        title: "Solar Panel Procurement",
+        title: "Experienced Technical Team",
         description:
-          "We procure the highest quality solar panel components according to your needs and requirements.",
+          "Our skilled engineers and technicians bring industry expertise to deliver precise and efficient project execution.",
         icon: Settings,
       },
        {
-        title: "Efficient Engineering",
+        title: "Cost-Effective & Transparent Pricing",
         description:
-          "Our engineering process guarantees safety, efficiency, and maximum energy output for all solar projects we complete successfully.",
+          "We provide competitive pricing with complete transparency, helping you achieve the best return on your investment.",
         icon: Settings,
       },
        {
-        title: "Expert Installation",
+        title: " Reliable Support & Maintenance",
         description:
-          "Our team of experts installs your solar system for maximum longevity.",
-        icon: Settings,
-      },
-      {
-        title: "Compliance Support",
-        description:
-          "We efficiently handle all approvals, documentation, and regulatory requirements for smooth completion of projects without any delays.",
-        icon: Settings,
-      },
-      {
-        title: "Concept to Commissioning",
-        description:
-          "We offer the complete solar solution from conceptualization to commissioning with our team of experts",
-        icon: Settings,
-      },
-      {
-        title: "Trusted Technical Support",
-        description:
-          "We offer trusted support for your solar system to ensure smooth operations",
+          "From installation to after-sales service, we offer continuous support to ensure your solar system performs at its best.",
         icon: Settings,
       },
     ],

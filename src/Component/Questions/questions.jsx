@@ -18,24 +18,34 @@ const faqPagesData = {
     },
     faqData: [
       {
-        question: "What solar EPC services do you provide?",
+        question: "What are Solar EPC Services?",
         answer:
-          "We provide complete solar EPC solutions including design, engineering, procurement, installation, testing, and commissioning for commercial, industrial, and utility-scale projects.",
+          "They include engineering, procurement, and construction services required to design, source, build, and complete efficient solar energy systems for various applications.",
       },
       {
-        question: "Can you handle large-scale industrial solar projects?",
+        question: "How long does installation take?",
         answer:
-          "Yes, we specialize in rooftop and ground-mounted solar projects for industrial and commercial clients with a strong focus on safety, efficiency, and long-term performance.",
+          "It depends on the project size, but most solar systems are completed quickly within a short time frame by experts",
       },
       {
-        question: "Do you support project design and engineering?",
+        question: " Is solar energy cost-effective?",
         answer:
-          "Yes, our team handles technical design, energy assessment, layout planning, equipment selection, structural design, and electrical engineering as part of the EPC scope.",
+          "Yes, it also helps in reducing your electricity bills over time by generating your own power and reducing dependence on costly energy usage of the grid.",
       },
       {
-        question: "Do you also manage installation and commissioning?",
+        question: "Do I need maintenance?",
         answer:
-          "Yes, we manage complete on-site execution including installation, testing, quality checks, commissioning, and final handover to ensure smooth project delivery.",
+          "Solar systems require minimal maintenance, making them easy to manage, cost-effective, and long-lasting while ensuring consistent energy production over many years.",
+      },
+      {
+        question: "Can it be used for businesses?",
+        answer:
+          "Yes, solar EPC services are ideal for homes, offices, and industries. The services provide efficient and cost-effective energy solutions for various needs.",
+      },
+      {
+        question: "Do you provide support after installation?",
+        answer:
+          "Yes, we offer reliable technical support for your solar system to ensure smooth running and timely assistance whenever needed.",
       },
     ],
   },

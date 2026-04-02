@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 const serviceContent = {
   "solar-epc-solutions": {
     tag: "About the Service",
-    title: "Complete Solar EPC Solutions",
+    title: "Complete Solar EPC Made Simple and Reliable",
     description:
-      "Our Solar EPC service provides complete project delivery from planning and engineering to procurement, installation, testing, and commissioning. We help businesses and industries adopt efficient solar power systems that reduce electricity costs, improve energy independence, and support long-term sustainability goals through reliable and professionally managed execution.",
+      "Madhura Energy’s Complete Solar EPC Services is developed in such a manner that your journey to solar energy is not only easy but also efficient. We ensure that your solar energy requirements are fulfilled in the best manner. We believe in simplicity, quality, and reliability in all aspects of our business. We plan and design your solution in such a manner that it is exactly what you need. After that, our highly experienced and qualified professionals ensure that you get what you need in the most efficient manner, which not only maximizes your output but also saves costs. We ensure that we provide only the best quality solar panels that guarantee longevity. We have experienced professionals who ensure that your solar panel system is installed according to industry standards. We also ensure that all compliance requirements are met, so you do not have to worry about that either! Madhura Energy is dedicated to building long-term relationships with our valuable customers. ",
     path: "/solar-epc-solutions",
   },
 
