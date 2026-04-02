@@ -4,42 +4,42 @@ import { motion } from "framer-motion";
 const processSectionData = {
   solarEpc: {
     badge: "How It Works",
-    title: "Our Company Makes It Easy For You",
+    title: "Simple and Efficient Solar EPC Services from Start to Finish",
     highlightedLine: "To Work On Your Solar Project",
     description:
-      "We follow a clear delivery path from feasibility study and engineering to procurement, installation, testing, and handover.",
+      "At solar EPC solutions, our focus is to provide quality, maintain transparency, and ensure that high performance standards are met in all projects that we handle.",
     backgroundImage:
       "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1800&q=80",
     processSteps: [
       {
         number: "01",
-        title: "Site Assessment",
+        title: "Site Analysis & Requirement Study",
         description:
-          "We evaluate site conditions, energy needs, and project feasibility.",
+          "We analyse energy, location, roof, and sunlight for optimal solutions.",
       },
       {
         number: "02",
-        title: "Engineering Design",
+        title: "System Design & Planning",
         description:
-          "We prepare layouts, technical drawings, and performance planning.",
+          "A customized solar system is designed for maximum efficiency.",
       },
       {
         number: "03",
-        title: "Procurement",
+        title: "Procurement of Materials",
         description:
-          "We source quality solar modules, inverters, and balance of system materials.",
+          "We procure quality solar materials for durability, safety, reliability.",
       },
       {
         number: "04",
-        title: "Installation",
+        title: "Installation & Execution",
         description:
-          "Our team executes the project with quality, safety, and timeline control.",
+          "The solar system is installed by professionals to ensure maximum efficiency.",
       },
       {
         number: "05",
-        title: "Testing & Handover",
+        title: "Testing, Commissioning & Support",
         description:
-          "We commission the system, test performance, and deliver final handover.",
+          "The solar system is tested, commissioned, and supported for maximum performance",
       },
     ],
     path: "/solar-epc-solutions",

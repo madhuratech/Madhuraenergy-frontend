@@ -6,10 +6,12 @@ const benefitsContent = {
     tag: "Benefits",
     title: "Why Businesses Choose Our EPC Services",
     benefits: [
-      "End-to-end engineering, procurement, and construction support.",
-      "Optimized project execution with quality and safety focus.",
-      "Reliable performance with long-term operational value.",
-      "Faster delivery through experienced technical coordination.",
+      "Make your own energy, save money in the long run.",
+      "Reliable solar power during utility outages.",
+      "Green living with renewable solar energy.",
+      "Low maintenance, high efficiency solar systems.",
+      "Increase your home’s value with solar systems.",
+      "Live with sustainable, renewable energy."
     ],
     path:"/services/solar-epc-solutions",
   },

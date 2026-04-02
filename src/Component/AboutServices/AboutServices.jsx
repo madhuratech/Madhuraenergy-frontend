@@ -9,13 +9,13 @@ function Aboutservice() {
   const serviceContent = {
     "solar-epc-solutions": {
       tag: "About Our Solutions",
-      title: "Smart Solar EPC Solutions Built for Long-Term Performance",
+      title: "Efficient and Reliable Solar EPC Services for smarter, and sustainable energy",
       description:
-        "We deliver complete solar EPC solutions tailored for commercial, industrial, and infrastructure projects with a focus on engineering precision, execution quality, and long-term value.",
+        "At our company, we provide complete solar EPC services, making your energy journey easier with efficient, reliable, and cost-effective services for both residential and commercial needs.",
       points: [
-        "End-to-end solar project planning and execution",
-        "High-efficiency system design and installation",
-        "Reliable support for long-term plant performance",
+        "End-to-end solar project management services",
+        "Cost-effective and efficient solar services",
+        "Reliable solar services",
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",

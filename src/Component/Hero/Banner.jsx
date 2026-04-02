@@ -9,10 +9,10 @@ function Banner() {
   const services = {
     "solar-epc-solutions": {
       tag: "Service Details",
-      title: "Solar EPC",
+      title: "Solar EPC Services",
       highlight: "Solutions",
       description:
-        "Complete  procurement, construction, testing, and commissioning solutions for solar projects built with precision, speed, and long-term performance in mind.",
+        "Empowering your future with smart solar solutions, we do it all from idea to installation, providing simple, reliable, and cost-effective solutions as your trusted partner in solar growth.",
       image:
         "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1800&q=80",
       primaryButtonText: "Get Consultation",

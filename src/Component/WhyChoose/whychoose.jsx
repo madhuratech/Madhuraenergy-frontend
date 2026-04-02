@@ -12,28 +12,64 @@ import {
 const whyChooseData = {
   solarEpc: {
     badge: "Why Choose Us",
-    heading: "Why Choose Our Team To Deliver Your Solar EPC Project?",
+    heading: "Why choose Madhura Energy for reliable and efficient Solar EPC Services solutions",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
     description:
-      "We combine technical expertise, disciplined execution, and client-focused delivery to ensure every solar project is completed with quality, safety, and long-term performance in mind.",
+      "At Madhura Energy, we believe in quality work and transparent communication. We provide our customers with the most efficient and cost-effective solar solutions with our expertise and make your solar experience smooth and hassle-free.",
     points: [
       {
-        title: "End-to-End Project Execution",
+        title: "Project Planning",
         description:
-          "From engineering and procurement to installation and commissioning, we manage the complete EPC lifecycle efficiently.",
+          "We plan all our solar projects according to your needs and requirements.",
         icon: Sun,
       },
       {
-        title: "Experienced Technical Team",
+        title: "Seamless Execution",
         description:
-          "Our engineers and project teams bring practical expertise in delivering reliable and scalable solar systems.",
+          "We execute all our solar projects with utmost precision and make the process smooth and efficient.",
         icon: PanelsTopLeft,
       },
       {
-        title: "Quality-Focused Delivery",
+        title: "Custom System Design",
         description:
-          "We use proven components, structured planning, and strict quality checks to ensure dependable project outcomes.",
+          "We design our solar systems according to your needs and requirements.",
+        icon: Settings,
+      },
+       {
+        title: "Solar Panel Procurement",
+        description:
+          "We procure the highest quality solar panel components according to your needs and requirements.",
+        icon: Settings,
+      },
+       {
+        title: "Efficient Engineering",
+        description:
+          "Our engineering process guarantees safety, efficiency, and maximum energy output for all solar projects we complete successfully.",
+        icon: Settings,
+      },
+       {
+        title: "Expert Installation",
+        description:
+          "Our team of experts installs your solar system for maximum longevity.",
+        icon: Settings,
+      },
+      {
+        title: "Compliance Support",
+        description:
+          "We efficiently handle all approvals, documentation, and regulatory requirements for smooth completion of projects without any delays.",
+        icon: Settings,
+      },
+      {
+        title: "Concept to Commissioning",
+        description:
+          "We offer the complete solar solution from conceptualization to commissioning with our team of experts",
+        icon: Settings,
+      },
+      {
+        title: "Trusted Technical Support",
+        description:
+          "We offer trusted support for your solar system to ensure smooth operations",
         icon: Settings,
       },
     ],
