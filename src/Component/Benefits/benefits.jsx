@@ -20,10 +20,14 @@ const benefitsContent = {
     tag: "Benefits",
     title: "Why Businesses Choose Our Battery Storage Solutions",
     benefits: [
-      "Improved backup power reliability during grid interruptions.",
-      "Peak load reduction and better energy cost control.",
-      "Scalable systems designed for future expansion needs.",
-      "Smarter power management for commercial and industrial sites.",
+      "Increases energy production and overall performance of the system",
+      "Lowers operation costs by improving efficiency in the management of the system",
+      "Lessens downtime through proactive monitoring and maintenance.",
+      "Increases the efficiency of the system and extends equipment longevity.",
+      "Provides consistent and reliable power production.",
+      "Offers real time data to assist with decision-making.",
+      "Reduces energy loss and improves productivity.",
+      "Easy to monitor, manage, and maintain."
     ],
     path: "/services/solar-plant-management",
   },

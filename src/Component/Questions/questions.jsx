@@ -49,6 +49,53 @@ const faqPagesData = {
       },
     ],
   },
+  solarPlant: {
+    sectionData: {
+      badge: "FAQs",
+      title: "Frequently Asked",
+      highlight: "Questions",
+      description:
+        "Get answers to common questions about our solar plant management services, monitoring capabilities, maintenance support, and performance optimization.",
+      contactTag: "Need more help?",
+      contactTitle: "Let’s discuss your solar plant management needs.",
+      contactDescription:
+        "Our experts can help you with monitoring, maintenance, performance optimization, and long-term reliability for your commercial or industrial solar plant.",
+      buttonText: "Contact Us",
+      path: "/solar-epc-solutions",
+    },
+    faqData: [
+      {
+        question: " In what ways can smart testing enhance overall system performance?",
+        answer:
+          "With the use of sophisticated tools and data analysis to identify issues early in the process, you'll improve efficiency and guarantee your electrical systems operate at peak performance.",
+      },
+      {
+        question: " Is it possible to avoid an unexpected failure with the use of testing?",
+        answer:
+          "Regular testing will allow you to discover hidden problems and weak points within your system, which will help prevent sudden failures and expensive downtime.",
+      },
+      {
+        question: "How is your testing method different from others?",
+        answer:
+          "We utilize a combination of cutting-edge technology, expert analysis, and a proactive maintenance approach to provide reliable and accurate results now and into the future.",
+      },
+      {
+        question: " Is testing only required on larger systems?",
+        answer:
+          "Testing on any and all sizes of systems is crucial for ensuring a safe and efficient system, regardless of the overall size of the system.",
+      },
+      {
+        question: "How will I determine whether or not I need to have my equipment tested?",
+        answer:
+          "In general, if you notice a decrease in performance, an increase in the number of faults occurring, or notice the age of the equipment, you should have your equipment professionally tested and inspected.",
+      },
+      {
+        question: "Will your services help ensure long-term performance of my system? ",
+        answer:
+          "Yes, all of our services are designed not just to provide a quick turnaround time, but to improve the durability, efficiency, and longevity of your system, as well",
+      },
+    ],
+  },
 
   operationsMaintenance: {
     sectionData: {

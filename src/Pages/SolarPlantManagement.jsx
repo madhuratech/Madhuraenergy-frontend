@@ -9,6 +9,7 @@ import Benefits from "../Component/Benefits/benefits";
 import FAQ from "../Component/Questions/questions";
 import IndustriesSection from "../Component/Industry/industries";
 import Summary from "../Component/summary/summary";
+import CTASection from "../Component/CallToAction/calltoaction";
 
 
 
@@ -19,13 +20,13 @@ function SolarPlantManagement() {
       <Banner />
       <Aboutservice />
       <Servicecards serviceKey="solarplantmanagement" />
-      <ProcessSection/>
-      <WhyChooseSection/>
+      <ProcessSection serviceKey="solarplant"/>
+      <WhyChooseSection serviceKey="solarplant"/>
       <IndustriesSection/>
       <Benefits pageKey="solarplantmanagement" />
       <Summary/>
-      <FAQ />
-      
+      <FAQ page="solarPlant" />
+      <CTASection page="solarPlant" />
     </div>
   );
 }

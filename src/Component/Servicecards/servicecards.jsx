@@ -95,28 +95,52 @@ const serviceScopeData = {
 
   solarplantmanagement: {
     tag: "Storage Solutions",
-    title: "Advanced Battery Storage Capabilities We Deliver",
+    title: "Advanced Energy Management Solutions for Efficient Use of Electricity",
     items: [
       {
-        title: "Battery System Design",
+        title: "Electrical Testing",
         description:
-          "Custom battery energy storage design tailored for backup power, peak shaving, and energy optimization.",
+          "We offer complete electrical testing services that meet regulatory compliance requirements for electrical equipment to ensure it is functioning correctly and is safe and properly maintained.",
         icon: BatteryCharging,
         image:
           "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "System Integration",
+        title: "AC and DC Equipment Testing ",
         description:
-          "Integration with solar plants, electrical networks, and energy management systems for seamless performance.",
+          "Our AC and DC testing services allow us to verify the proper functioning of AC and DC circuit breakers by performing thorough inspection, calibration and testing to ensure proper operating conditions",
         icon: Settings,
         image:
           "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Control & Automation",
+        title: "Breaker Maintenance",
         description:
-          "Smart controls and automation features for efficient dispatch, monitoring, and load balancing.",
+          "Our breaker maintenance solutions ensure that the operation of circuit breakers is safe and compliant with applicable standards so they do not fail and place electrical equipment at risk of damage due to overloads or short circuits.",
+        icon: LineChart,
+        image:
+          "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "Power Transformers Testing",
+        description:
+          "Transformer testing is used to examine many aspects of a transformer's performance. Our transformer testing services help to detect emerging issues through the assessment of performance, efficiency, and safety. We also help ensure reliable and uninterrupted power delivery to your facility.",
+        icon: LineChart,
+        image:
+          "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "Insulating Testing ",
+        description:
+          "Our Insulating material testing services are used to test the insulation materials of your transformers. By testing the strength and quality of your insulating materials, you can prevent unintentional electrical leakage, unsafe faults, and electrical Hazards.",
+        icon: LineChart,
+        image:
+          "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "Insulating Resistance Testing",
+        description:
+          "Our Insulation Resistance Testing Services will check the insulating resistance of your electrical system, which allows for a safe, long-lasting and code compliant system.",
         icon: LineChart,
         image:
           "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1400&q=80",

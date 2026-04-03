@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { path } from "framer-motion/client";
 
 const ctaData = {
   solarEpc: {
@@ -11,6 +12,17 @@ const ctaData = {
     primaryButtonLink: "/contact/#ContactFormSection",
     secondaryButtonText: "View Projects",
     secondaryButtonLink: "#projects",
+    path: "/services/solar-epc-solutions",
+  },
+   solarPlant: {
+    tag: "Take control of your solar plant management today",
+    title:
+      "Start taking control of your solar production today by maximizing your energy production through our advanced solar plants.",
+    primaryButtonText: "Get Free Consultation",
+    primaryButtonLink: "/contact/#ContactFormSection",
+    secondaryButtonText: "View Projects",
+    secondaryButtonLink: "#projects",
+    path: "/services/solar-plant-management",
   },
 
   batteryStorage: {
@@ -32,6 +44,7 @@ const ctaData = {
     primaryButtonLink: "/contact/#ContactFormSection",
     secondaryButtonText: "View Service",
     secondaryButtonLink: "/services/operations-maintenance",
+    path: "/services/operation-maintenance",
   },
 
   energyConsulting: {

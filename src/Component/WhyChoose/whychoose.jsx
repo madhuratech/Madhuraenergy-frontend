@@ -60,30 +60,37 @@ const whyChooseData = {
 
   solarplant: {
     badge: "Why Choose Us",
-    heading: "Why Choose Our Team For Battery Energy Storage Solutions?",
+    heading: "Choose Madhura Energy for intelligent and efficient solar plant management solutions you can trust.",
     image:
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     description:
-      "We design and deliver energy storage solutions that improve resilience, optimize consumption, and support long-term operational efficiency.",
+      "The technology we use to provide our customers with the management and monitoring services necessary to provide peace of mind is designed to make your solar investment as profitable and efficient as possible.",
     points: [
       {
-        title: "Smart Energy Optimization",
+        title: "Proven Reliability",
         description:
-          "Our storage systems help reduce peak load, improve backup reliability, and maximize energy usage efficiency.",
+          "Our solar facilities offer an extremely reliable solution with proven performance (consistent) and will always be available (minimum downtime) and providing excellent performance for years to come (longer-lasting).",
         icon: BatteryCharging,
       },
       {
-        title: "Scalable System Design",
+        title: "Skilled Experts",
         description:
-          "We tailor storage configurations based on project load profile, site requirements, and future expansion needs.",
+          "We have skilled personnel who monitor and manage your solar plant every day to make sure it is functioning optimally (day one) and continuously improving.",
         icon: PanelsTopLeft,
       },
       {
-        title: "Reliable Performance",
+        title: "Cost Optimization",
         description:
-          "Our solutions are built for safety, long lifecycle, and consistent operational performance.",
+          "With our services, you can save on operational expenses by increasing your plants' efficiencies, decreasing energy losses, and maximizing your return on investment.",
         icon: LineChart,
       },
+      {
+        title: "Total Support",
+        description:
+          "We provide complete support from the time we monitor and maintain your solar facility to assure optimal performance and ease of operation (performance optimization) in your solar facility.",
+        icon: LineChart,
+      },
+  
     ],
     path:"/solar-plant-management"
   },

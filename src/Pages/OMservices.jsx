@@ -9,6 +9,7 @@ import IndustriesWeServe from "../Component/Industry/industries";
 import Benefits from "../Component/Benefits/benefits";
 import Summary from "../Component/summary/summary";
 import FAQ from "../Component/Questions/questions";
+import CTASection from "../Component/CallToAction/calltoaction";
 
 
 
@@ -26,7 +27,7 @@ function OMservice() {
       <Benefits pageKey="operationMaintenance" />
       <Summary />
       <FAQ page="operationsMaintenance" />
-
+      <CTASection page="operationMaintenance" />
     </div>
   );
 }

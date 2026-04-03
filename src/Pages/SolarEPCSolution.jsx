@@ -9,6 +9,7 @@ import WhyChooseSection from "../Component/WhyChoose/whychoose";
 import Benefits from "../Component/Benefits/benefits";
 import Summary from "../Component/summary/summary";
 import FAQ from "../Component/Questions/questions";
+import CTASection from "../Component/CallToAction/calltoaction";
 
 
 
@@ -25,6 +26,7 @@ function SolarEpcSolutionsPage() {
       <HowWeWorkForYou />
       <Summary/>
       <FAQ/>
+      <CTASection page="solarEpc" />
     </div>
   );
 }

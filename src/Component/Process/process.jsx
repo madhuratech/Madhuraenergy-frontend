@@ -50,39 +50,39 @@ const processSectionData = {
     title: "Reliable Energy Storage Delivery",
     highlightedLine: "From Planning To Commissioning",
     description:
-      "We design and deploy battery storage systems with focus on backup power, efficiency, and operational reliability.",
+      "We provide step-by-step support to our customers so they can experience the successful, long-term operation of a Solar Plant.",
     backgroundImage:
       "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1800&q=80",
     processSteps: [
       {
         number: "01",
-        title: "Load Analysis",
+        title: "Site & Performance Analysis",
         description:
-          "We study load profile, backup needs, and peak demand patterns.",
+          "As part of our initial work, we thoroughly analyse your solar plant's current output and system condition, and identify all gaps along with any possible areas for improvement.",
       },
       {
         number: "02",
-        title: "System Design",
+        title: "Monitoring Setup",
         description:
-          "We define battery sizing, inverter integration, and control strategy.",
+          "We install cutting-edge monitoring technology to provide you with real-time performance, generation and health of your system so you have complete visibility.",
       },
       {
         number: "03",
-        title: "Equipment Selection",
+        title: "Preventative Maintenance Plan ",
         description:
-          "We choose the right battery chemistry and system components.",
+          "A pre-emptive maintenance schedule is developed to prevent potential problems, decrease down time, and ensure reliable energy production.",
       },
       {
         number: "04",
-        title: "Installation",
+        title: "Issue Detection and Resolution",
         description:
-          "We install the battery system with proper safety and compliance measures.",
+          "We analyse data and use analytical tools to detect faults quickly and rectify them to keep your plant operating smoothly.",
       },
       {
         number: "05",
-        title: "Integration & Testing",
+        title: "Performance Optimisation",
         description:
-          "We connect, test, and optimize the storage system for performance.",
+          "We consistently optimize the performance of every system with insights gained from data analytics, to provide maximum efficiency and the highest energy yield over time.",
       },
     ],
     path: "/solar-plant-management",

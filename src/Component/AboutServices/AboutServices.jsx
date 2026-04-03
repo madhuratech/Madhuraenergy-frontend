@@ -30,13 +30,14 @@ function Aboutservice() {
 
     "solar-plant-management": {
       tag: "About Our Solutions",
-      title: "Advanced Battery Storage for Smarter Energy Management",
+      title: "Smart Solar Plant Management for a Sustainable Future",
       description:
-        "Our battery storage systems are designed to improve energy reliability, backup readiness, and peak load optimization for modern businesses and infrastructure.",
+        "At Madhura Energy, we offer companies various intelligent, sophisticated solar energy management solutions to enable businesses to achieve optimal performance, increased output and long-term reliability of their solar plants through intelligent monitoring and management.",
       points: [
-        "Reliable backup power solutions",
-        "Peak demand and energy cost optimization",
-        "Scalable systems for future expansion",
+        "Real-time monitoring of peak production.",
+        "Preventive maintenance to limit downtime.",
+        "Increasing production and maximizing efficiency.",
+        "Data analytics solutions to help you make better decisions."
         
       ],
       buttonText: "Learn More",

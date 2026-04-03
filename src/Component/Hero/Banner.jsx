@@ -24,10 +24,9 @@ function Banner() {
 
     "solar-plant-management": {
       tag: "Service Details",
-      title: "Battery Energy Storage",
-      highlight: "Solutions",
+      title: "Solar Plant Management",
       description:
-        "Advanced battery storage systems designed for backup power, peak load management, energy optimization, and long-term operational reliability.",
+        "Our intelligent solar energy management solutions maximize efficiency and minimize downtime for the seamless production of electricity from solar energy while also ensuring that the modern renewable energy grid continues to evolve with the increasing demands for clean energy.",
       image:
         "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1800&q=80",
       primaryButtonText: "Get Consultation",

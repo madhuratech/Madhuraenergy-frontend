@@ -15,7 +15,7 @@ const serviceContent = {
     tag: "About the Service",
     title: "Efficient Rooftop Solar Solutions",
     description:
-      "Our rooftop solar service is designed for commercial, industrial, and institutional buildings that want to transform available roof space into a valuable source of clean energy. We create customized systems that improve power efficiency, lower operating expenses, and deliver dependable long-term performance with seamless integration into existing infrastructure.",
+      "Manage the renewable energy production from your solar array in an intelligent manner to guarantee uninterrupted and efficient energy generation at any time. Madhura Energy provides reliable solar energy services tailored to commercial and industrial customers. Our solar energy solutions include monitoring, servicing, and optimizing your solar energy systems, allowing you to achieve maximum generation and long-term operational success. By leveraging both leading-edge technology and expert personnel, we will enable you to seamlessly and cost-effectively operate your solar energy projects.",
     path: "/solar-plant-management",
   },
 
