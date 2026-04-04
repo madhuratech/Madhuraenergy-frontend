@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
   Sun,
@@ -59,6 +58,14 @@ const services = [
       "Complete electrical integration including panels, cabling, distribution systems, and grid connectivity.",
     icon: Settings,
   },
+  {
+    id: "07",
+    title: "Third party power purchase",
+    path: "/services/solar-plant-cleaning-robots",
+    description:
+      "Complete electrical integration including panels, cabling, distribution systems, and grid connectivity.",
+    icon: Settings,
+  },
 ];
 
 function ServiceCard({ service }) {
@@ -105,33 +112,20 @@ function ServiceCard({ service }) {
 }
 
 function ServicesSection() {
-  const firstRow = services.slice(0, 3);
-  const secondRow = services.slice(3, 6);
-
   return (
     <section
       id="services"
-      className="relative overflow-hidden bg-slate-950 py-16 text-white md:py-24"
+      className="relative overflow-hidden bg-slate-950 py-12 text-white md:py-20"
     >
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.14),transparent_28%),radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.12),transparent_30%)]" />
-
-        <motion.div
-          animate={{ y: [0, -20, 0] }}
-          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute left-[-100px] top-20 h-72 w-72 rounded-full bg-emerald-950/10 blur-3xl"
-        />
-        <motion.div
-          animate={{ y: [0, 20, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute bottom-0 right-[-120px] h-80 w-80 rounded-full bg-emerald-950/10 blur-3xl"
-        />
       </div>
 
-      <AnimatedEnergyBackground />
+      {/* <AnimatedEnergyBackground /> */}
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto mb-14 max-w-3xl text-center">
+        {/* Heading */}
+        <div className="mx-auto mb-12 max-w-3xl text-center">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.22em] text-emerald-400">
             Our Services
           </p>
@@ -144,16 +138,9 @@ function ServicesSection() {
           </p>
         </div>
 
-        {/* 1st Row - 3 Services */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {firstRow.map((service) => (
-            <ServiceCard key={service.id} service={service} />
-          ))}
-        </div>
-
-        {/* 2nd Row - 3 Services */}
-        <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {secondRow.map((service) => (
+        
+        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          {services.map((service) => (
             <ServiceCard key={service.id} service={service} />
           ))}
         </div>
