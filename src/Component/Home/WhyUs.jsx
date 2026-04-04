@@ -4,8 +4,6 @@ import {
   Zap,
   Wrench,
   LineChart,
-  Users,
-  BadgeCheck,
   ArrowRight,
   CheckCircle2,
 } from "lucide-react";
@@ -97,7 +95,7 @@ function WhyChooseUs() {
           transition={{ duration: 0.7 }}
           className="mb-12 max-w-3xl"
         >
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-emerald-950">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-emerald-400">
             Why Choose Us
           </p>
           <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
@@ -110,7 +108,78 @@ function WhyChooseUs() {
           </p>
         </motion.div>
 
-        <div className="grid gap-8 lg:grid-cols-12 lg:items-start">
+        {/* Mobile view: full cards one by one */}
+        <div className="space-y-5 lg:hidden">
+          {reasons.map((item, index) => {
+            const Icon = item.icon;
+
+            return (
+              <motion.div
+                key={item.id}
+                initial={{ opacity: 0, y: 22 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.5, delay: index * 0.08 }}
+                className="overflow-hidden rounded-[26px] border border-white/10 bg-white/[0.04] p-5 backdrop-blur-xl"
+              >
+                <div className="mb-6 flex items-start gap-4">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-emerald-950/15 text-emerald-300">
+                    <Icon className="h-6 w-6" />
+                  </div>
+
+                  <div className="min-w-0">
+                    <div className="mb-2 flex items-center gap-3">
+                      <span className="text-xs font-semibold tracking-[0.2em] text-slate-400">
+                        {item.id}
+                      </span>
+                      <div className="h-px w-10 bg-white/10" />
+                    </div>
+
+                    <h3 className="text-xl font-semibold text-white">
+                      {item.title}
+                    </h3>
+
+                    <p className="mt-2 text-sm leading-6 text-slate-300">
+                      {item.short}
+                    </p>
+                  </div>
+                </div>
+
+                <p className="text-sm leading-7 text-slate-300">
+                  {item.description}
+                </p>
+
+                <div className="mt-6 grid gap-3">
+                  {item.points.map((point, idx) => (
+                    <motion.div
+                      key={point}
+                      initial={{ opacity: 0, x: -14 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: idx * 0.08 }}
+                      className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-4 py-3"
+                    >
+                      <CheckCircle2 className="h-5 w-5 text-emerald-400" />
+                      <span className="text-sm text-slate-200">{point}</span>
+                    </motion.div>
+                  ))}
+                </div>
+
+                <div className="mt-6 rounded-[24px] border border-emerald-500/20 bg-gradient-to-br from-emerald-500/10 to-emerald-400/5 p-5">
+                  <div className="text-3xl font-bold text-white">
+                    {item.stat}
+                  </div>
+                  <div className="mt-1 text-sm text-slate-300">
+                    {item.statLabel}
+                  </div>
+                </div>
+              </motion.div>
+            );
+          })}
+        </div>
+
+        {/* Desktop / large screens */}
+        <div className="hidden gap-8 lg:grid lg:grid-cols-12 lg:items-start">
           {/* Left dynamic preview */}
           <div className="lg:col-span-5 lg:sticky lg:top-24">
             <div className="relative overflow-hidden rounded-[30px] border border-white/10 bg-white/5 p-6 backdrop-blur-xl sm:p-8">
@@ -157,13 +226,13 @@ function WhyChooseUs() {
                         transition={{ delay: idx * 0.08 }}
                         className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-4 py-3"
                       >
-                        <CheckCircle2 className="h-5 w-5 text-emerald-950" />
+                        <CheckCircle2 className="h-5 w-5 text-emerald-400" />
                         <span className="text-sm text-slate-200">{point}</span>
                       </motion.div>
                     ))}
                   </div>
 
-                  <div className="mt-8 rounded-[24px] border border-emerald-950/20 bg-gradient-to-br from-emerald-950/15 to-emerald-950/10 p-5">
+                  <div className="mt-8 rounded-[24px] border border-emerald-500/20 bg-gradient-to-br from-emerald-500/10 to-emerald-400/5 p-5">
                     <div className="text-3xl font-bold text-white">
                       {active.stat}
                     </div>
@@ -194,7 +263,7 @@ function WhyChooseUs() {
                     onClick={() => setActiveIndex(index)}
                     className={`group cursor-pointer rounded-[26px] border p-5 transition-all duration-300 sm:p-6 ${
                       isActive
-                        ? "border-emerald-950/40 bg-white/10 shadow-[0_20px_60px_rgba(16,185,129,0.12)]"
+                        ? "border-emerald-500/40 bg-white/10 shadow-[0_20px_60px_rgba(16,185,129,0.12)]"
                         : "border-white/10 bg-white/[0.03] hover:border-white/20 hover:bg-white/[0.06]"
                     }`}
                   >
@@ -239,7 +308,11 @@ function WhyChooseUs() {
                       </div>
 
                       <motion.div
-                        animate={isActive ? { x: 0, opacity: 1 } : { x: -8, opacity: 0.6 }}
+                        animate={
+                          isActive
+                            ? { x: 0, opacity: 1 }
+                            : { x: -8, opacity: 0.6 }
+                        }
                         transition={{ duration: 0.3 }}
                         className={`inline-flex items-center gap-2 self-start rounded-full px-3 py-2 text-sm font-medium ${
                           isActive

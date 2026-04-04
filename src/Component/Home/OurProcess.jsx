@@ -145,8 +145,8 @@ function WhatWeDoProcess() {
                   variants={stepVariants}
                   className="relative"
                 >
-                  {/* top icon node */}
-                  <div className="relative z-10 mb-6 flex items-center xl:justify-center">
+                  {/* top icon node - hidden on mobile/tablet */}
+                  <div className="relative z-10 mb-6 hidden items-center xl:justify-center xl:flex">
                     <motion.div
                       initial={{ scale: 0.7, opacity: 0 }}
                       whileInView={{ scale: 1, opacity: 1 }}
@@ -220,7 +220,8 @@ function WhatWeDoProcess() {
                         className="mt-6 h-px bg-gradient-to-r from-emerald-400/40 to-transparent"
                       />
 
-                      <div className="mt-5 flex items-center gap-3">
+                      {/* bottom icon row - hidden on mobile/tablet */}
+                      <div className="mt-5 hidden items-center gap-3 xl:flex">
                         <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500/10 text-emerald-300 ring-1 ring-white/10">
                           <Icon size={18} />
                         </div>
@@ -241,7 +242,7 @@ function WhatWeDoProcess() {
                         duration: 0.45,
                         delay: index * 0.2 + 0.35,
                       }}
-                      className="absolute right-[-16px] top-9 z-20 hidden h-4 w-8 origin-left xl:flex items-center justify-center"
+                      className="absolute right-[-16px] top-9 z-20 hidden h-4 w-8 origin-left items-center justify-center xl:flex"
                     >
                       <div className="h-px w-full bg-emerald-400/40" />
                     </motion.div>

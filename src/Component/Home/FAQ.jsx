@@ -35,7 +35,11 @@ const faqData = [
 ];
 
 function FAQSection() {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleFAQ = (index) => {
+    setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
 
   return (
     <section className="bg-slate-50 py-16 md:py-24">
@@ -75,7 +79,10 @@ function FAQSection() {
                   solutions for your business.
                 </p>
 
-                <button className="mt-6 inline-flex items-center rounded-full bg-emerald-950 px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-emerald-600 hover:shadow-lg">
+                <button
+                  type="button"
+                  className="mt-6 inline-flex items-center rounded-full bg-emerald-950 px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-emerald-600 hover:shadow-lg"
+                >
                   Contact Us
                 </button>
               </div>
@@ -84,24 +91,29 @@ function FAQSection() {
 
           {/* Right FAQ */}
           <div className="lg:col-span-8">
-            <div
-              className="space-y-4"
-              onMouseLeave={() => setHoveredIndex(null)}
-            >
+            <div className="space-y-4">
               {faqData.map((item, index) => {
-                const isOpen = hoveredIndex === index;
+                const isOpen = openIndex === index;
+                const contentId = `faq-content-${index}`;
+                const buttonId = `faq-button-${index}`;
 
                 return (
                   <div
                     key={index}
-                    onMouseEnter={() => setHoveredIndex(index)}
                     className={`group overflow-hidden rounded-[28px] border bg-white transition-all duration-300 ${
                       isOpen
                         ? "border-emerald-300 shadow-xl shadow-emerald-100/60"
                         : "border-slate-200 shadow-sm hover:-translate-y-1 hover:border-emerald-200 hover:shadow-lg"
                     }`}
                   >
-                    <div className="flex items-start justify-between gap-4 px-6 py-5 sm:px-7 sm:py-6">
+                    <button
+                      id={buttonId}
+                      type="button"
+                      onClick={() => toggleFAQ(index)}
+                      aria-expanded={isOpen}
+                      aria-controls={contentId}
+                      className="flex w-full items-start justify-between gap-4 px-6 py-5 text-left sm:px-7 sm:py-6"
+                    >
                       <div className="flex items-start gap-4">
                         <span
                           className={`mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl text-sm font-bold transition-all duration-300 ${
@@ -133,9 +145,12 @@ function FAQSection() {
                       >
                         <ChevronDown size={20} />
                       </span>
-                    </div>
+                    </button>
 
                     <div
+                      id={contentId}
+                      role="region"
+                      aria-labelledby={buttonId}
                       className={`grid transition-all duration-500 ease-in-out ${
                         isOpen
                           ? "grid-rows-[1fr] opacity-100"
