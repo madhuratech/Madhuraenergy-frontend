@@ -43,7 +43,7 @@ function Aboutservice() {
       buttonText: "Learn More",
       buttonLink: "/contact",
       image:
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1400&q=80",
       imageAlt: "Battery storage solution",
       statLabel: "Backup Reliability",
       statValue: "24/7",
@@ -93,26 +93,67 @@ function Aboutservice() {
       path:" /battery-storage",
     },
 
-    "third-party-OM": {
+   "solar-pump": {
       tag: "About Our Solutions",
-      title: "Energy Consulting That Drives Better Project Decisions",
+      title: "Efficient Solar Pump Solutions for Sustainable Water Management",     
       description:
-        "Our consulting services help clients evaluate, plan, and implement efficient energy solutions aligned with technical, operational, and financial goals.",
+        "At Madhura Energy, we provide efficient solar pump solutions that harness the power of the sun to deliver reliable and sustainable water management for agricultural, industrial, and residential applications.",
       points: [
-        "Site assessment and feasibility analysis",
-        "Strategic planning for energy optimization",
-        "Technical guidance for project success",
+        "Energy-efficient water pumping solutions",
+        "Sustainable and eco-friendly operation",
+        "Low maintenance and high durability"
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",
       image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
-      imageAlt: "Energy consulting",
-      statLabel: "Project Planning",
-      statValue: "360°",
-      statDescription: "Comprehensive advisory support",
-      path: "/third-party-OM",
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      imageAlt: "Solar pump",
+      statLabel: "Efficiency",
+      statValue: "95%",
+      statDescription: "Maximized performance for optimal results",
+      path: "/solar-pump",
     },
+    "solar-plant-cleaning-robots": {
+      tag: "About Our Solutions",
+      title: "Advanced Solar Plant Cleaning Robots for Optimal Performance",
+      description:
+        "Our innovative solar plant cleaning robots ensure optimal performance by providing efficient and automated cleaning solutions for solar panels.",
+      points: [
+        "Automated cleaning for maximum efficiency",
+        "Robust design for harsh weather conditions",
+        "Remote monitoring and control capabilities"
+      ],
+      buttonText: "Learn More",
+      buttonLink: "/contact",
+      image:
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      imageAlt: "Solar plant cleaning robot",
+      statLabel: "Cleaning Efficiency",
+      statValue: "99%",
+      statDescription: "Ensuring peak performance for solar installations",
+      path: "/solar-plant-cleaning-robots",
+    },
+      "third-party-power-purchase": { 
+      tag: "About Our Solutions",
+      title: "Third-Party Power Purchase Solutions for Sustainable Energy Access",
+      description:
+        "Our third-party power purchase solutions provide a reliable and sustainable way to access clean energy for businesses and individuals.",
+      points: [
+        "Access to clean and renewable energy sources",
+        "Flexible purchasing options for various needs",
+        "Support for sustainable energy initiatives"
+      ],
+      buttonText: "Learn More",
+      buttonLink: "/contact",
+      image:
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      imageAlt: "Third-party power purchase",
+      statLabel: "Sustainability",
+      statValue: "100%",
+      statDescription: "Commitment to environmentally responsible energy solutions",
+      path: "/third-party-power-purchase",
+    }
+
   };
 
   const data = serviceContent[slug];

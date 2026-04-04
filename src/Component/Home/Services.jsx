@@ -7,7 +7,7 @@ import {
   Settings,
   ArrowUpRight,
 } from "lucide-react";
-import AnimatedEnergyBackground from "./Flowanimate";
+// import AnimatedEnergyBackground from "./Flowanimate";
 
 const services = [
   {

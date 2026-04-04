@@ -27,8 +27,7 @@ function Banner() {
       title: "Solar Plant Management",
       description:
         "Our intelligent solar energy management solutions maximize efficiency and minimize downtime for the seamless production of electricity from solar energy while also ensuring that the modern renewable energy grid continues to evolve with the increasing demands for clean energy.",
-      image:
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1800&q=80",
+      image:"https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1800&q=80",
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -65,7 +64,19 @@ function Banner() {
       path: "/services/battery-storage",
     },
 
-    "third-party-OM": {
+    "solar-pump": {
+     tag: "Service Details",
+     title: "Solar Pump",
+     description: "Revolutionize your water management with our solar pump solutions, designed to provide efficient, sustainable, and cost-effective pumping for agricultural, industrial, and residential applications.",
+     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1800&q=80",
+     primaryButtonText: "Get Consultation",
+     primaryButtonLink: "#contact",
+     secondaryButtonText: "Explore Service",
+     secondaryButtonLink: "#scope",
+     path: "/services/solar-pump",
+
+    },
+    "solar-plant-cleaning-robots": {
       tag: "Service Details",
       title: "Energy Consulting",
       highlight: "Services",
@@ -77,8 +88,22 @@ function Banner() {
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
       secondaryButtonLink: "#scope",
-      path: "/services/third-party-OM",
+      path: "/services/solar-plant-cleaning-robots",
     },
+    "third-party-power-purchase": {
+      tag: "Service Details",
+      title: "Energy Consulting",
+      highlight: "Services",
+      description:
+        "Strategic energy advisory services to help businesses improve efficiency, reduce costs, plan investments, and build sustainable energy roadmaps.",
+      image:
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1800&q=80",
+      primaryButtonText: "Get Consultation",
+      primaryButtonLink: "#contact",
+      secondaryButtonText: "Explore Service",
+      secondaryButtonLink: "#scope",
+      path: "/services/third-party-power-purchase",
+    }
   };
 
   const service = services[slug];
