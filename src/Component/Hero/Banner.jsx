@@ -78,10 +78,9 @@ function Banner() {
     },
     "solar-plant-cleaning-robots": {
       tag: "Service Details",
-      title: "Energy Consulting",
-      highlight: "Services",
+      title: "Robotic Solar Cleaners for Dependable and Efficient Panel Operation",
       description:
-        "Strategic energy advisory services to help businesses improve efficiency, reduce costs, plan investments, and build sustainable energy roadmaps.",
+        "Dust accumulation on solar panels is eliminated by automatic cleaning machines that don't need human help. Regular cleaning can help maintain system efficiency, minimize performance loss, and encourage dependable energy output.",
       image:
         "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1800&q=80",
       primaryButtonText: "Get Consultation",

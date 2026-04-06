@@ -102,7 +102,7 @@ const processSectionData = {
         description:
           "Track solar system performance in real time. Monitor output patterns, identify issues early, and ensure consistent energy production with continuous system visibility. ",
       },
-      
+
       {
         number: "02",
         title: "Handling of Repairs",
@@ -128,7 +128,7 @@ const processSectionData = {
           "Make use of remote technology to promptly monitor, detect, and fix issues. Reduce manual inspections, expedite decision-making, and efficiently oversee system performance.",
       },
     ],
-    path:"/operation-maintenance",
+    path: "/operation-maintenance",
   },
 
   batteryStorage: {
@@ -173,112 +173,107 @@ const processSectionData = {
     ],
     path: "/battery-storage",
   },
-
-  energyConsulting: {
-    badge: "Consulting Approach",
-    title: "Helping You Make Better",
-    highlightedLine: "Energy Decisions",
+  solarPlantCleaningRobots: {
+    badge: "Execution Process",
+    title: "Our Approach to Automated Solar Cleaning Robots",
+    highlightedLine: "For Optimal Performance",
     description:
-      "Our consulting process supports better planning, cost optimization, and sustainable energy strategy development.",
+      "Our methodical and transparent approach guarantees that your solar panels are cleaned on a regular basis, preserving efficiency and reducing manual effort.",
     backgroundImage:
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1800&q=80",
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1800&q=80",
     processSteps: [
       {
         number: "01",
-        title: "Understanding Goals",
+        title: "Setting Up and Installing",
         description:
-          "We gather business objectives, energy challenges, and project priorities.",
+          "When installing and configuring robots for optimal cleaning coverage and smooth movement, the structure and panel arrangement are completely considered.",
       },
       {
         number: "02",
-        title: "Energy Assessment",
+        title: "Creating Cleaning Schedule",
         description:
-          "We evaluate consumption patterns, infrastructure, and improvement areas.",
+       "Cleaning cycles that guarantee consistent results and optimal energy output throughout the year are defined based on dust levels and system performance requirements.",
       },
       {
         number: "03",
-        title: "Solution Strategy",
+        title: "Automation Cleaning Process",
         description:
-          "We recommend practical and scalable energy solutions.",
+          "Robots effectively clean panels by following pre-planned paths at a controlled speed and using gentle methods to remove dust without endangering the panels.",
       },
       {
         number: "04",
-        title: "Financial Review",
+        title: "Monitoring and Assessing",
         description:
-          "We estimate investment, savings, ROI, and implementation roadmap.",
+          "To ensure long-term dependability, we monitor cleaning results and verify that the system operates as intended while monitoring performance data.",
       },
-      {
-        number: "05",
-        title: "Action Plan",
-        description:
-          "We deliver a clear strategy for execution and long-term success.",
-      },
+      
     ],
-  },
-};
+    path: "/solar-plant-cleaning-robots",
+  }
+  };
 
-function ProcessSection({ serviceKey = "solarEpc" }) {
-  const service = processSectionData[serviceKey];
+  function ProcessSection({ serviceKey = "solarEpc" }) {
+    const service = processSectionData[serviceKey];
 
-  if (!service) return null;
+if (!service) return null;
 
-  return (
-    <section className="relative bg-slate-100 px-4 py-20 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-7xl">
-        {/* Top Banner */}
-        <div className="relative overflow-hidden rounded-[24px] bg-slate-900">
-          <img
-            src={service.backgroundImage}
-            alt={service.title}
-            className="h-[260px] w-full object-cover opacity-20 sm:h-[300px] lg:h-[340px]"
-          />
+return (
+  <section className="relative bg-slate-100 px-4 py-20 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-7xl">
+      {/* Top Banner */}
+      <div className="relative overflow-hidden rounded-[24px] bg-slate-900">
+        <img
+          src={service.backgroundImage}
+          alt={service.title}
+          className="h-[260px] w-full object-cover opacity-20 sm:h-[300px] lg:h-[340px]"
+        />
 
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,23,42,0.55),rgba(2,6,23,0.88))]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,23,42,0.55),rgba(2,6,23,0.88))]" />
 
-          <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-orange-500">
-              {service.badge}
-            </p>
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-orange-500">
+            {service.badge}
+          </p>
+ 
+          <h2 className="mt-4 max-w-4xl text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+            {service.title}
+            <span className="block">{service.highlightedLine}</span>
+          </h2>
 
-            <h2 className="mt-4 max-w-4xl text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
-              {service.title}
-              <span className="block">{service.highlightedLine}</span>
-            </h2>
-
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
-              {service.description}
-            </p>
-          </div>
-        </div>
-
-        {/* Floating Step Cards */}
-        <div className="relative z-10 mx-auto -mt-10 grid max-w-8xl gap-5 sm:grid-cols-2 lg:mt-2 lg:grid-cols-5">
-          {service.processSteps.map((step, index) => (
-            <motion.div
-              key={step.number}
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.55, delay: index * 0.08 }}
-              className="rounded-[20px] bg-white px-5 pb-6 pt-10 shadow-[0_12px_30px_rgba(15,23,42,0.10)] transition duration-300 hover:-translate-y-1"
-            >
-              <div className="mx-auto -mt-16 mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-orange-500 text-base font-bold text-white shadow-lg">
-                {step.number}
-              </div>
-
-              <h3 className="text-lg font-bold leading-snug text-slate-800">
-                {step.title}
-              </h3>
-
-              <p className="mt-3 text-sm leading-7 text-slate-600">
-                {step.description}
-              </p>
-            </motion.div>
-          ))}
+          <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
+            {service.description}
+          </p>
         </div>
       </div>
-    </section>
-  );
+
+      {/* Floating Step Cards */}
+      <div className="relative z-10 mx-auto -mt-10 grid max-w-8xl gap-5 sm:grid-cols-2 lg:mt-2 lg:grid-cols-5">
+        {service.processSteps.map((step, index) => (
+          <motion.div
+            key={step.number}
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.55, delay: index * 0.08 }}
+            className="rounded-[20px] bg-white px-5 pb-6 pt-10 shadow-[0_12px_30px_rgba(15,23,42,0.10)] transition duration-300 hover:-translate-y-1"
+          >
+            <div className="mx-auto -mt-16 mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-orange-500 text-base font-bold text-white shadow-lg">
+              {step.number}
+            </div>
+
+            <h3 className="text-lg font-bold leading-snug text-slate-800">
+              {step.title}
+            </h3>
+
+            <p className="mt-3 text-sm leading-7 text-slate-600">
+              {step.description}
+            </p>
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  </section>
+);
 }
 
 export default ProcessSection;

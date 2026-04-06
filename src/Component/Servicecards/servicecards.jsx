@@ -246,6 +246,70 @@ const serviceScopeData = {
       },
     ],
   },
+  solarPlantCleaningRobots:{
+    tag: "Innovative Solutions",
+    title: "Intelligent Features for Reliable and Effective Solar Panel Cleaning",
+    items: [
+      {
+        title: "Automated Panel Cleaning ",
+        description:
+          "Without the need for human interaction, robotic equipment cleans panels at set intervals to maintain them clear of dust and debris. This meticulous approach encourages continuous operation and aids in maintaining consistent system performance over time.",
+        icon: Wrench,
+        image:"https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "Increases Production of Solar Energy ",
+        description:
+          "Panel efficiency may be reduced by the buildup of dust and grime. Frequent automatic cleaning minimizes performance losses, preserves optimal surface conditions, and makes power output more dependable.",
+        icon: ShieldCheck,
+        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "The Intelligent Cleaning Method",
+        description:
+          "Complete coverage and effective cleaning are guaranteed by the system's sophisticated operation across multiple layouts. More adaptability for various solar systems and operating conditions is made possible by this methodical approach.",
+        icon: Settings,
+        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      },
+  
+      {
+        title: "Reduces Manual Labor ",
+        description:
+          "By removing regular physical engagement, automating the cleaning process lowers dependency on labor. Time is saved, operational effectiveness is raised, and overall maintenance management is made simpler.",
+        icon: Settings,
+        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "Performance Reliability",
+        description:
+          "The system's scheduled and reliable cleaning cycles promote stable solar performance. It guarantees that panels function at predicted levels throughout time and helps prevent efficiency discrepancies brought on by dust collection.",
+        icon: Settings,
+        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      },
+      {
+        title: "No Damage to the Panels",
+        description:
+          "The cleaning mechanism is made to function safely without damaging the surface or structure of the panel. While producing efficient outcomes, controlled movement and gentle procedures safeguard system components.",
+        icon: Settings,
+        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      },
+       {
+        title: "Long-Term Reliability",
+        description:
+          "Constructed from robust materials, the system is designed to function continuously in a variety of settings. For many years, it provides dependable cleaning results with little interruption.",
+        icon: Settings,
+        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      },
+       {
+        title: "Minimal Maintenance",
+        description:
+          "System Long-term smooth and reliable operation of the system is made possible by minimum maintenance requirements. By doing this, operating effort is decreased and maximum efficiency may be maintained without regular maintenance",
+        icon: Settings,
+        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      },
+    ]
+
+  }
 
 };
 

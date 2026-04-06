@@ -17,8 +17,8 @@ import SolarPlantManagement from './Pages/SolarPlantManagement'
 import OMservices from './Pages/OMservices'
 import ScrollToSection from './Component/layout/ScrollToSection'
 import Batterystorage from './Pages/Batterystorage'
-import ThirdpartyOM from './Pages/ThirdpartyOM'
 import Banner from './Component/Hero/Banner'
+import SolarPlantCleaningRobots from './Pages/SolarPlantCleaningRobots'
 
 const ServiceRouter = () => {
   const { slug } = useParams();
@@ -31,8 +31,8 @@ const ServiceRouter = () => {
       return <OMservices />;
     case 'battery-storage':
       return <Batterystorage />;
-    case 'third-party-OM':
-      return <ThirdpartyOM />;
+    case 'solar-plant-cleaning-robots':
+      return <SolarPlantCleaningRobots />;
     default:
       return <SolarEpcSolutionsPage />;
   }

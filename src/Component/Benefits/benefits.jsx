@@ -62,16 +62,18 @@ const benefitsContent = {
     path: "/services/battery-energy-storage",
   },
 
-  energyAudit: {
+  solarPlantCleaningRobots: {
     tag: "Benefits",
-    title: "Why Companies Choose Our Energy Audit Services",
+    title: "Cutting Maintenance Costs and Boosting Output",
     benefits: [
-      "Identify energy losses and efficiency gaps clearly.",
-      "Reduce operational costs with practical recommendations.",
-      "Support sustainability and optimization goals.",
-      "Data-based insights for smarter energy planning.",
-    ],
-  },
+      "Frequent cleaning reduces performance loss and encourages consistent energy output by keeping panels free of dust and debris.",
+      "Automation reduces operational reliance on manpower and saves time by doing away with the requirement for regular manual cleaning",
+      "Clean panels function more effectively, sustaining anticipated performance levels and boosting system output as a whole.",
+      "Panels receive continuous maintenance thanks to scheduled cleaning, which eventually increases system reliability.",
+      "The technology minimizes incremental efficiency losses and supports continuous operation by minimizing dust collection.",
+      "System longevity is increased and long-term performance is improved by routine cleaning and decreased component stress."
+    ]
+  }
 };
 
 function Benefits({ pageKey }) {

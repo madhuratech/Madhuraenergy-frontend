@@ -61,7 +61,7 @@ const services = [
   {
     id: "07",
     title: "Third party power purchase",
-    path: "/services/solar-plant-cleaning-robots",
+    path: "/services/third-party-power-purchase",
     description:
       "Complete electrical integration including panels, cabling, distribution systems, and grid connectivity.",
     icon: Settings,

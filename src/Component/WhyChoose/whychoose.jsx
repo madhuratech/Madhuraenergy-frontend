@@ -166,8 +166,42 @@ const whyChooseData = {
     ],
     path:"/battery-storage"
   },
-
- 
+  solarPlantCleaningRobots: {
+    badge: "Why Choose Us",
+    heading: "Why Choose Solar Cleaning Robots for a Practical Approach to Reliable and Efficient Solar Cleaning?",
+    image:
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    description:
+      "Our solar plant cleaning robot solutions are designed to maximize the efficiency and performance of your solar panels while minimizing manual labor and maintenance costs. With our advanced technology and expertise, we provide reliable and cost-effective cleaning solutions that ensure your solar panels operate at their best, even in challenging environments.",
+    points: [
+      {
+        title: "Solutions Focused on Performance ",
+        description:
+          "Our method guarantees regular cleaning that maintains panel performance while lowering energy loss from dust and environmental accumulation.",
+        icon: Settings,
+      },
+      {
+        title: "Methodical Approach to Execution",
+        description:
+          "we adhere to a strict and methodical procedure that guarantees the cleaning system operates efficiently across a variety of solar projects",
+        icon: Settings,
+      },
+      {
+        title: "Reliable System Performance",
+        description:
+          "Our solutions provide reliable cleaning results with little disruptions or problems because they are made to run continuously throughout time.",
+        icon: Settings,
+      },
+      {
+        title: "Reduced Operational Effort",
+        description:
+          "Automation lowers manual involvement, enabling more efficient solar maintenance with less dependence on manpower.",
+        icon: Settings,
+      },
+      
+    ],
+    path:"/solar-plant-cleaning-robots"
+  }
 };
 
 function WhyChooseSection({ serviceKey = "solarEpc" }) {

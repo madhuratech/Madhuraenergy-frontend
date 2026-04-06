@@ -115,13 +115,13 @@ function Aboutservice() {
     },
     "solar-plant-cleaning-robots": {
       tag: "About Our Solutions",
-      title: "Advanced Solar Plant Cleaning Robots for Optimal Performance",
+      title: "Solar Cleaning Robots Designed to Preserve Solar Panel Performance",
       description:
-        "Our innovative solar plant cleaning robots ensure optimal performance by providing efficient and automated cleaning solutions for solar panels.",
+        "Dust accumulation on solar panels is eliminated by automatic cleaning machines that don't need human help. Regular cleaning can help you maintain system efficiency, minimize performance loss, and encourage dependable energy generation. The efficiency of solar panels can be progressively diminished by prolonged exposure to dust, dirt, and environmental accumulation. Manual cleaning is frequently intensive, unreliable, and time-consuming. By completely automating the cleaning process, solar cleaning robots provide a methodical and dependable solution.",
       points: [
-        "Automated cleaning for maximum efficiency",
-        "Robust design for harsh weather conditions",
-        "Remote monitoring and control capabilities"
+        "Frequent cleaning without human workers",
+        "Designed to maintain consistent energy generation ",
+        "Adaptable to different designs of solar systems"
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",

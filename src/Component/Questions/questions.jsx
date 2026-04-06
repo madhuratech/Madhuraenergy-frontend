@@ -195,39 +195,49 @@ const faqPagesData = {
     path: "/battery-storage",
   },
 
-  energyConsulting: {
+  solarPlantCleaningRobots: {
     sectionData: {
       badge: "FAQs",
-      title: "Energy",
-      highlight: "Consulting",
+      title: "Solar Plant Cleaning Robots",
+      highlight: "Questions",
       description:
-        "Find answers to common questions about our consulting services, feasibility studies, system planning, and project advisory support.",
-      contactTag: "Need more help?",
+        "Discover the answers to commonly asked concerns concerning our solar cleaning robot solutions, such as operation, maintenance requirements, and system compatibility.",
+      contactTag: "Do You require more assistance?",
       contactTitle: "Let’s plan your energy strategy.",
       contactDescription:
-        "We support businesses with technical guidance, project planning, feasibility analysis, and strategic recommendations for efficient energy investments.",
+        "Let's talk about your needs for solar cleaning. Based on your system size, site conditions, and performance objectives, our experts can assist you in choosing the optimum choice.",
       buttonText: "Contact Us",
     },
     faqData: [
       {
-        question: "What does your energy consulting service include?",
+        question: "How do robots that clean solar panels operate?",
         answer:
-          "Our consulting services include feasibility studies, project planning, technical evaluation, energy analysis, system recommendations, and implementation guidance.",
+          "Robots that clean solar panels follow predetermined paths and effectively use brushes or other controlled equipment to remove dust.",
       },
       {
-        question: "Can you help assess whether a solar project is feasible?",
+        question: "Is water necessary for cleaning?",
         answer:
-          "Yes, we evaluate site conditions, energy demand, project viability, technical options, and expected performance to help determine project feasibility.",
+          "Certain systems use very little water, while others use dry cleaning methods, depending on requirements and site conditions.",
       },
       {
-        question: "Do you support technology selection and planning?",
+        question: "Can they be used with any kind of solar installation?",
         answer:
-          "Yes, we guide clients in selecting suitable technologies, system capacity, design approaches, and execution strategies based on operational needs and goals.",
+          "Depending on architecture and design, they can be modified for a variety of configurations, including ground-mounted and rooftop solar systems.",
       },
       {
-        question: "Who can benefit from energy consulting services?",
+        question: "How frequently are the panels cleaned by the robots? ",
         answer:
-          "Commercial businesses, industrial facilities, institutions, and developers can all benefit from consulting support when planning or expanding energy projects.",
+          "To guarantee constant efficacy, cleaning frequency can be planned based on dust levels, ambient conditions, and performance standards.",
+      },
+      {
+        question: "Do solar cleaning robots require routine maintenance? ",
+        answer:
+          "They are made to require little maintenance, and regular checks guarantee dependable cleaning outcomes and effective operation.",
+      },
+      {
+        question: "Will the panels be impacted or harmed by the robots?",
+        answer:
+          "No, they move in a controlled and safe way, guaranteeing that there is no chance of injury when cleaning panels.",
       },
     ],
   },
