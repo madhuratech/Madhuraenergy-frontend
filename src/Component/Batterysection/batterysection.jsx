@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { BatteryCharging, ArrowRight } from "lucide-react";
+import batterystorage from "../../assets/services/service-batterystorage/batterystorage.jpg";
 
 function BatterySection() {
   return (
@@ -56,7 +57,7 @@ function BatterySection() {
 
           <div className="relative overflow-hidden rounded-[28px] border border-white/10 bg-white/5 shadow-2xl">
             <img
-              src="https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src={batterystorage}
               alt="Battery storage system"
               className="h-[420px] w-full object-cover"
             />
