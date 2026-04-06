@@ -210,9 +210,9 @@ function Footer() {
             <Link to="/terms-and-conditions" className="transition hover:text-emerald-400">
               Terms &amp; Conditions
             </Link>
-            <Link to="/sitemap" className="transition hover:text-emerald-400">
+            {/* <Link to="/sitemap" className="transition hover:text-emerald-400">
               Sitemap
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
