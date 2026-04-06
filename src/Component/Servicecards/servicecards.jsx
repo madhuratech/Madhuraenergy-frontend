@@ -154,77 +154,54 @@ const serviceScopeData = {
     title: "Operation & Maintenance Coverage in All Important Service Domains",
     items: [
       {
-        title: "Project Planning",
+        title: "Monitoring Performance ",
         description:
-          "We carefully plan every solar project by understanding your energy needs, budget, and site conditions. Our approach ensures the system is designed for maximum efficiency, better performance, and long-term savings, giving you a reliable and cost-effective solar solution.",
+          "Use intelligent monitoring tools to keep an eye on your solar system in real time. Recognize performance declines early, maximize energy production, and guarantee steady power.",
         icon: Wrench,
         image:
           "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Seamless Execution",
+        title: "Preventive Medical Care",
         description:
-          "We execute every solar project with precision and careful planning, ensuring smooth and hassle-free execution at every stage. Our team focuses on quality, timely delivery, and efficient coordination to deliver reliable and long-lasting solar solutions.",
+          "With planned maintenance and regular inspections, problems can be avoided before they arise. Minimize system wear, prevent expensive malfunctions, and maintain the effectiveness. ",
         icon: ShieldCheck,
         image:
           "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Custom System Design",
+        title: "Assistance with Repairs",
         description:
-          "We design our solar systems in such a way that they meet your energy needs. Our solar systems are designed in such a way that they meet your needs and are the most efficient and effective.",
+          "For any system issues, get prompt and dependable repair assistance. To keep energy flowing, our staff promptly finds problems, fixes them, and reduces downtime.",
         icon: LineChart,
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Solar Panel Procurement",
+        title: "Analyzing the System ",
         description:
-          "At our company, we procure the highest quality solar panel components that meet your specific energy needs. Our main focus is the quality and reliability of the solar panel components",
+          "Extensive system checks assist identify hidden issues and ensure peak performance. Frequent evaluations can improve performance, safety, and long-term dependability.",
         icon: LineChart,
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Efficient Engineering",
+        title: "Washing Panels",
         description:
-          "Our engineering process is designed in such a way that it ensures safety, efficiency, and maximum energy production. We follow tried and tested standards and smart planning to deliver efficient solar solutions that are reliable and consistent in nature.",
+          "Keep your solar panels clear of dust and debris to maintain their optimal performance. Regular cleaning improves energy absorption and stops performance declines over time. ",
         icon: LineChart,
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
       },
       {
-        title: "Expert Installation",
+        title: "Observing from a distance ",
         description:
-          "Your solar system is installed with precision and accuracy by our experts to ensure maximum efficiency and durability in the long run. We also ensure that your solar system is installed safely and according to the best practices in the industry.",
+          "Utilize advanced diagnostics to keep an eye on your solar system from a distance. Get alerts in real time, make decisions faster, and monitor performance all the time.",
         icon: LineChart,
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
       },
-      {
-        title: "Compliance Support",
-        description:
-          "We take utmost care in ensuring that all the approvals, documentation, and regulations are taken care of. Our team ensures that all the processes are in accordance with the guidelines, saving your precious time and effort by making the process smooth, simple, and hassle-free.",
-        icon: LineChart,
-        image:
-          "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
-      },
-      {
-        title: "Concept to Commissioning",
-        description:
-          "We ensure that your solar experience is taken care of with the utmost precision, right from the concept to the commissioning of the project. Our team of experts will be able to provide you with the most efficient, reliable, and high-performance solar solution with ease and no hassle at all.",
-        icon: LineChart,
-        image:
-          "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
-      },
-      {
-        title: "Trusted Technical Support",
-        description:
-          "We are here to provide the best and most reliable support to your solar system. Our team is at your service and is willing to assist you in the maintenance and proper functioning of your solar system with the utmost efficiency and no interruptions.",
-        icon: LineChart,
-        image:
-          "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
-      },
+     
     ],
     path: "/operation-maintenance",
   },
