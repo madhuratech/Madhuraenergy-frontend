@@ -11,6 +11,8 @@ import {
   Factory,
   Building2,
 } from "lucide-react";
+import Project-Planning from "."
+
 
 const serviceScopeData = {
   "solar-epc-solutions": {
@@ -22,8 +24,7 @@ const serviceScopeData = {
         description:
           "We carefully plan every solar project by understanding your energy needs, budget, and site conditions. Our approach ensures the system is designed for maximum efficiency, better performance, and long-term savings, giving you a reliable and cost-effective solar solution.",
         icon: PanelsTopLeft,
-        image:
-          "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1400&q=80",
+        image: Project-Planning,
       },
       {
         title: "Seamless Execution",
@@ -201,7 +202,7 @@ const serviceScopeData = {
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
       },
-     
+
     ],
     path: "/operation-maintenance",
   },
@@ -236,7 +237,7 @@ const serviceScopeData = {
       },
     ],
   },
-  
+
 };
 
 function Servicecards({ serviceKey }) {
