@@ -14,7 +14,6 @@ import IndustriesWeServe from '../Component/Industry/industries'
 function SolarPlantCleaningRobots() {
   return (
     <div className="bg-slate-950 text-white">
-
       <Banner />
       <Aboutservice />
       <Servicecards serviceKey="solarPlantCleaningRobots" />

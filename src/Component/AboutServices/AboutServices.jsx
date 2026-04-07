@@ -3,6 +3,14 @@ import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
 
+import SolarEPC from "../../assets/About/SolarEPC.png"
+import SolarPlant from "../../assets/About/SolarPlant.jpg"
+import OM from "../../assets/About/OM.jpg"
+import Batterystorage from "../../assets/About/Batterystorage.jpg"
+import Solarpump from "../../assets/About/Solarpump.jpg"
+import cleaningrobot from "../../assets/About/cleaningrobot.jpg"
+import thirdparty from "../../assets/About/thirdparty.jpg"
+
 function Aboutservice() {
   const { slug } = useParams();
 
@@ -19,8 +27,7 @@ function Aboutservice() {
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",
-      image:
-        "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1400&q=80",
+      image:  SolarEPC,
       imageAlt: "Solar EPC solution",
       statLabel: "Performance",
       statValue: "98%",
@@ -42,8 +49,7 @@ function Aboutservice() {
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",
-      image:
-        "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1400&q=80",
+      image: SolarPlant,
       imageAlt: "Battery storage solution",
       statLabel: "Backup Reliability",
       statValue: "24/7",
@@ -63,8 +69,7 @@ function Aboutservice() {
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",
-      image:
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80",
+      image: OM,
       imageAlt: "Operation and maintenance",
       statLabel: "System Uptime",
       statValue: "99%",
@@ -84,8 +89,7 @@ function Aboutservice() {
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",
-      image:
-        "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80",
+      image: Batterystorage,
       imageAlt: "Electrical infrastructure",
       statLabel: "Safety",
       statValue: "100%",
@@ -105,8 +109,7 @@ function Aboutservice() {
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",
-      image:
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      image: Solarpump,
       imageAlt: "Solar pump",
       statLabel: "Efficiency",
       statValue: "95%",
@@ -125,8 +128,7 @@ function Aboutservice() {
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",
-      image:
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      image: cleaningrobot,
       imageAlt: "Solar plant cleaning robot",
       statLabel: "Cleaning Efficiency",
       statValue: "99%",
@@ -145,8 +147,7 @@ function Aboutservice() {
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",
-      image:
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+      image: thirdparty,
       imageAlt: "Third-party power purchase",
       statLabel: "Sustainability",
       statValue: "100%",

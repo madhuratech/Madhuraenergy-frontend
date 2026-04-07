@@ -3,6 +3,15 @@ import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
+// import solarEPC from "../../assets/Banner/SolarEPC.png"
+import solarEPC from "../../assets/Videos/solarEPC.mp4"
+import solarplantmanagement from "../../assets/Banner/solarplantmanagement.png"
+import OM from "../../assets/Banner/OM.png"
+import Batterystore from "../../assets/Banner/Batterystore.png"
+import solarpump from "../../assets/Banner/solarpump.png"
+import Thirdpartypurchasepower from "../../assets/Banner/Thirdpartypurchasepower.png"
+import automatedcleaning from "../../assets/services/Service-cleaningrobot/automatedcleaning.jpg"
+
 function Banner() {
   const { slug } = useParams();
 
@@ -12,9 +21,8 @@ function Banner() {
       title: "Solar EPC Services",
       highlight: "Solutions",
       description:
-      "Empowering your future with smart solar solutions, we do it all from idea to installation, providing simple, reliable, and cost-effective solutions as your trusted partner in solar growth.",
-      image:
-        "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1800&q=80",
+        "Empowering your future with smart solar solutions, we do it all from idea to installation, providing simple, reliable, and cost-effective solutions as your trusted partner in solar growth.",
+      video: solarEPC,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -27,7 +35,7 @@ function Banner() {
       title: "Solar Plant Management",
       description:
         "Our intelligent solar energy management solutions maximize efficiency and minimize downtime for the seamless production of electricity from solar energy while also ensuring that the modern renewable energy grid continues to evolve with the increasing demands for clean energy.",
-      image:"https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1800&q=80",
+      image: solarplantmanagement,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -40,8 +48,7 @@ function Banner() {
       title: "Operations and Maintenance Services",
       description:
         "Utilize professional operations and maintenance services to optimize solar performance. Through proactive monitoring, prompt service, and data driven optimization, we guarantee system efficiency, minimize downtime, and prolong asset life.",
-      image:
-        "https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1800&q=80",
+      image: OM,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -55,8 +62,7 @@ function Banner() {
 
       description:
         "Store energy smarter, cut costs more efficiently, and stay powered anytime with our advanced and dependable energy solutions that are thoughtfully crafted to deliver on the escalating and evolving needs of contemporary power requirements.",
-      image:
-        "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1800&q=80",
+      image: Batterystore,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -65,15 +71,15 @@ function Banner() {
     },
 
     "solar-pump": {
-     tag: "Service Details",
-     title: "Solar Pump",
-     description: "Revolutionize your water management with our solar pump solutions, designed to provide efficient, sustainable, and cost-effective pumping for agricultural, industrial, and residential applications.",
-     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1800&q=80",
-     primaryButtonText: "Get Consultation",
-     primaryButtonLink: "#contact",
-     secondaryButtonText: "Explore Service",
-     secondaryButtonLink: "#scope",
-     path: "/services/solar-pump",
+      tag: "Service Details",
+      title: "Solar Pump",
+      description: "Revolutionize your water management with our solar pump solutions, designed to provide efficient, sustainable, and cost-effective pumping for agricultural, industrial, and residential applications.",
+      image: solarpump,
+      primaryButtonText: "Get Consultation",
+      primaryButtonLink: "#contact",
+      secondaryButtonText: "Explore Service",
+      secondaryButtonLink: "#scope",
+      path: "/services/solar-pump",
 
     },
     "solar-plant-cleaning-robots": {
@@ -81,8 +87,7 @@ function Banner() {
       title: "Robotic Solar Cleaners for Dependable and Efficient Panel Operation",
       description:
         "Dust accumulation on solar panels is eliminated by automatic cleaning machines that don't need human help. Regular cleaning can help maintain system efficiency, minimize performance loss, and encourage dependable energy output.",
-      image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1800&q=80",
+      image: automatedcleaning,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -95,8 +100,7 @@ function Banner() {
       highlight: "Services",
       description:
         "Strategic energy advisory services to help businesses improve efficiency, reduce costs, plan investments, and build sustainable energy roadmaps.",
-      image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1800&q=80",
+      image: Thirdpartypurchasepower,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -120,11 +124,23 @@ function Banner() {
       <section className="relative overflow-hidden border-b border-white/10">
         {/* Background Image */}
         <div className="absolute inset-0">
-          <img
+          {/* <img
             src={service.image}
             alt={service.title}
             className="h-full w-full object-cover"
-          />
+          /> */}
+
+          <video
+            key={slug}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            className="absolute inset-0 h-full w-full object-cover"
+          >
+            <source src={service.video} type="video/mp4" />
+          </video>
 
           <div className="absolute inset-0 bg-slate-950/70" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.20),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.14),transparent_30%)]" />

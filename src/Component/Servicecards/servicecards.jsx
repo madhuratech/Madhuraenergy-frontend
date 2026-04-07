@@ -35,6 +35,15 @@ import AssistancewithRepairs from "../../assets/services/Service-O&M/Assistancew
 import AnalyzingtheSystem from "../../assets/services/Service-O&M/AnalyzingtheSystem.jpg"
 import WashingPanels from "../../assets/services/Service-O&M/WashingPanels.jpg"
 import Observingfromadistance from "../../assets/services/Service-O&M/Observingfromadistance.jpg"
+// SolarPlantCleaningRobots
+import IncreasesProduction from "../../assets/services/Service-cleaningrobot/IncreasesProduction.jpg"
+import automatedcleaning from "../../assets/services/Service-cleaningrobot/automatedcleaning.jpg"
+import IntelligentCleaningMethod from "../../assets/services/Service-cleaningrobot/IntelligentCleaningMethod.jpg"
+import ReducesManualLabor from "../../assets/services/Service-cleaningrobot/ReducesManualLabor.jpg"
+import PerformanceReliability from "../../assets/services/Service-cleaningrobot/PerformanceReliability.jpg"
+import NoDamage from "../../assets/services/Service-cleaningrobot/NoDamage.jpg"
+import LongTermReliability from "../../assets/services/Service-cleaningrobot/LongTermReliability.jpg"
+import MinimalMaintenance from "../../assets/services/Service-cleaningrobot/MinimalMaintenance.jpg"
 
 
 
@@ -255,21 +264,21 @@ const serviceScopeData = {
         description:
           "Without the need for human interaction, robotic equipment cleans panels at set intervals to maintain them clear of dust and debris. This meticulous approach encourages continuous operation and aids in maintaining consistent system performance over time.",
         icon: Wrench,
-        image:"https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+        image: automatedcleaning,
       },
       {
         title: "Increases Production of Solar Energy ",
         description:
           "Panel efficiency may be reduced by the buildup of dust and grime. Frequent automatic cleaning minimizes performance losses, preserves optimal surface conditions, and makes power output more dependable.",
         icon: ShieldCheck,
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+        image: IncreasesProduction,
       },
       {
         title: "The Intelligent Cleaning Method",
         description:
           "Complete coverage and effective cleaning are guaranteed by the system's sophisticated operation across multiple layouts. More adaptability for various solar systems and operating conditions is made possible by this methodical approach.",
         icon: Settings,
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+        image: IntelligentCleaningMethod,
       },
   
       {
@@ -277,35 +286,35 @@ const serviceScopeData = {
         description:
           "By removing regular physical engagement, automating the cleaning process lowers dependency on labor. Time is saved, operational effectiveness is raised, and overall maintenance management is made simpler.",
         icon: Settings,
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+        image: ReducesManualLabor,
       },
       {
         title: "Performance Reliability",
         description:
           "The system's scheduled and reliable cleaning cycles promote stable solar performance. It guarantees that panels function at predicted levels throughout time and helps prevent efficiency discrepancies brought on by dust collection.",
         icon: Settings,
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+        image: PerformanceReliability,
       },
       {
         title: "No Damage to the Panels",
         description:
           "The cleaning mechanism is made to function safely without damaging the surface or structure of the panel. While producing efficient outcomes, controlled movement and gentle procedures safeguard system components.",
         icon: Settings,
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+        image: NoDamage,
       },
        {
         title: "Long-Term Reliability",
         description:
           "Constructed from robust materials, the system is designed to function continuously in a variety of settings. For many years, it provides dependable cleaning results with little interruption.",
         icon: Settings,
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+        image: LongTermReliability,
       },
        {
         title: "Minimal Maintenance",
         description:
           "System Long-term smooth and reliable operation of the system is made possible by minimum maintenance requirements. By doing this, operating effort is decreased and maximum efficiency may be maintained without regular maintenance",
         icon: Settings,
-        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80",
+        image: MinimalMaintenance,
       },
     ]
 
