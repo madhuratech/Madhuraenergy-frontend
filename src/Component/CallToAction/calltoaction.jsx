@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { path } from "framer-motion/client";
 // import { path } from "framer-motion/client";
 
 const ctaData = {
@@ -54,6 +55,7 @@ const ctaData = {
     primaryButtonLink: "/contact/#ContactFormSection",
     secondaryButtonText: "Learn More",
     secondaryButtonLink: "/services/energy-consulting",
+    
   },
 };
 

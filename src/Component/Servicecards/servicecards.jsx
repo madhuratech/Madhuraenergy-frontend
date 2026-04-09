@@ -46,6 +46,15 @@ import LongTermReliability from "../../assets/services/Service-cleaningrobot/Lon
 import MinimalMaintenance from "../../assets/services/Service-cleaningrobot/MinimalMaintenance.jpg"
 import { path } from "framer-motion/client";
 
+// SolarPump
+import ReliableWaterSupply from "../../assets/services/Service-solarpump/ReliableWaterSupply.jpg"
+import UpgradetoEco from "../../assets/services/Service-solarpump/UpgradetoEco.jpg"
+import EffectiveforIndustrial from "../../assets/services/Service-solarpump/EffectiveforIndustrial.jpg"
+import EnergySavingOperation from "../../assets/services/Service-solarpump/EnergySavingOperations.jpg"
+import InstallationSupport from "../../assets/services/Service-solarpump/InstallationSupport.jpg"
+import SuitableApplication from "../../assets/services/Service-solarpump/SuitableApplication.jpg"
+
+
 
 
 
@@ -301,21 +310,21 @@ const serviceScopeData = {
         description:
           " We ensure uninterrupted water flow with advanced solar pump systems designed for consistent performance. Even in remote areas, our solutions deliver dependable water access without relying on traditional electricity sources.",
         icon: Wrench,
-        image: automatedcleaning,
+        image: ReliableWaterSupply,
       },
       {
         title: "Upgrade to Eco-Friendly",
         description:
           "Switch to environmentally friendly solar pump systems that reduce carbon footprint and promote sustainable practices. Our solutions help you move away from diesel or electric pumps for a greener future.",
         icon: ShieldCheck,
-        image: IncreasesProduction,
+        image: UpgradetoEco,
       },
       {
         title: "Effective for Industrial Use",
         description:
           "Our solar pump systems are engineered to support industrial operations with high efficiency. They handle large-scale water requirements, making them ideal for factories, farms, and commercial setups.",
         icon: Settings,
-        image: IntelligentCleaningMethod,
+        image: EffectiveforIndustrial,
       },
   
       {
@@ -323,21 +332,21 @@ const serviceScopeData = {
         description:
           "Save on electricity bills with our solar pump solutions that utilize free solar energy. These systems minimize operational costs while maintaining excellent performance throughout the year.",
         icon: Settings,
-        image: ReducesManualLabor,
+        image: EnergySavingOperation,
       },
       {
         title: "Installation & Support",
         description:
           "We provide complete installation and after-sales support for solar pump systems. Our team ensures smooth setup, maintenance, and quick assistance whenever required.",
         icon: Settings,
-        image: PerformanceReliability,
+        image: InstallationSupport,
       },
       {
         title: "Suitable for Every Application",
         description:
           "From agriculture to residential and industrial needs, our solar pump systems are adaptable. They are designed to meet various water requirements efficiently across different environments.",
         icon: Settings,
-        image: NoDamage,
+        image: SuitableApplication,
       },
       
     ],
