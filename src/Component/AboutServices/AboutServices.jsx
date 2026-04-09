@@ -99,13 +99,13 @@ function Aboutservice() {
 
    "solar-pump": {
       tag: "About Our Solutions",
-      title: "Efficient Solar Pump Solutions for Sustainable Water Management",     
+      title: "Smart solar pump solutions for efficient water management",     
       description:
-        "At Madhura Energy, we provide efficient solar pump solutions that harness the power of the sun to deliver reliable and sustainable water management for agricultural, industrial, and residential applications.",
+        "Our solar pump solutions are designed to deliver consistent water supply using renewable energy. We help reduce electricity costs while ensuring high performance. Perfect for agriculture, residential, and industrial water needs",
       points: [
-        "Energy-efficient water pumping solutions",
-        "Sustainable and eco-friendly operation",
-        "Low maintenance and high durability"
+        "Reliable equipment that is sustainable",
+        "Runs efficiently even in low light conditions",
+        "Used for various applications"
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",

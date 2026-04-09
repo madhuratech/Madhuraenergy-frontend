@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-import { path } from "framer-motion/client";
+// import { path } from "framer-motion/client";
 
 const ctaData = {
   solarEpc: {
@@ -47,11 +47,10 @@ const ctaData = {
     path: "/services/operation-maintenance",
   },
 
-  energyConsulting: {
-    tag: "Smart Energy Consulting",
-    title:
-      "Plan the right renewable energy strategy with expert consulting for efficient, future-ready business solutions.",
-    primaryButtonText: "Talk to Experts",
+  solarPump: {
+    tag: "Get in touch for smart solar solutions",
+    title:"Let’s connect and power your solar journey",
+    primaryButtonText: "Get Free Consultation",
     primaryButtonLink: "/contact/#ContactFormSection",
     secondaryButtonText: "Learn More",
     secondaryButtonLink: "/services/energy-consulting",

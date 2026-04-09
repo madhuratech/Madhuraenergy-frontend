@@ -209,6 +209,55 @@ const processSectionData = {
       
     ],
     path: "/solar-plant-cleaning-robots",
+  },
+  solarPump: {
+    badge: "Execution Process",
+    title: "Efficient solar pump system converts sunlight into water power",
+    highlightedLine: "For Optimal Performance",
+    description:
+      "Solar pump systems use sunlight to generate electricity, powering motors that draw water from sources like wells or tanks, ensuring a continuous, eco-friendly water supply without grid dependency.",
+    backgroundImage:
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1800&q=80",
+    processSteps: [
+      {
+        number: "01",
+        title: "Solar Panels Capture Sunlight",
+        description:
+          "Solar panels absorb sunlight and convert it into direct current electricity, which becomes the primary power source for operating the solar pump efficiently.",
+      },
+      {
+        number: "02",
+        title: "Controller Regulates Power Flow",
+        description:
+       "The controller manages the electricity generated, ensuring stable voltage and current supply to protect the motor and improve system performance.",
+      },
+      {
+        number: "03",
+        title: "Motor Drives the Pump",
+        description:
+          "The electric motor uses solar energy to drive the pump, enabling water to be lifted or transferred from the source efficiently.",
+      },
+      {
+        number: "04",
+        title: "Water is Pumped to Storage",
+        description:
+          "Water is pumped from borewells, rivers, or tanks and directed into storage systems or irrigation channels as required.",
+      },
+      {
+        number: "05",
+        title: "Automatic Operation System",
+        description:
+          "The solar pump system can operate automatically during sunlight hours, reducing manual intervention and ensuring consistent water supply",
+      },
+      // {
+      //   number: "06",
+      //   title: "Low Maintenance Functioning",
+      //   description:
+      //     "With minimal moving parts and no fuel dependency, solar pumps require very little maintenance, making them cost-effective and reliable.",
+      // },  
+      
+    ],
+    path: "/solar-plant-cleaning-robots",
   }
   };
 

@@ -41,7 +41,14 @@ const serviceContent = {
     description:
       "Continuous exposure to dust, grime, and environmental buildup can progressively lower solar panels' overall energy output and efficiency. This accumulation could result in poor performance and increased maintenance requirements if it is not cleaned on a regular basis. This problem is solved by solar cleaning robots, which offer a dependable, automated solution that preserves panel efficiency without the need for human interaction.These systems guarantee that panels are cleaned effectively and reliably under a variety of circumstances by adhering to predetermined cycles. They remove dust and grime effectively, promoting stable energy output and reducing efficiency fluctuations. The automated approach also makes maintenance more predictable and organized by minimizing the need for manual labor.",
     path: "/solar-plant-cleaning-robots",
-}
+},
+"solar-pump":{
+    tag: "About the Service",
+    title: "Complete solar pump solutions for smart water management",
+    description:
+      "Our solar pump services are designed to provide reliable and sustainable water solutions for various applications, including agriculture, residential, and industrial use. We offer end-to-end services, starting from understanding your water requirements to selecting the right solar pump system. Our team ensures professional installation, seamless integration, and ongoing support to guarantee optimal performance. Solar pumps operate using renewable energy, reducing dependency on electricity and fuel while lowering operational costs. These systems are built for durability and require minimal maintenance, making them a smart long-term investment. Whether you need irrigation support for farming or water supply for commercial purposes, our solar pump solutions deliver efficiency, reliability, and environmental benefits. We are committed to helping you transition to clean energy while ensuring uninterrupted water availability.",
+    path: "/solar-pump",
+  }
 };
 
 function Summary() {
@@ -87,7 +94,7 @@ function Summary() {
 
             {/* Right side */}
             <div className="p-8 sm:p-10 lg:col-span-8 lg:p-12">
-              <p className="max-w-4xl text-base leading-8 text-slate-300 sm:text-lg">
+              <p className="max-w-4xl text-base leading-8 text-slate-300 sm:text-lg text-justify">
                 {service.description}
               </p>
             </div>

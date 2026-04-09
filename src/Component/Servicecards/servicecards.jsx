@@ -44,6 +44,7 @@ import PerformanceReliability from "../../assets/services/Service-cleaningrobot/
 import NoDamage from "../../assets/services/Service-cleaningrobot/NoDamage.jpg"
 import LongTermReliability from "../../assets/services/Service-cleaningrobot/LongTermReliability.jpg"
 import MinimalMaintenance from "../../assets/services/Service-cleaningrobot/MinimalMaintenance.jpg"
+import { path } from "framer-motion/client";
 
 
 
@@ -225,36 +226,7 @@ const serviceScopeData = {
     path: "/operation-maintenance",
   },
 
-  batteryEnergy: {
-    tag: "Infrastructure Scope",
-    title: "Core Electrical Infrastructure Services We Provide",
-    items: [
-      {
-        title: "Panel & Distribution Systems",
-        description:
-          "Robust electrical panels and distribution systems designed for safe and efficient power delivery.",
-        icon: Settings,
-        image:
-          "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1400&q=80",
-      },
-      {
-        title: "Industrial Installation",
-        description:
-          "End-to-end installation support for industrial and commercial electrical infrastructure projects.",
-        icon: Factory,
-        image:
-          "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1400&q=80",
-      },
-      {
-        title: "Grid Connectivity",
-        description:
-          "Reliable grid interconnection and electrical integration for smooth project commissioning.",
-        icon: Building2,
-        image:
-          "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=80",
-      },
-    ],
-  },
+  
   solarPlantCleaningRobots:{
     tag: "Innovative Solutions",
     title: "Intelligent Features for Reliable and Effective Solar Panel Cleaning",
@@ -316,9 +288,63 @@ const serviceScopeData = {
         icon: Settings,
         image: MinimalMaintenance,
       },
-    ]
+    ],
+    
 
-  }
+  },
+   solarPump:{
+    tag: "Innovative Solutions",
+    title: "Intelligent Features for Reliable and Effective Solar Panel Cleaning",
+    items: [
+      {
+        title: "Reliable Water Supply",
+        description:
+          " We ensure uninterrupted water flow with advanced solar pump systems designed for consistent performance. Even in remote areas, our solutions deliver dependable water access without relying on traditional electricity sources.",
+        icon: Wrench,
+        image: automatedcleaning,
+      },
+      {
+        title: "Upgrade to Eco-Friendly",
+        description:
+          "Switch to environmentally friendly solar pump systems that reduce carbon footprint and promote sustainable practices. Our solutions help you move away from diesel or electric pumps for a greener future.",
+        icon: ShieldCheck,
+        image: IncreasesProduction,
+      },
+      {
+        title: "Effective for Industrial Use",
+        description:
+          "Our solar pump systems are engineered to support industrial operations with high efficiency. They handle large-scale water requirements, making them ideal for factories, farms, and commercial setups.",
+        icon: Settings,
+        image: IntelligentCleaningMethod,
+      },
+  
+      {
+        title: "Energy Saving Operations",
+        description:
+          "Save on electricity bills with our solar pump solutions that utilize free solar energy. These systems minimize operational costs while maintaining excellent performance throughout the year.",
+        icon: Settings,
+        image: ReducesManualLabor,
+      },
+      {
+        title: "Installation & Support",
+        description:
+          "We provide complete installation and after-sales support for solar pump systems. Our team ensures smooth setup, maintenance, and quick assistance whenever required.",
+        icon: Settings,
+        image: PerformanceReliability,
+      },
+      {
+        title: "Suitable for Every Application",
+        description:
+          "From agriculture to residential and industrial needs, our solar pump systems are adaptable. They are designed to meet various water requirements efficiently across different environments.",
+        icon: Settings,
+        image: NoDamage,
+      },
+      
+    ],
+    path: "/solar-pump",
+
+  }       
+  
 
 };
 
@@ -369,7 +395,7 @@ function Servicecards({ serviceKey }) {
                     {item.title}
                   </h3>
 
-                  <p className="mt-4 text-sm leading-7 text-slate-300 sm:text-base">
+                  <p className="mt-4 text-sm leading-7 text-slate-300 sm:text-base text-justify">
                     {item.description}
                   </p>
 

@@ -6,10 +6,10 @@ import ProcessSection from '../Component/Process/process'
 
 import WhyChooseSection from '../Component/WhyChoose/whychoose'
 import Benefits from '../Component/Benefits/benefits'
-import Summary from '../Component/summary/summary'
 import FAQ from '../Component/Questions/questions'
 import CTASection from '../Component/CallToAction/calltoaction'
 import IndustriesWeServe from '../Component/Industry/industries'
+import Summary from '../Component/summary/summary'
 
 function SolarPlantCleaningRobots() {
   return (
@@ -21,7 +21,7 @@ function SolarPlantCleaningRobots() {
       <WhyChooseSection serviceKey="solarPlantCleaningRobots" />
       <IndustriesWeServe/>
       <Benefits pageKey="solarPlantCleaningRobots" />
-      <Summary/>
+      <Summary />
       <FAQ page="solarPlantCleaningRobots" />
       <CTASection page="solarPlantCleaningRobots" />
     </div>

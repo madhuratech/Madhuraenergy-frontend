@@ -19,6 +19,7 @@ import ScrollToSection from './Component/layout/ScrollToSection'
 import Batterystorage from './Pages/Batterystorage'
 import Banner from './Component/Hero/Banner'
 import SolarPlantCleaningRobots from './Pages/SolarPlantCleaningRobots'
+import SolarPump from './Pages/SolarPump'
 
 const ServiceRouter = () => {
   const { slug } = useParams();
@@ -33,6 +34,8 @@ const ServiceRouter = () => {
       return <Batterystorage />;
     case 'solar-plant-cleaning-robots':
       return <SolarPlantCleaningRobots />;
+    case 'solar-pump':
+      return <SolarPump/>;
     default:
       return <SolarEpcSolutionsPage />;
   }

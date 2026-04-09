@@ -73,6 +73,19 @@ const benefitsContent = {
       "The technology minimizes incremental efficiency losses and supports continuous operation by minimizing dust collection.",
       "System longevity is increased and long-term performance is improved by routine cleaning and decreased component stress."
     ]
+  },
+  solarPump:{
+    tag: "Benefits",
+    title: "Benefits of Solar Pumping Solutions",
+    benefits: [
+      "Reduces electricity costs with renewable solar energy powered pump systems",
+      "Ensures continuous water supply even in remote locations without electricity",
+      "Eco-friendly solution reducing carbon emissions and environmental impact significantly",
+      "Low maintenance system with long-lasting performance and durable components",
+      "Ideal for agriculture, residential, and industrial water pumping applications",
+      "Easy installation with reliable performance and minimal operational challenges",
+    ],
+    path:"/services/solar-pump"
   }
 };
 

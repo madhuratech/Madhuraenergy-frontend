@@ -201,6 +201,42 @@ const whyChooseData = {
       
     ],
     path:"/solar-plant-cleaning-robots"
+  },
+  solarPump: {
+    badge: "Why Choose Us",
+    heading: "Trusted solar pump solutions for reliable and efficient performance",
+    image:
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    description:
+      "We deliver high-quality solar pump systems tailored to your needs. Our focus is on performance, durability, and customer satisfaction. With expert support and advanced technology, we ensure reliable water solutions for every application.",
+    points: [
+      {
+        title: "Expert Solutions",
+        description:
+          "We provide customized solar pump systems based on your specific water requirements, ensuring optimal performance and efficiency.",
+        icon: Settings,
+      },
+      {
+        title: "Quality Assurance",
+        description:
+          "Our products are built with high-quality materials to ensure durability, long life, and reliable operation in all conditions.",
+        icon: Settings,
+      },
+      {
+        title: "End-to-End Service",
+        description:
+          "From consultation to installation and support, we handle every step of your solar pump project seamlessly.",
+        icon: Settings,
+      },
+      {
+        title: "Cost-Effective Systems",
+        description:
+          "Our solutions help you save on electricity and maintenance costs while delivering excellent long-term value. ",
+        icon: Settings,
+      },
+      
+    ],
+    path:"/solar-pump"
   }
 };
 

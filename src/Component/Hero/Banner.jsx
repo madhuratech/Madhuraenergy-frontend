@@ -73,7 +73,7 @@ function Banner() {
     "solar-pump": {
       tag: "Service Details",
       title: "Solar Pump",
-      description: "Revolutionize your water management with our solar pump solutions, designed to provide efficient, sustainable, and cost-effective pumping for agricultural, industrial, and residential applications.",
+      description: "Our solar-powered pumping solutions allow us to give you access to clean water supplies powered by renewable energy sources. This service will not only reduce your power expenses but also guarantee efficient performance of your system.",
       image: solarpump,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",

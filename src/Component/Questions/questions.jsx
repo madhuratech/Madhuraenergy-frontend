@@ -241,6 +241,53 @@ const faqPagesData = {
       },
     ],
   },
+  solarPump:{
+    sectionData: {
+      badge: "FAQs",
+      title: "Solar Pump",
+      highlight: "Questions",
+      description:
+        "Find answers to common questions about our solar pump solutions, including applications, installation, maintenance, and performance benefits.",
+      contactTag: "Need more help?",
+      contactTitle: "Let’s discuss your solar pump needs.",
+      contactDescription:
+        "Our experts can help you choose the right solar pump solution for agriculture, residential, or industrial water pumping applications, ensuring reliable performance and sustainability.",
+      buttonText: "Contact Us",
+    },
+    faqData: [
+      {
+        question: "What is a solar pump system used for?",
+        answer:
+          "A solar pump system is used to draw water using solar energy, mainly for irrigation, domestic supply, and industrial applications, reducing electricity and fuel dependency."
+      },
+      {
+        question: "Does a solar pump work during cloudy weather?",
+        answer:
+          "Yes, solar pumps can work during cloudy conditions but with reduced efficiency. Performance depends on sunlight availability, though systems are designed to handle moderate fluctuations effectively.",
+      },
+      {
+        question: "Is a solar pump suitable for agricultural irrigation needs?",
+        answer:
+          "Yes, solar pumps are ideal for agricultural irrigation as they provide reliable water supply, reduce operational costs, and support sustainable farming practices.",
+      },
+      {
+        question: "How much maintenance does a solar pump require?",
+        answer:
+          "Solar pumps require minimal maintenance since they have fewer moving parts. Regular cleaning of panels and periodic checks ensure long-lasting and efficient performance.",
+      },
+      {
+        question: "Can a solar pump reduce electricity bills significantly?",
+        answer:
+          "Yes, solar pumps use sunlight instead of electricity, helping reduce or eliminate electricity bills, making them a cost-effective solution over time.",
+      },
+      {
+        question: "Is installation support available for solar pump systems?",
+        answer:
+          "Yes, we provide complete installation support along with guidance and maintenance services to ensure smooth operation and long-term system efficiency. ",
+      },
+    ],
+
+  }
 };
 
 function FAQ({ page = "solarEpc" }) {
