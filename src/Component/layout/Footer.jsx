@@ -192,7 +192,7 @@ function Footer() {
                   href="mailto:info@yourcompany.com"
                   className="transition hover:text-emerald-400"
                 >
-                  info@yourcompany.com
+                  info@madhuraecc.com
                 </a>
               </div>
             </div>

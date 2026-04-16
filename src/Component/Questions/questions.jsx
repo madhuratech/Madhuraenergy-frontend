@@ -287,7 +287,54 @@ const faqPagesData = {
       },
     ],
 
-  }
+  },
+  thirdParty:{
+    sectionData: {
+      badge: "FAQs",
+      title: "Third Party Power Purchase",
+      highlight: "Questions",
+      description:
+        "Get answers to common questions about our third party power purchase solutions, including cost savings, reliability, and contract flexibility.",
+      contactTag: "Need more help?",
+      contactTitle: "Let’s discuss your power procurement needs.",    
+      contactDescription:
+        "Our experts can help you understand the benefits of third party power purchase agreements, including cost savings, reliable supply, and flexible contract options for your business.",
+      buttonText: "Contact Us",
+    },
+    faqData: [
+      {
+        question: "What is third-party power purchase?",
+        answer:
+          "It is a method where businesses buy electricity directly from independent power producers instead of relying on traditional electricity providers."
+      },
+      {
+        question: "Who can use this service?",
+        answer:
+          "Industries, factories, and commercial establishments with high electricity consumption can benefit from third party power purchase solutions."
+      },
+      {
+        question: "Is it cost effective?",
+        answer:
+          "Yes, it reduces electricity costs by offering competitive pricing compared to traditional utility supply."
+      },
+      {
+        question: "Is regulatory approval required?",
+        answer:
+          "Yes, approvals are needed, and our team handles all compliance and documentation processes."
+      },
+      {
+        question: "Does it ensure continuous supply?",
+        answer:
+          "Yes, reliable producers and proper transmission setup ensure uninterrupted electricity supply."
+      },
+      {
+        question: "How long is the agreement period?",
+        answer:
+          "Agreement duration depends on business needs, usually ranging from short-term to long-term contracts."
+      },
+    ],
+    path:"/third-party-power-purchase"
+  },
 };
 
 function FAQ({ page = "solarEpc" }) {

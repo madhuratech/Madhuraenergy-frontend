@@ -15,7 +15,7 @@ const services = [
     title: "Solar EPC Solutions",
     path: "/services/solar-epc-solutions",
     description:
-      "End-to-end engineering, procurement, and construction services for commercial, industrial, and utility-scale solar projects.",
+      "End-to-end engineering, procurement, and construction services for commercial, industrial, and utility-scale solar projects with a focus on quality, safety, and performance.",
     icon: Sun,
   },
   {
@@ -23,7 +23,7 @@ const services = [
     title: "Solar Plant Management",
     path: "/services/solar-plant-management",
     description:
-      "Comprehensive management and optimization services for existing solar installations.",
+      "Advanced monitoring, performance optimization, and management services to ensure maximum energy generation and long-term system efficiency.",
     icon: BatteryCharging,
   },
   {
@@ -31,7 +31,7 @@ const services = [
     title: "Operation & Maintenance",
     path: "/services/operation-maintenance",
     description:
-      "Preventive and corrective maintenance services to maximize uptime, safety, and long-term performance.",
+      "Comprehensive preventive and corrective maintenance services to reduce downtime, improve safety, and extend the lifespan of your solar assets.",
     icon: Wrench,
   },
   {
@@ -39,7 +39,7 @@ const services = [
     title: "Battery Energy Storage",
     path: "/services/battery-storage",
     description:
-      "Complete electrical integration including panels, cabling, distribution systems, and grid connectivity.",
+      "Smart energy storage solutions that help manage peak demand, store excess power, and ensure uninterrupted energy supply.",
     icon: Settings,
   },
   {
@@ -47,7 +47,7 @@ const services = [
     title: "Solar Pump",
     path: "/services/solar-pump",
     description:
-      "Complete electrical integration including panels, cabling, distribution systems, and grid connectivity.",
+      "Efficient solar-powered pumping systems designed for agriculture and industrial applications, ensuring reliable and cost-effective water management.",
     icon: Settings,
   },
   {
@@ -55,7 +55,7 @@ const services = [
     title: "Solar Plant Cleaning Robots",
     path: "/services/solar-plant-cleaning-robots",
     description:
-      "Complete electrical integration including panels, cabling, distribution systems, and grid connectivity.",
+      "Automated cleaning solutions that improve panel efficiency, reduce manual effort, and maintain optimal energy generation.",
     icon: Settings,
   },
   {
@@ -63,7 +63,7 @@ const services = [
     title: "Third party power purchase",
     path: "/services/third-party-power-purchase",
     description:
-      "Complete electrical integration including panels, cabling, distribution systems, and grid connectivity.",
+      "Flexible power purchase solutions that allow businesses to use solar energy without upfront investment, reducing energy costs and risks.",
     icon: Settings,
   },
 ];

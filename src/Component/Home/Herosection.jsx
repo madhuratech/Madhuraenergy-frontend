@@ -57,9 +57,9 @@ function HeroSection() {
             className="mt-6 max-w-2xl animate-fadeInUp text-lg leading-8 text-slate-200"
             style={{ animationDelay: "0.15s" }}
           >
-            We design, engineer, install, and maintain renewable energy systems
-            for industrial, commercial, and public sector clients built for
-            safety, uptime, and long-term performance across India.
+            We design, engineer, install, and manage advanced solar and energy systems for industrial and 
+            commercial clients—built for safety, efficiency, and long-term performance.
+            At Madhura Energy, we focus on maximizing output, reducing costs, and ensuring reliable power for a sustainable future.
           </p>
 
           <div

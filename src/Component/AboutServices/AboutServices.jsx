@@ -116,6 +116,7 @@ function Aboutservice() {
       statDescription: "Maximized performance for optimal results",
       path: "/solar-pump",
     },
+
     "solar-plant-cleaning-robots": {
       tag: "About Our Solutions",
       title: "Solar Cleaning Robots Designed to Preserve Solar Panel Performance",
@@ -135,15 +136,16 @@ function Aboutservice() {
       statDescription: "Ensuring peak performance for solar installations",
       path: "/solar-plant-cleaning-robots",
     },
+
       "third-party-power-purchase": { 
       tag: "About Our Solutions",
-      title: "Third-Party Power Purchase Solutions for Sustainable Energy Access",
+      title: "We provide end-to-end third party power purchase solutions tailored for your business needs",
       description:
-        "Our third-party power purchase solutions provide a reliable and sustainable way to access clean energy for businesses and individuals.",
+        "Our team handles power sourcing, agreements, and compliance smoothly, making the entire process hassle-free for your business. We ensure a cost-effective and uninterrupted power supply to support your daily operations without any disruption. With our service, you can also move towards smarter and greener energy usage, helping your business become more efficient and environmentally responsible.",
       points: [
-        "Access to clean and renewable energy sources",
-        "Flexible purchasing options for various needs",
-        "Support for sustainable energy initiatives"
+        "Power sourcing from trusted third-party generators",
+        "Regulatory compliance and documentation support",
+        "Long-term cost optimisation and energy planning"
       ],
       buttonText: "Learn More",
       buttonLink: "/contact",

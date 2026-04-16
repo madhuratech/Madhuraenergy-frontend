@@ -60,31 +60,28 @@ function CallToActionCard() {
                 <div className="mt-6 space-y-4">
                   <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-4">
                     <h3 className="text-lg font-semibold text-white">
-                      Fast Project Delivery
+                      Fast & Reliable Execution
                     </h3>
                     <p className="mt-1 text-sm leading-6 text-slate-300">
-                      Efficient planning, engineering, and execution for timely
-                      delivery.
+                      Efficient planning, expert engineering, and structured delivery ensure your projects are completed on time without compromising quality.
                     </p>
                   </div>
 
                   <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-4">
                     <h3 className="text-lg font-semibold text-white">
-                      Trusted Quality
+                      Proven Quality Standards
                     </h3>
                     <p className="mt-1 text-sm leading-6 text-slate-300">
-                      Built with high-performance components and dependable
-                      service support.
+                      We use high-performance components and follow strict quality and safety standards to deliver dependable and long-lasting solutions.
                     </p>
                   </div>
 
                   <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-4">
                     <h3 className="text-lg font-semibold text-white">
-                      Long-Term Savings
+                      Optimized for Long-Term Savings
                     </h3>
                     <p className="mt-1 text-sm leading-6 text-slate-300">
-                      Solutions designed to optimize efficiency and reduce
-                      operating costs.
+                      Our solutions are designed to maximize efficiency, reduce operational costs, and deliver strong returns over time.
                     </p>
                   </div>
                 </div>

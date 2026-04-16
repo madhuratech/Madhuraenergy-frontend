@@ -44,7 +44,7 @@ import PerformanceReliability from "../../assets/services/Service-cleaningrobot/
 import NoDamage from "../../assets/services/Service-cleaningrobot/NoDamage.jpg"
 import LongTermReliability from "../../assets/services/Service-cleaningrobot/LongTermReliability.jpg"
 import MinimalMaintenance from "../../assets/services/Service-cleaningrobot/MinimalMaintenance.jpg"
-import { path } from "framer-motion/client";
+// import { path } from "framer-motion/client";
 
 // SolarPump
 import ReliableWaterSupply from "../../assets/services/Service-solarpump/ReliableWaterSupply.jpg"

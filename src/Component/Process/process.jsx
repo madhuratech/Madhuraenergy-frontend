@@ -258,8 +258,51 @@ const processSectionData = {
       
     ],
     path: "/solar-plant-cleaning-robots",
-  }
-  };
+  },
+  thirdParty: {
+    badge: "Execution Process",
+    title: "Smart energy sourcing made simple with third party power purchase",
+    highlightedLine: "For Optimal Performance",
+    description:
+      "Third party power purchase allows businesses to buy electricity directly from power producers, helping them get better pricing and greater flexibility. It also ensures an uninterrupted power supply for smooth operations. This model supports efficient energy management and contributes to long-term business growth.",
+    backgroundImage:
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1800&q=80",
+    processSteps: [
+      {
+        number: "01",
+        title: "Requirement Analysis",
+        description:
+          "We understand your energy consumption and business needs in detail to design the right power purchase plan.",
+      },
+      {
+        number: "02",
+        title: "Supplier Identification",
+        description:
+        "We connect you with reliable third-party power producers offering competitive rates and stable supply.",
+      },
+      {
+        number: "03",
+        title: "Agreement Structuring",
+        description:
+          "We handle legal contracts and agreements ensuring transparency and compliance with regulations",
+      },
+      {
+        number: "04",
+        title: "Regulatory Approvals",
+        description:
+          "Our team manages all approvals and documentation required for smooth power procurement.",
+      },
+       {
+        number: "04",
+        title: "Power Transmission Setup",
+        description:
+          "Our team manages all approvals and documentation required for smooth power procurement.",
+      },
+    ],
+  },
+};
+
+  
 
   function ProcessSection({ serviceKey = "solarEpc" }) {
     const service = processSectionData[serviceKey];

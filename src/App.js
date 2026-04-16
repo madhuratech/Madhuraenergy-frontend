@@ -20,6 +20,7 @@ import Batterystorage from './Pages/Batterystorage'
 import Banner from './Component/Hero/Banner'
 import SolarPlantCleaningRobots from './Pages/SolarPlantCleaningRobots'
 import SolarPump from './Pages/SolarPump'
+import ThirdParty from './Pages/ThirdParty'
 
 const ServiceRouter = () => {
   const { slug } = useParams();
@@ -36,6 +37,8 @@ const ServiceRouter = () => {
       return <SolarPlantCleaningRobots />;
     case 'solar-pump':
       return <SolarPump/>;
+    case 'third-party-power-purchase':
+      return <ThirdParty/>
     default:
       return <SolarEpcSolutionsPage />;
   }
@@ -58,6 +61,7 @@ function App() {
         <Route path="/services/:slug" element={<ServiceRouter />} />
 
         <Route path="/hero/:slug" element={<Banner />} />
+        
       </Routes>
 
       <Footer />

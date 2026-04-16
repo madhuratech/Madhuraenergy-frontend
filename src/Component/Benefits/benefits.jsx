@@ -1,5 +1,6 @@
 import React from "react";
 import { CheckCircle2 } from "lucide-react";
+import ThirdParty from "../../Pages/ThirdParty";
 
 const benefitsContent = {
   solarEpc: {
@@ -86,6 +87,16 @@ const benefitsContent = {
       "Easy installation with reliable performance and minimal operational challenges",
     ],
     path:"/services/solar-pump"
+  },
+  thirdParty:{
+    tag: "Benefits",
+    title: "Benefits of Third Party Power Purchase",
+    benefits: [  
+      "Cost Savings: Businesses can often secure lower electricity rates by purchasing directly from power producers, leading to significant cost savings over time.",
+      "Energy Reliability: Third party power purchase agreements ensure a consistent and reliable power supply, reducing the risk of outages and disruptions to business operations.",
+      "Flexibility: This model allows businesses to choose their energy sources and contract terms, providing greater flexibility in managing energy needs.",               
+    ],
+    path:"/services/third-party-power-purchase"
   }
 };
 

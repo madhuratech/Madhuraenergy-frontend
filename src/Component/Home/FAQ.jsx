@@ -3,34 +3,34 @@ import { ChevronDown } from "lucide-react";
 
 const faqData = [
   {
-    question: "What solar EPC services do you provide?",
+    question: " How does green energy help reduce CO₂ emissions?",
     answer:
-      "We provide complete solar EPC solutions including design, engineering, procurement, installation, testing, and commissioning for commercial, industrial, and utility-scale projects.",
+      "Green energy sources like solar power generate electricity without burning fossil fuels, significantly reducing carbon dioxide emissions and environmental impact.",
   },
   {
-    question: "Do you offer operations and maintenance support?",
+    question: "Can renewable energy reduce environmental pollution?",
     answer:
-      "Yes, we offer end-to-end O&M support including preventive maintenance, performance monitoring, fault detection, cleaning schedules, and system health optimization.",
+      "Yes, renewable energy minimizes air and water pollution by replacing conventional energy sources that release harmful pollutants into the environment.",
   },
   {
-    question: "Can you handle large-scale industrial solar projects?",
+    question: "How does solar energy contribute to reducing global warming?",
     answer:
-      "Absolutely. We specialize in handling rooftop and ground-mounted solar projects for industrial and commercial clients with a strong focus on safety, efficiency, and long-term performance.",
+      "Solar energy reduces dependence on fossil fuels, lowering greenhouse gas emissions that are a major cause of global warming.",
   },
   {
-    question: "Do you also provide energy storage solutions?",
+    question: "What is the importance of reducing global warming?",
     answer:
-      "Yes, we provide integrated energy storage solutions to improve energy reliability, peak load management, backup support, and better utilization of renewable power.",
+      "Reducing global warming helps protect ecosystems, improve air quality, and ensure a sustainable future for coming generations.",
   },
   {
-    question: "How long does a typical solar project take?",
+    question: "What does generating 56 crore units of energy mean?",
     answer:
-      "Project timelines depend on system size, approvals, and site conditions, but most projects move through design, procurement, installation, and commissioning in a structured and time-efficient manner.",
+      "It refers to producing a large amount of clean electricity annually, which helps reduce reliance on traditional power sources and supports sustainability goals.",
   },
   {
-    question: "Which locations do you serve?",
+    question: "How does clean energy generation benefit businesses?",
     answer:
-      "We serve clients across Tamil Nadu and Pan-India, supporting industrial, commercial, and public-sector renewable energy projects.",
+      "It helps businesses lower energy costs, improve efficiency, meet sustainability targets, and reduce their carbon footprint.",
   },
 ];
 

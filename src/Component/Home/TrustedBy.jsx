@@ -86,14 +86,14 @@ function ChannelPartners() {
           </span>
 
           <h2 className="mt-5 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-            Powering Growth with
-              Trusted Industry Partners
-            
+            Empowering Growth through Strong and Trusted Partnerships
           </h2>
 
           <p className="mt-5 text-base leading-7 text-slate-300 sm:text-lg">
-            We collaborate with leading channel partners to deliver dependable,
-            efficient, and future-ready renewable energy solutions.
+          At Madhura Energy, we collaborate with reliable and experienced channel 
+          partners to deliver high-quality, efficient, and future-ready solar energy solutions. 
+          Our partnerships enable us to combine expertise, technology, and innovation to ensure 
+          seamless project execution and long-term performance. 
           </p>
         </div>
 

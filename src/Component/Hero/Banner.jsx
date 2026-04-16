@@ -94,12 +94,13 @@ function Banner() {
       secondaryButtonLink: "#scope",
       path: "/services/solar-plant-cleaning-robots",
     },
+
     "third-party-power-purchase": {
       tag: "Service Details",
-      title: "Energy Consulting",
+      title: "Third Party Power Purchase",
       highlight: "Services",
       description:
-        "Strategic energy advisory services to help businesses improve efficiency, reduce costs, plan investments, and build sustainable energy roadmaps.",
+      "We help your business get affordable electricity through third party power purchase solutions. Our team takes care of sourcing power, handling the process smoothly, and managing all approvals. We make sure you get continuous power supply at better rates with long-term cost savings.",
       image: Thirdpartypurchasepower,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",

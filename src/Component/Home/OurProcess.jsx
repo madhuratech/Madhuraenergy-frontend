@@ -14,33 +14,33 @@ import Testing from "../../assets/Process/Testing.png";
 const steps = [
   {
     number: "01",
-    title: "Discovery & Consultation",
+    title: "Assessment & Consultation",
     description:
-      "We begin by understanding your energy requirements, site conditions, operational goals, and long-term expectations.",
+      "We start by analysing your energy needs, site conditions, and business goals to design the most effective solar solution.",
     icon: SearchCheck,
     image: Discovery,
   },
   {
     number: "02",
-    title: "Engineering & Planning",
+    title: "Design & Engineering",
     description:
-      "Our experts prepare layouts, technical planning, and execution strategies for safe and efficient delivery.",
+      "Our team develops optimized system designs and technical plans focused on efficiency, safety, and long-term performance.",
     icon: FileText,
     image: Planning,
   },
   {
     number: "03",
-    title: "Execution & Installation",
+    title: "Execution & Deployment",
     description:
-      "We carry out end-to-end execution using quality components, skilled teams, and structured coordination delivery.",
+      "We deliver seamless installation using high-quality components, skilled professionals, and strict quality standards.",
     icon: Settings2,
     image: Engineering,
   },
   {
     number: "04",
-    title: "Testing & Support",
+    title: "Monitoring & Optimization",
     description:
-      "After installation, we verify performance through commissioning, monitoring, and ongoing support delivery.",
+      "Post-installation, we ensure continuous performance through real-time monitoring, maintenance, and system optimization.",
     icon: BadgeCheck,
     image: Testing,
   },
@@ -106,15 +106,15 @@ function WhatWeDoProcess() {
           </span>
 
           <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-            Our Process for Building
+            Our Process for Delivering
             <span className="block text-emerald-400">
-              Reliable Energy Solutions
+              High-Performance Solar Solutions
             </span>
           </h2>
 
           <p className="mt-4 text-base leading-7 text-slate-300 sm:text-lg">
-            A clear and efficient workflow from consultation to long-term
-            support, designed to deliver performance, safety, and reliability.
+            A streamlined and efficient workflow designed to ensure performance,
+             safety, and long-term reliability from start to finish.
           </p>
         </motion.div>
 

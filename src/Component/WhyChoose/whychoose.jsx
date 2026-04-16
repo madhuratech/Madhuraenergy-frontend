@@ -237,7 +237,44 @@ const whyChooseData = {
       
     ],
     path:"/solar-pump"
+  },
+  thirdParty: {
+    badge: "Why Choose Us",
+    heading: "Reliable third party power purchase solutions for your business",  
+    image:
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    description:
+      "We deliver cost-effective third party power purchase solutions with expert support, seamless process, and reliable power supply for your business needs.",
+    points: [
+      {
+        title: "Expert Guidance",
+        description:
+          "Our experienced team ensures smooth execution from planning to implementation.",
+        icon: Settings,
+      },
+      {
+        title: "Cost Efficiency",
+        description:
+          "We help you reduce electricity expenses with optimised power sourcing strategies.",
+        icon: Settings,
+      },
+      {
+        title: "End-to-End Support",
+        description:
+          "Complete assistance from supplier selection to regulatory compliance.",
+        icon: Settings,
+      },
+      {
+        title: "Reliable Supply",
+        description:
+          "We ensure uninterrupted and stable power for your operations.",
+        icon: Settings,
+      },
+      
+    ],
+    path:"/third-party-power-purchase"
   }
+
 };
 
 function WhyChooseSection({ serviceKey = "solarEpc" }) {

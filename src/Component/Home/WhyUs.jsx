@@ -12,14 +12,14 @@ import { motion, AnimatePresence } from "framer-motion";
 const reasons = [
   {
     id: "01",
-    title: "Execution You Can Trust",
+    title: "Precision-Led Project Execution",
     short: "Strong project planning, disciplined delivery, and dependable timelines.",
     description:
-      "We bring structured execution across design, procurement, installation, and commissioning so your project moves with clarity and control.",
+      "We follow a structured and detail-oriented approach across every stage—from design to commissioning—ensuring seamless execution and complete project control.",
     points: [
-      "Clear project milestones",
-      "Experienced execution team",
-      "Transparent coordination",
+      "Clear project planning",
+      "Skilled execution team",
+      "On-time delivery assurance",
     ],
     stat: "12+",
     statLabel: "Years of execution experience",
@@ -27,47 +27,47 @@ const reasons = [
   },
   {
     id: "02",
-    title: "Performance-Driven Engineering",
+    title: "High-Performance Engineering Excellence",
     short: "Solutions designed for efficiency, uptime, and long-term savings.",
     description:
-      "Every system is planned with performance in mind so you get better output, lower downtime, and stronger returns over the lifecycle of the asset.",
+      "Our solutions are engineered for maximum efficiency, optimized output, and long-term reliability to deliver superior system performance.",
     points: [
       "Optimized system design",
-      "Higher operational efficiency",
+      "High-efficiency components",
       "Long-term performance focus",
     ],
-    stat: "60+ MW",
-    statLabel: "Delivered / commissioned",
+    stat: "15,000+ kW",
+    statLabel: "Installed capacity",
     icon: Zap,
   },
   {
     id: "03",
-    title: "Reliable O&M Support",
+    title: "Advanced Operations & Maintenance Reliability",
     short: "Preventive maintenance and fast response to keep systems healthy.",
     description:
-      "Our operations and maintenance support is built to maximize uptime through regular checks, issue prevention, and proactive service.",
+      "We ensure consistent system health through proactive monitoring, preventive maintenance, and rapid issue resolution.",
     points: [
+      "Real-time monitoring systems",
       "Preventive maintenance plans",
-      "Rapid issue response",
-      "Continuous performance checks",
+      "Quick response support",
     ],
-    stat: "24/7",
-    statLabel: "Support mindset",
+    stat: "99%+",
+    statLabel: "System uptime",
     icon: Wrench,
   },
   {
     id: "04",
-    title: "Measurable Business Value",
+    title: "Data-Driven Value Optimization",
     short: "Engineering choices aligned with real commercial outcomes.",
     description:
-      "We focus on solutions that reduce operating costs, improve energy efficiency, and create measurable long-term value for your organization.",
+      "We leverage data insights and analytics to improve efficiency, reduce costs, and maximize your return on investment.",
     points: [
-      "Cost-saving focus",
-      "ROI-oriented decisions",
-      "Scalable energy strategy",
+      "Performance analytics",
+      "Cost optimization strategies",
+      "ROI-focused approach",
     ],
-    stat: "15,000+ kW",
-    statLabel: "Installed capacity",
+    stat: "40%+",
+    statLabel: "Energy cost savings",
     icon: LineChart,
   },
 ];
@@ -99,12 +99,12 @@ function WhyChooseUs() {
             Why Choose Us
           </p>
           <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
-            Built Differently for Long-Term Energy Performance
+            Designed for Efficiency, Built for Reliable Energy Performance
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-            Instead of generic execution, we focus on structured delivery,
-            system reliability, and measurable value so every project performs
-            beyond installation.
+            At Madhura Energy, we go beyond conventional solutions by focusing on smart execution, 
+            advanced technology, and long-term reliability—ensuring every project delivers consistent
+            performance and real business value.
           </p>
         </motion.div>
 

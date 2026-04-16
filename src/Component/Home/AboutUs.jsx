@@ -11,13 +11,13 @@ function WhoWeAre() {
             About Our Company
           </p>
           <h2 className="text-3xl font-bold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            Reliable Energy Solutions Built for Performance and Long-Term
-            Savings
+            Smart Solar & Energy Solutions That Deliver Real Results
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
-            We deliver end-to-end renewable energy solutions designed to improve
-            efficiency, reduce operating costs, and support sustainable growth
-            for industrial, commercial, and public-sector clients.
+            Madhura Energy delivers end-to-end solar and energy management solutions designed to
+            improve efficiency, reduce operational costs, and support sustainable growth for
+            industrial and commercial clients. Our focus is on providing reliable, high-performance
+            systems that ensure long-term energy savings and operational excellence.
           </p>
         </div>
 
@@ -61,9 +61,9 @@ function WhoWeAre() {
                 </h3>
 
                 <p className="mt-4 flex-1 text-base leading-7 text-slate-600">
-                  We design and execute high-performance solar EPC projects with
-                  a strong focus on engineering precision, safety, quality, and
-                  dependable long-term output.
+                  We design and execute high-quality solar EPC projects with a strong focus on 
+                  precision engineering, safety standards, and long-term performance to deliver
+                   maximum energy output.
                 </p>
 
                 <button className="mt-8 inline-flex w-fit items-center gap-2 rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600">
@@ -82,9 +82,9 @@ function WhoWeAre() {
                 </h3>
 
                 <p className="mt-4 flex-1 text-base leading-7 text-slate-600">
-                  Our operations and maintenance services improve uptime, reduce
-                  energy loss, and keep solar assets running at peak efficiency
-                  with proactive support and monitoring.
+                  Our operations and maintenance services ensure continuous monitoring,
+                  reduced downtime, and optimized performance to keep your solar assets
+                  running efficiently at all times.
                 </p>
 
                 <button className="mt-8 inline-flex w-fit items-center gap-2 rounded-xl bg-white px-6 py-3 text-sm font-semibold text-slate-900 ring-1 ring-slate-200 transition hover:bg-slate-900 hover:text-white">
@@ -109,10 +109,9 @@ function WhoWeAre() {
                 </h3>
 
                 <p className="mt-4 max-w-3xl text-base leading-7 text-slate-300 sm:text-lg">
-                  We deliver advanced energy storage systems that help
-                  businesses manage peak demand, improve reliability, and
-                  support continuous operations through smarter energy usage,
-                  better control, and long-term resilience.
+                  We provide smart energy optimization and management solutions that help businesses
+                  improve efficiency, reduce energy costs, and achieve better control 
+                  over their power usage.
                 </p>
 
                 <button className="mt-8 inline-flex items-center gap-2 rounded-xl bg-emerald-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600">

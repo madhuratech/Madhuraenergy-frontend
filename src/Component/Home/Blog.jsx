@@ -5,9 +5,9 @@ const blogs = [
   {
     id: 1,
     category: "Solar Energy",
-    title: "How Solar EPC Projects Reduce Long-Term Energy Costs",
+    title: "How Green Energy Helps Reduce CO₂ Emissions & Environmental Pollution",
     description:
-      "Explore how well-planned solar EPC solutions help businesses lower electricity bills, improve efficiency, and achieve long-term sustainability goals.",
+      "Explore how adopting solar and renewable energy solutions significantly reduces carbon emissions, minimizes environmental pollution, and supports a cleaner, healthier planet.",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
     date: "12 Mar 2026",
@@ -16,9 +16,9 @@ const blogs = [
   {
     id: 2,
     category: "O&M Services",
-    title: "Why Regular Solar Maintenance Is Critical for Peak Performance",
+    title: "Reducing Global Warming Through Smart Renewable Energy Solutions",
     description:
-      "Discover why proactive operations and maintenance services are essential for maximizing solar plant output and extending equipment life.",
+      "Learn how solar energy and sustainable practices play a key role in reducing global warming by lowering greenhouse gas emissions and promoting eco-friendly energy usage.",
     image:
       "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=1200&q=80",
     date: "08 Mar 2026",
@@ -27,9 +27,9 @@ const blogs = [
   {
     id: 3,
     category: "Energy Storage",
-    title: "The Role of Battery Storage in Modern Renewable Projects",
+    title: "Generating 56 Crore Units of Clean Energy Annually Since 2021",
     description:
-      "Learn how energy storage systems improve reliability, support grid stability, and unlock greater value from renewable installations.",
+      "Discover how large-scale solar implementations have contributed to generating over 56 crore units of clean energy per year, driving sustainability and reducing dependence on conventional power sources.",
     image:
       "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
     date: "02 Mar 2026",
