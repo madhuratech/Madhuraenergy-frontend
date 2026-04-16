@@ -1,5 +1,8 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import CoEmission from "../../assets/Blog/CoEmission.jpg"
+import EnergyUnits from "../../assets/Blog/EnergyUnits.jpg"
+import Renewable from "../../assets/Blog/Renewable.jpg"
 
 const blogs = [
   {
@@ -8,8 +11,7 @@ const blogs = [
     title: "How Green Energy Helps Reduce CO₂ Emissions & Environmental Pollution",
     description:
       "Explore how adopting solar and renewable energy solutions significantly reduces carbon emissions, minimizes environmental pollution, and supports a cleaner, healthier planet.",
-    image:
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    image: CoEmission,
     date: "12 Mar 2026",
     readTime: "5 min read",
   },
@@ -19,8 +21,7 @@ const blogs = [
     title: "Reducing Global Warming Through Smart Renewable Energy Solutions",
     description:
       "Learn how solar energy and sustainable practices play a key role in reducing global warming by lowering greenhouse gas emissions and promoting eco-friendly energy usage.",
-    image:
-      "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=1200&q=80",
+    image: EnergyUnits,
     date: "08 Mar 2026",
     readTime: "4 min read",
   },
@@ -30,8 +31,7 @@ const blogs = [
     title: "Generating 56 Crore Units of Clean Energy Annually Since 2021",
     description:
       "Discover how large-scale solar implementations have contributed to generating over 56 crore units of clean energy per year, driving sustainability and reducing dependence on conventional power sources.",
-    image:
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
+    image: Renewable,
     date: "02 Mar 2026",
     readTime: "6 min read",
   },
