@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, BadgeCheck } from "lucide-react";
+import Contact from "../../assets/Contact/Contact.jpg"
 
 function ContactHero() {
   return (
     <section className="relative overflow-hidden bg-slate-950 text-white">
       {/* Background image */}
       <div className="absolute inset-0">
-        <img
-          src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1800&q=80"
+        <img src= {Contact}
           alt="Solar energy project"
           className="h-full w-full object-cover opacity-20"
         />

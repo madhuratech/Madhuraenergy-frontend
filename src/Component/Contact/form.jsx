@@ -7,6 +7,7 @@ import {
   Clock3,
   BadgeCheck,
 } from "lucide-react";
+import form from "../../assets/Contact/form.jpg"
 
 const serviceOptions = [
   "Solar EPC Solutions",
@@ -247,7 +248,7 @@ function ContactFormSection() {
         >
           <div className="overflow-hidden rounded-[32px] border border-slate-200 bg-white shadow-[0_20px_60px_rgba(15,23,42,0.08)]">
             <img
-              src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=80"
+              src={form}
               alt="Energy infrastructure"
               className="h-72 w-full object-cover"
             />
