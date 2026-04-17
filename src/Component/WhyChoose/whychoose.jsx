@@ -9,12 +9,19 @@ import {
   Sun,
 } from "lucide-react";
 
+import solarEPC from "../../assets/Choose/solarEPC.jpg"
+import solarPlant from "../../assets/Choose/solarPlant.jpg"
+import OM from "../../assets/Choose/OM.jpg"
+import BatteryStorage from "../../assets/Choose/BatteryStorage.jpg"
+import solarClean from "../../assets/Choose/solarClean.jpg"
+import SolarPump from "../../assets/Choose/SolarPump.jpg"
+import Thirdparty from "../../assets/Choose/Thirdparty.JPG"
+
 const whyChooseData = {
   solarEpc: {
     badge: "Why Choose Us",
     heading: "Why choose Madhura Energy for reliable and efficient Solar EPC Services solutions",
-    image:
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    image: solarEPC,
     description:
       "At Madhura Energy, we believe in quality work and transparent communication. We provide our customers with the most efficient and cost-effective solar solutions with our expertise and make your solar experience smooth and hassle-free",
     points: [
@@ -61,8 +68,7 @@ const whyChooseData = {
   solarplant: {
     badge: "Why Choose Us",
     heading: "Choose Madhura Energy for intelligent and efficient solar plant management solutions you can trust.",
-    image:
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+    image: solarPlant,
     description:
       "The technology we use to provide our customers with the management and monitoring services necessary to provide peace of mind is designed to make your solar investment as profitable and efficient as possible.",
     points: [
@@ -98,8 +104,7 @@ const whyChooseData = {
   operationMaintenance: {
     badge: "Why Choose Us",
     heading: "Why Choose Our Team For Operation & Maintenance Services?",
-    image:
-      "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1200&q=80",
+    image: OM,
     description:
       "Our operations and maintenance services are designed to maximize solar system performance, reduce unplanned failures, and increase asset longevity. With a proactive approach, real-time monitoring, and expert support, we ensure consistent energy output and long-term dependability. Our methodical procedures and data-driven choices maximize operational effectiveness while safeguarding your investment.",
     points: [
@@ -134,8 +139,7 @@ const whyChooseData = {
   batterystorage: {
     badge: "Why Choose Us",
     heading: "Choose Madhura Energy for reliable and efficient battery energy storage solutions you can trust.",
-    image:
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
+    image: BatteryStorage,
     description:
       "We are dedicated to providing you with efficient and reliable energy solutions that are easy to understand and implement. Our team of experts will ensure that you have the best energy solution that meets your needs. Our energy solutions will help you save on energy costs while providing you with reliable power to keep your business running smoothly. Our energy solutions are designed to make your life easy by providing you with uninterrupted power while saving you money in the long run.",
     points: [
@@ -169,8 +173,7 @@ const whyChooseData = {
   solarPlantCleaningRobots: {
     badge: "Why Choose Us",
     heading: "Why Choose Solar Cleaning Robots for a Practical Approach to Reliable and Efficient Solar Cleaning?",
-    image:
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    image: solarClean,
     description:
       "Our solar plant cleaning robot solutions are designed to maximize the efficiency and performance of your solar panels while minimizing manual labor and maintenance costs. With our advanced technology and expertise, we provide reliable and cost-effective cleaning solutions that ensure your solar panels operate at their best, even in challenging environments.",
     points: [
@@ -205,8 +208,7 @@ const whyChooseData = {
   solarPump: {
     badge: "Why Choose Us",
     heading: "Trusted solar pump solutions for reliable and efficient performance",
-    image:
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    image: SolarPump,
     description:
       "We deliver high-quality solar pump systems tailored to your needs. Our focus is on performance, durability, and customer satisfaction. With expert support and advanced technology, we ensure reliable water solutions for every application.",
     points: [
@@ -241,8 +243,7 @@ const whyChooseData = {
   thirdParty: {
     badge: "Why Choose Us",
     heading: "Reliable third party power purchase solutions for your business",  
-    image:
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+    image: Thirdparty,
     description:
       "We deliver cost-effective third party power purchase solutions with expert support, seamless process, and reliable power supply for your business needs.",
     points: [
