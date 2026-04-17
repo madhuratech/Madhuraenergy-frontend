@@ -5,12 +5,14 @@ import { ArrowRight } from "lucide-react";
 
 // import solarEPC from "../../assets/Banner/SolarEPC.png"
 import solarEPC from "../../assets/Videos/solarEPC.mp4"
-import solarplantmanagement from "../../assets/Banner/solarplantmanagement.png"
-import OM from "../../assets/Banner/OM.png"
-import Batterystore from "../../assets/Banner/Batterystore.png"
-import solarpump from "../../assets/Banner/solarpump.png"
-import Thirdpartypurchasepower from "../../assets/Banner/Thirdpartypurchasepower.png"
-import automatedcleaning from "../../assets/services/Service-cleaningrobot/automatedcleaning.jpg"
+import solarPlant from "../../assets/Videos/solarPlant.mp4"
+import OM from "../../assets/Videos/OM.mp4"
+import batteryStorage from "../../assets/Videos/batteyStorage.mp4"
+import solarPump from "../../assets/Videos/solarPump.mp4"
+import solarClean from "../../assets/Videos/solarClean.mp4"
+import thirdParty from "../../assets/Videos/thirdParty.mp4"
+
+
 
 function Banner() {
   const { slug } = useParams();
@@ -35,7 +37,7 @@ function Banner() {
       title: "Solar Plant Management",
       description:
         "Our intelligent solar energy management solutions maximize efficiency and minimize downtime for the seamless production of electricity from solar energy while also ensuring that the modern renewable energy grid continues to evolve with the increasing demands for clean energy.",
-      image: solarplantmanagement,
+      video: solarPlant,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -48,7 +50,7 @@ function Banner() {
       title: "Operations and Maintenance Services",
       description:
         "Utilize professional operations and maintenance services to optimize solar performance. Through proactive monitoring, prompt service, and data driven optimization, we guarantee system efficiency, minimize downtime, and prolong asset life.",
-      image: OM,
+      video: OM,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -59,10 +61,9 @@ function Banner() {
     "battery-storage": {
       tag: "Service Details",
       title: "Battery Energy Storage Systems",
-
       description:
         "Store energy smarter, cut costs more efficiently, and stay powered anytime with our advanced and dependable energy solutions that are thoughtfully crafted to deliver on the escalating and evolving needs of contemporary power requirements.",
-      image: Batterystore,
+      video: batteryStorage,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -74,7 +75,7 @@ function Banner() {
       tag: "Service Details",
       title: "Solar Pump",
       description: "Our solar-powered pumping solutions allow us to give you access to clean water supplies powered by renewable energy sources. This service will not only reduce your power expenses but also guarantee efficient performance of your system.",
-      image: solarpump,
+      video: solarPump,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -87,7 +88,7 @@ function Banner() {
       title: "Robotic Solar Cleaners for Dependable and Efficient Panel Operation",
       description:
         "Dust accumulation on solar panels is eliminated by automatic cleaning machines that don't need human help. Regular cleaning can help maintain system efficiency, minimize performance loss, and encourage dependable energy output.",
-      image: automatedcleaning,
+      video: solarClean,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -101,7 +102,7 @@ function Banner() {
       highlight: "Services",
       description:
       "We help your business get affordable electricity through third party power purchase solutions. Our team takes care of sourcing power, handling the process smoothly, and managing all approvals. We make sure you get continuous power supply at better rates with long-term cost savings.",
-      image: Thirdpartypurchasepower,
+      video: thirdParty,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
       secondaryButtonText: "Explore Service",
@@ -146,8 +147,8 @@ function Banner() {
           <div className="absolute inset-0 bg-slate-950/70" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.20),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.14),transparent_30%)]" />
 
-          <div className="absolute left-[-100px] top-10 h-72 w-72 rounded-full bg-emerald-500/20 blur-3xl" />
-          <div className="absolute bottom-0 right-[-100px] h-80 w-80 rounded-full bg-cyan-500/20 blur-3xl" />
+          {/* <div className="absolute left-[-100px] top-10 h-72 w-72 rounded-full bg-emerald-500/20 blur-3xl" />
+          <div className="absolute bottom-0 right-[-100px] h-80 w-80 rounded-full bg-cyan-500/20 blur-3xl" /> */}
         </div>
 
         {/* Content */}
