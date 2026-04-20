@@ -5,25 +5,32 @@ import { ChevronDown, PhoneCall, FileCheck2, Wrench } from "lucide-react";
 const workSteps = [
   {
     id: 1,
-    title: "Consultation & Requirement Analysis",
+    title: "Understanding Your Needs",
     icon: PhoneCall,
     content:
-      "We begin by understanding your energy needs, site conditions, project goals, and budget expectations. This helps us recommend the most practical and efficient solution for your business or property.",
+      "We assess your energy requirements to comprehend your power consumption habits and provide an appropriate solar solution for maximum efficiency, cost savings, and long-term performance of your system.",
   },
   {
     id: 2,
-    title: "Planning, Design & Approval",
+    title: "Planning & Design",
     icon: FileCheck2,
     content:
-      "Our team prepares the complete project plan, technical design, and execution strategy. We focus on system performance, safety, compliance, and smooth coordination before moving into implementation.",
+      "We provide a customized solar solution for your energy requirements, space, and budget with efficient performance, long-term reliability, and maximum cost savings for your home or business.",
   },
   {
     id: 3,
-    title: "Execution, Delivery & Support",
+    title: "Installation & Setup",
     icon: Wrench,
     content:
-      "Once approved, we handle procurement, installation, testing, and final handover. Even after delivery, we continue to support you with maintenance guidance and reliable post-installation assistance.",
+      "Our team of experts will install your solar system with the utmost precision, ensuring that every part is properly installed and secured to maximize efficiency and performance.",
   },
+  {
+    id: 4,
+    title: "Support & Maintenance",
+    icon: FileCheck2,
+    content:
+      "We offer support to ensure the efficiency of your solar system in the long term, ensuring maximum performance and efficiency through our support and maintenance service.",
+  }
 ];
 
 function HowWeWorkForYou() {
