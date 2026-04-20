@@ -235,7 +235,6 @@ const serviceScopeData = {
     path: "/operation-maintenance",
   },
 
-  
   solarPlantCleaningRobots:{
     tag: "Innovative Solutions",
     title: "Intelligent Features for Reliable and Effective Solar Panel Cleaning",
@@ -352,9 +351,7 @@ const serviceScopeData = {
     ],
     path: "/solar-pump",
 
-  }       
-  
-
+  } ,
 };
 
 function Servicecards({ serviceKey }) {

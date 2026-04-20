@@ -22,7 +22,7 @@ const projects = [
     title: "Rooftop Solar Project – Textile Mill, Tirupur",
     subtitle: "Textile Manufacturing",
     description:
-      "Designed and executed a high-performance rooftop solar plant for an industrial facility, helping reduce grid dependency, improve energy efficiency, and achieve long-term cost savings.",
+      "Designed and executed a high-performance rooftop solar solution to reduce energy costs for continuous textile operations while ensuring long-term efficiency and reliability.",
     image: ground,
     icon: Sun,
     points: [
@@ -200,12 +200,11 @@ function FeaturedProjects() {
           </p>
 
           <h2 className="text-2xl font-bold leading-tight text-white sm:text-3xl lg:text-5xl">
-            Proven execution across industrial, commercial, and public sectors
+            Showcasing Our Excellence in Solar and Energy Solutions
           </h2>
 
           <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-300 sm:text-base sm:leading-7 lg:text-lg">
-            Explore selected projects through a clean interactive layout that
-            highlights execution quality, project impact, and sector expertise.
+            Explore some of our successfully executed projects that reflect our commitment to quality, performance, and innovation. From commercial and industrial installations to large-scale solar solutions, each project is delivered with precision, safety, and long-term efficiency in mind.
           </p>
         </div>
 

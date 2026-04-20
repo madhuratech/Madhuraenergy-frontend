@@ -90,11 +90,14 @@ const benefitsContent = {
   },
   thirdParty:{
     tag: "Benefits",
-    title: "Benefits of Third Party Power Purchase",
+    title: "Smart energy solution for cost saving and efficiency",
     benefits: [  
-      "Cost Savings: Businesses can often secure lower electricity rates by purchasing directly from power producers, leading to significant cost savings over time.",
-      "Energy Reliability: Third party power purchase agreements ensure a consistent and reliable power supply, reducing the risk of outages and disruptions to business operations.",
-      "Flexibility: This model allows businesses to choose their energy sources and contract terms, providing greater flexibility in managing energy needs.",               
+      "Reduces electricity costs by enabling businesses to purchase power directly from independent producers at competitive and flexible pricing.",
+      "Ensures uninterrupted power supply, helping industries maintain smooth operations without downtime or productivity loss due to power issues.",
+      "Provides flexibility in choosing power sources, allowing businesses to optimise energy usage based on their specific operational requirements.",
+      "Supports long-term savings through stable pricing agreements and reduced dependence on fluctuating utility electricity tariffs.",          
+      "Encourages use of renewable energy sources, helping businesses move towards sustainable and environmentally friendly power consumption practices.",
+      "Simplifies energy management with expert support in sourcing, compliance, and monitoring for efficient and hassle-free operations."     
     ],
     path:"/services/third-party-power-purchase"
   }

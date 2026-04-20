@@ -11,7 +11,7 @@ function WhoWeAre() {
             About Our Company
           </p>
           <h2 className="text-3xl font-bold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            Smart Solar & Energy Solutions That Deliver Real Results
+            Smart Energy Solutions Built for Performance and Long-Term Value
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
             Madhura Energy delivers end-to-end solar and energy management solutions designed to

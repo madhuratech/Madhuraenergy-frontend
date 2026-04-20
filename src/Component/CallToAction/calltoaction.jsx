@@ -2,6 +2,7 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { path } from "framer-motion/client";
+import ThirdParty from "../../Pages/ThirdParty";
 // import { path } from "framer-motion/client";
 
 const ctaData = {
@@ -15,7 +16,7 @@ const ctaData = {
     secondaryButtonLink: "#projects",
     path: "/services/solar-epc-solutions",
   },
-   solarPlant: {
+  solarPlant: {
     tag: "Take control of your solar plant management today",
     title:
       "Start taking control of your solar production today by maximizing your energy production through our advanced solar plants.",
@@ -34,7 +35,7 @@ const ctaData = {
     primaryButtonLink: "/contact/#ContactFormSection",
     secondaryButtonText: "Explore Service",
     secondaryButtonLink: "/services/battery-storage",
-    path:"/services/battery-storage",
+    path: "/services/battery-storage",
   },
 
   operationMaintenance: {
@@ -50,13 +51,30 @@ const ctaData = {
 
   solarPump: {
     tag: "Get in touch for smart solar solutions",
-    title:"Let’s connect and power your solar journey",
+    title: "Let’s connect and power your solar journey",
     primaryButtonText: "Get Free Consultation",
     primaryButtonLink: "/contact/#ContactFormSection",
     secondaryButtonText: "Learn More",
-    secondaryButtonLink: "/services/energy-consulting",
-    
+    secondaryButtonLink: "/services/solar-pump",
   },
+
+  solarCleaningRobot: {
+    tag: "Get in touch for smart solar solutions",
+    title: "Let’s connect and power your solar journey",
+    primaryButtonText: "Get Free Consultation",
+    primaryButtonLink: "/contact/#ContactFormSection",
+    secondaryButtonText: "Learn More",
+    secondaryButtonLink: "/services/solar-cleaning-robots",
+  },
+  
+  thirdParty: {
+    tag: "Take control of your energy today",
+    title: "Start saving power and enjoy uninterrupted electricity with our smart solutions.",
+    primaryButtonText: "Request Consultation",
+    primaryButtonLink: "/contact/#ContactFormSection",
+    secondaryButtonText: "Explore Service",
+    secondaryButtonLink: "/services/third-party-power-purchase",
+  }
 };
 
 function CTASection({ page }) {

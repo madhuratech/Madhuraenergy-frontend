@@ -23,7 +23,7 @@ function SolarPlantCleaningRobots() {
       <Benefits pageKey="solarPlantCleaningRobots" />
       <Summary />
       <FAQ page="solarPlantCleaningRobots" />
-      <CTASection page="solarPlantCleaningRobots" />
+      <CTASection page="solarCleaningRobot" />
     </div>
   )
 }
