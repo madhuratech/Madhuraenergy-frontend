@@ -9,7 +9,7 @@ const ctaData = {
   solarEpc: {
     tag: "Let’s Build Smarter Energy Systems",
     title:
-      "Ready to power your project with reliable solar, O&M, and energy storage solutions?",
+      "Start your journey with Madhura Energy today",
     primaryButtonText: "Get Free Consultation",
     primaryButtonLink: "/contact/#ContactFormSection",
     secondaryButtonText: "View Projects",
