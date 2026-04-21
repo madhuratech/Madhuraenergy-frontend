@@ -77,7 +77,7 @@ const benefitsContent = {
   },
   solarPump:{
     tag: "Benefits",
-    title: "Benefits of Solar Pumping Solutions",
+    title: "Power your water needs with solar efficiency",
     benefits: [
       "Reduces electricity costs with renewable solar energy powered pump systems",
       "Ensures continuous water supply even in remote locations without electricity",

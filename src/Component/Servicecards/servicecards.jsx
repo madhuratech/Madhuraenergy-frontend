@@ -302,7 +302,7 @@ const serviceScopeData = {
   },
    solarPump:{
     tag: "Innovative Solutions",
-    title: "Intelligent Features for Reliable and Effective Solar Panel Cleaning",
+    title: "We deliver reliable solar pumps for efficient water use everyday",
     items: [
       {
         title: "Reliable Water Supply",

@@ -213,7 +213,7 @@ const processSectionData = {
   solarPump: {
     badge: "Execution Process",
     title: "Efficient solar pump system converts sunlight into water power",
-    highlightedLine: "For Optimal Performance",
+    // highlightedLine: "For Optimal Performance",
     description:
       "Solar pump systems use sunlight to generate electricity, powering motors that draw water from sources like wells or tanks, ensuring a continuous, eco-friendly water supply without grid dependency.",
     backgroundImage:
@@ -262,7 +262,7 @@ const processSectionData = {
   thirdParty: {
     badge: "Execution Process",
     title: "Smart energy sourcing made simple with third party power purchase",
-    highlightedLine: "For Optimal Performance",
+    // highlightedLine: "For Optimal Performance",
     description:
       "Third party power purchase allows businesses to buy electricity directly from power producers, helping them get better pricing and greater flexibility. It also ensures an uninterrupted power supply for smooth operations. This model supports efficient energy management and contributes to long-term business growth.",
     backgroundImage:

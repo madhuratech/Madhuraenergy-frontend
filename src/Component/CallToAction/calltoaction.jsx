@@ -68,8 +68,8 @@ const ctaData = {
   },
   
   thirdParty: {
-    tag: "Take control of your energy today",
-    title: "Start saving power and enjoy uninterrupted electricity with our smart solutions.",
+    tag: "Connect With Our Energy Experts",
+    title: "Get in touch today for reliable and cost-effective power solutions",
     primaryButtonText: "Request Consultation",
     primaryButtonLink: "/contact/#ContactFormSection",
     secondaryButtonText: "Explore Service",
