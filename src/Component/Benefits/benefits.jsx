@@ -19,7 +19,7 @@ const benefitsContent = {
 
   solarplantmanagement: {
     tag: "Benefits",
-    title: "Why Businesses Choose Our Battery Storage Solutions",
+    title: "Why Businesses Choose Our Solar Plant Management Services",
     benefits: [
       "Increases energy production and overall performance of the system",
       "Lowers operation costs by improving efficiency in the management of the system",
@@ -37,12 +37,12 @@ const benefitsContent = {
     tag: "Benefits",
     title: "Benefits of Operations and Maintenance Services ",
     benefits: [
-      "Consistent and dependable solar energy performance is guaranteed by routine maintenance",
-      "Early problem identification lowers failure rates and maintains daily system functionality ",
-      "Inspections and cleaning contribute to energy loss reduction and efficiency maintenance. ",
-      "Well-maintained systems perform better and endure longer",
-      "Preventive care enhances overall operational management and reduces repair costs.",
-      "Transparent reporting provides information for more intelligent system design and decision-making"
+      "Consistent and dependable solar energy performance is guaranteed.",
+      "Early problem identification lowers failure rates and maintains.",
+      "Inspections and cleaning contribute to energy loss reduction.",
+      "Well-maintained systems perform better and endure longer.",
+      "Preventive care enhances overall operation and reduces repair costs.",
+      "Transparent reporting makes data more effective."
     ],
     path: "/services/operation-maintenance",
   },

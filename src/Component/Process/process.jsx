@@ -47,7 +47,7 @@ const processSectionData = {
 
   solarplant: {
     badge: "Our Process",
-    title: "Reliable Energy Storage Delivery",
+    title: "Comprehensive Solar Plant Management",
     highlightedLine: "From Planning To Commissioning",
     description:
       "We provide step-by-step support to our customers so they can experience the successful, long-term operation of a Solar Plant.",
@@ -90,7 +90,7 @@ const processSectionData = {
 
   operationsMaintenance: {
     badge: "Service Workflow",
-    title: "O&M Services for Solar Energy Systems Using a Clear and Systematic Approach to Solar System Management ",
+    title: "O&M Services for Systematic Approach to Solar System Management ",
     description:
       "To guarantee that your solar systems are monitored, maintained, and adjusted for dependable long-term performance, we employ a methodical and well defined procedure. ",
     backgroundImage:
@@ -113,7 +113,7 @@ const processSectionData = {
         number: "03",
         title: "Preventive Maintenance ",
         description:
-          "To reduce wear and avoid unforeseen breakdowns, schedule routine maintenance. Ensure improved long-term system health, consistent performance, and operational reliability. ",
+          "To reduce wear and avoid unforeseen breakdowns, and ensure improved long-term system health, consistent performance, and operational reliability. ",
       },
       {
         number: "04",

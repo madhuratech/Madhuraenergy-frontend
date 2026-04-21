@@ -198,7 +198,7 @@ const serviceScopeData = {
       {
         title: "Preventive Medical Care",
         description:
-          "With planned maintenance and regular inspections, problems can be avoided before they arise. Minimize system wear, prevent expensive malfunctions, and maintain the effectiveness. ",
+          "Planned maintenance and regular inspections, problems can be avoided before they arise. Minimize system wear, prevent expensive malfunctions, & maintain the effectiveness. ",
         icon: ShieldCheck,
         image: PreventiveMedicalCare,
       },

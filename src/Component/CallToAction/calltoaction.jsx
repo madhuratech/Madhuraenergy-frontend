@@ -41,7 +41,7 @@ const ctaData = {
   operationMaintenance: {
     tag: "Reliable Operations & Maintenance",
     title:
-      "Keep your solar assets running at peak performance with proactive monitoring, servicing, and technical support.",
+      "Keep your solar assets running at peak performance with our technical support.",
     primaryButtonText: "Get Started",
     primaryButtonLink: "/contact/#ContactFormSection",
     secondaryButtonText: "View Service",

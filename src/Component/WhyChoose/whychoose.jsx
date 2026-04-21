@@ -106,12 +106,12 @@ const whyChooseData = {
     heading: "Why Choose Our Team For Operation & Maintenance Services?",
     image: OM,
     description:
-      "Our operations and maintenance services are designed to maximize solar system performance, reduce unplanned failures, and increase asset longevity. With a proactive approach, real-time monitoring, and expert support, we ensure consistent energy output and long-term dependability. Our methodical procedures and data-driven choices maximize operational effectiveness while safeguarding your investment.",
+      "Our operations and maintenance services are designed to maximize solar system performance, reduce unplanned failures, and increase asset longevity. With a proactive approach, real-time monitoring, and expert support, we ensure consistent energy output and long-term dependability. ",
     points: [
       {
         title: "Dependable System Performance Assistance",
         description:
-          "We guarantee the effective operation of your solar systems through competent maintenance and ongoing monitoring. Our method guarantees long-term system stability while reducing downtime and maintaining energy output. ",
+          "We guarantee the effective operation of your solar systems through competent maintenance and ongoing monitoring. Our method guarantees long-term system stability ",
         icon: Wrench,
       },
       {
@@ -129,7 +129,7 @@ const whyChooseData = {
       {
         title: "System for Proactive Issue Detection",
         description:
-          "We use preventive measures and real-time monitoring to identify possible problems early. This strategy aids in preventing significant malfunctions, minimizing downtime, and preserving continuous solar system operations.",
+          "We use preventive measures and real-time monitoring to identify possible problems early. This strategy aids in preventing significant malfunctions, and preserving continuous solar system operations.",
         icon: LineChart,
       },
     ],

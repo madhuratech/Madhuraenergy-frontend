@@ -59,7 +59,7 @@ function Aboutservice() {
 
     "operation-maintenance": {
       tag: "About Our Solutions",
-      title: "Dependable Solar System Operations and Maintenance Services",
+      title: "Dependable Operations and Maintenance Services",
       description:
         "With proactive monitoring, preventative maintenance, and quick problem solving, our operations and maintenance services guarantee optimal solar performance, reducing downtime and optimizing long-term energy output.",
       points: [
