@@ -7,6 +7,16 @@ import {
   Settings,
   LineChart,
   Sun,
+  Bug,
+  Info,
+  Blinds,
+  Spotlight,
+  ChessQueen,
+  Coins,
+  HandFist,
+  Cable,
+  Ratio,
+  Toolbox,
 } from "lucide-react";
 
 import solarEPC from "../../assets/Choose/solarEPC.jpg"
@@ -23,7 +33,7 @@ const whyChooseData = {
     heading: "Why choose Madhura Energy for reliable and efficient Solar EPC Services solutions",
     image: solarEPC,
     description:
-      "At Madhura Energy, we believe in quality work and transparent communication. We provide our customers with the most efficient and cost-effective solar solutions with our expertise and make your solar experience smooth and hassle-free",
+      "At Madhura Energy, we provide our customers with the most efficient and cost-effective solar solutions with our expertise and make your solar experience smooth and hassle-free",
     points: [
       {
         title: "End-to-End Expertise",
@@ -41,26 +51,26 @@ const whyChooseData = {
         title: "High-Quality Components",
         description:
           "We use reliable and durable solar equipment to ensure long-term performance, safety, and minimal maintenance.",
-        icon: Settings,
+        icon: BatteryCharging,
       },
        {
         title: "Experienced Technical Team",
         description:
           "Our skilled engineers and technicians bring industry expertise to deliver precise and efficient project execution.",
-        icon: Settings,
+        icon: Wrench,
       },
        {
         title: "Cost-Effective & Transparent Pricing",
         description:
           "We provide competitive pricing with complete transparency, helping you achieve the best return on your investment.",
-        icon: Settings,
+        icon: LineChart,
       },
-       {
-        title: " Reliable Support & Maintenance",
-        description:
-          "From installation to after-sales service, we offer continuous support to ensure your solar system performs at its best.",
-        icon: Settings,
-      },
+      //  {
+      //   title: " Reliable Support & Maintenance",
+      //   description:
+      //     "From installation to after-sales service, we offer continuous support to ensure your solar system performs at its best.",
+      //   icon: Settings,
+      // },
     ],
     path:"/solar-epc-solutions",
   },
@@ -94,7 +104,7 @@ const whyChooseData = {
         title: "Total Support",
         description:
           "We provide complete support from the time we monitor and maintain your solar facility to assure optimal performance and ease of operation (performance optimization) in your solar facility.",
-        icon: LineChart,
+        icon: Settings,
       },
   
     ],
@@ -130,7 +140,7 @@ const whyChooseData = {
         title: "System for Proactive Issue Detection",
         description:
           "We use preventive measures and real-time monitoring to identify possible problems early. This strategy aids in preventing significant malfunctions, and preserving continuous solar system operations.",
-        icon: LineChart,
+        icon:Bug
       },
     ],
     path:"/operation-maintenance",
@@ -165,7 +175,7 @@ const whyChooseData = {
         title: "Full Support",
         description:
           "We give you complete end-to-end support to ensure your system functions smoothly at all times.",
-        icon: LineChart,
+        icon: Info,
       },
     ],
     path:"/battery-storage"
@@ -187,13 +197,13 @@ const whyChooseData = {
         title: "Methodical Approach to Execution",
         description:
           "we adhere to a strict and methodical procedure that guarantees the cleaning system operates efficiently across a variety of solar projects",
-        icon: Settings,
+        icon: Blinds,
       },
       {
         title: "Reliable System Performance",
         description:
           "Our solutions provide reliable cleaning results with little disruptions or problems because they are made to run continuously throughout time.",
-        icon: Settings,
+        icon: Spotlight,
       },
       {
         title: "Reduced Operational Effort",
@@ -216,25 +226,25 @@ const whyChooseData = {
         title: "Expert Solutions",
         description:
           "We provide customized solar pump systems based on your specific water requirements, ensuring optimal performance and efficiency.",
-        icon: Settings,
+        icon: Ratio,
       },
       {
         title: "Quality Assurance",
         description:
           "Our products are built with high-quality materials to ensure durability, long life, and reliable operation in all conditions.",
-        icon: Settings,
+        icon: Toolbox,
       },
       {
         title: "End-to-End Service",
         description:
           "From consultation to installation and support, we handle every step of your solar pump project seamlessly.",
-        icon: Settings,
+        icon: HandFist,
       },
       {
         title: "Cost-Effective Systems",
         description:
           "Our solutions help you save on electricity and maintenance costs while delivering excellent long-term value. ",
-        icon: Settings,
+        icon: Cable,
       },
       
     ],
@@ -251,25 +261,25 @@ const whyChooseData = {
         title: "Expert Guidance",
         description:
           "Our experienced team ensures smooth execution from planning to implementation.",
-        icon: Settings,
+        icon: ChessQueen,
       },
       {
         title: "Cost Efficiency",
         description:
           "We help you reduce electricity expenses with optimised power sourcing strategies.",
-        icon: Settings,
+        icon: Coins,
       },
       {
         title: "End-to-End Support",
         description:
           "Complete assistance from supplier selection to regulatory compliance.",
-        icon: Settings,
+        icon: HandFist,
       },
       {
         title: "Reliable Supply",
         description:
           "We ensure uninterrupted and stable power for your operations.",
-        icon: Settings,
+        icon: Cable,
       },
       
     ],

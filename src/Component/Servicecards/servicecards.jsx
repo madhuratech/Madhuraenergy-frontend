@@ -10,6 +10,29 @@ import {
   Settings,
   Factory,
   Building2,
+  Omega,
+  Speech,
+  Info,
+  ShieldMinus,
+  Gpu,
+  Construction,
+  ShieldEllipsis,
+  TabletSmartphone,
+  Shield,
+  ShieldCheckIcon,
+  Settings2,
+  AlignVerticalJustifyCenter,
+  WashingMachine,
+  Metronome,
+  LayoutDashboard,
+  Ticket,
+  ShieldAlert,
+  Scroll,
+  TvMinimal,
+  FactoryIcon,
+  Save,
+  Inspect,
+  AppWindow,
 } from "lucide-react";
 // SolarEPC
 import ProjectPlanning from "../../assets/services/Service- solarEPC/ProjectPlanning.jpg"
@@ -57,10 +80,6 @@ import SuitableApplication from "../../assets/services/Service-solarpump/Suitabl
 
 
 
-
-
-
-
 const serviceScopeData = {
   "solar-epc-solutions": {
     tag: "What We Deliver",
@@ -99,35 +118,35 @@ const serviceScopeData = {
         title: "Efficient Engineering",
         description:
           "Our engineering process is designed in such a way that it ensures safety, efficiency, and maximum energy production. We follow tried and tested standards and smart planning to deliver efficient solar solutions that are reliable and consistent in nature.",
-        icon: LineChart,
+        icon: Omega,
         image: EfficientEngineering,
       },
       {
         title: "Expert Installation",
         description:
           "Your solar system is installed with precision and accuracy by our experts to ensure maximum efficiency and durability in the long run. We also ensure that your solar system is installed safely and according to the best practices in the industry.",
-        icon: LineChart,
+        icon: Speech,
         image: ExpertInstallation,
       },
       {
         title: "Compliance Support",
         description:
           "We take utmost care in ensuring that all the approvals, documentation, and regulations are taken care of. Our team ensures that all the processes are in accordance with the guidelines, saving your precious time and effort by making the process smooth, simple, and hassle-free.",
-        icon: LineChart,
+        icon: Info,
         image: ComplianceSupport,
       },
       {
         title: "Concept to Commissioning",
         description:
           "We ensure that your solar experience is taken care of the   precision, right from the concept to the commissioning of the project. Our team of experts will be able to provide you with the most efficient, reliable, and high-performance solar solution with ease and no hassle at all.",
-        icon: LineChart,
+        icon: ShieldMinus,
         image: ConcepttoCommissioning,
       },
       {
         title: "Trusted Technical Support",
         description:
           "We are here to provide the best and most reliable support to your solar system. Our team is at your service and is willing to assist you in the maintenance and proper functioning of your solar system with the utmost efficiency and no interruptions.",
-        icon: LineChart,
+        icon: Gpu,
         image: TrustedTechnicalSupport,
       },
     ],
@@ -156,28 +175,28 @@ const serviceScopeData = {
         title: "Breaker Maintenance",
         description:
           "Our breaker maintenance solutions ensure that the operation of circuit breakers is safe and compliant with applicable standards so they do not fail and place electrical equipment at risk of damage due to overloads or short circuits and unexpected faults",
-        icon: LineChart,
+        icon: Construction,
         image: BreakerMaintenance,
       },
       {
         title: "Power Transformers Testing",
         description:
           "Transformer testing is used to examine many aspects of a transformer's performance. Our transformer testing services help to detect issues through the assessment of performance and safety. We also help ensure reliable and uninterrupted power delivery to your facility.",
-        icon: LineChart,
+        icon: ShieldEllipsis,
         image: PowerTransformersTesting,
       },
       {
         title: "Insulating Testing ",
         description:
           "Our Insulating material testing services are used to test the insulation materials of your transformers. By testing the strength and quality of your insulating materials, you can prevent unintentional electrical leakage, unsafe faults, and electrical Hazards.",
-        icon: LineChart,
+        icon: TabletSmartphone,
         image: InsulatingTesting,
       },
       {
         title: "Insulating Resistance Testing",
         description:
           "Our Insulation Resistance Testing Services will check the insulating resistance of your electrical system, which allows for a safe, long-lasting and code compliant system, ensuring optimal performance and preventing potential electrical failures.",
-        icon: LineChart,
+        icon: ShieldCheckIcon,
         image: InsulatingResistanceTesting,
       },
     ],
@@ -206,28 +225,28 @@ const serviceScopeData = {
         title: "Assistance with Repairs",
         description:
           "For any system issues, get prompt and dependable repair assistance. To keep energy flowing, our staff promptly finds problems, fixes them, and reduces downtime with efficient solutions and expert technical support services available.",
-        icon: LineChart,
+        icon: Settings2,
         image: AssistancewithRepairs,
       },
       {
         title: "Analyzing the System ",
         description:
           "Extensive system checks assist identify hidden issues and ensure peak performance. Frequent evaluations can improve performance, safety, and long-term dependability while reducing risks and enhancing their overall system efficiency.",
-        icon: LineChart,
+        icon: AlignVerticalJustifyCenter,
         image: AnalyzingtheSystem,
       },
       {
         title: "Washing Panels",
         description:
           "Keep your solar panels clear of dust and debris to maintain their optimal performance. Regular cleaning improves energy absorption and stops performance declines over time, ensuring consistent output and maximizing long-term efficiency.",
-        icon: LineChart,
+        icon: WashingMachine,
         image: WashingPanels,
       },
       {
         title: "Observing from a distance ",
         description:
           "Utilize advanced diagnostics to keep an eye on your solar system from a distance. Get the alerts in real time, make decisions faster, and monitor performance all the time with enhanced accuracy and improved operational efficiency.",
-        icon: LineChart,
+        icon: Metronome,
         image: Observingfromadistance,
       },
 
@@ -265,35 +284,35 @@ const serviceScopeData = {
         title: "Reduces Manual Labor ",
         description:
           "By removing regular physical engagement, automating the cleaning process lowers dependency on labor. Time is saved, operational effectiveness is raised, and overall maintenance management is made simpler with improved efficiency & reduced operational costs.",
-        icon: Settings,
+        icon: LayoutDashboard,
         image: ReducesManualLabor,
       },
       {
         title: "Performance Reliability",
         description:
           "The system's scheduled and reliable cleaning cycles promote stable solar performance. It guarantees that panels function at predicted levels throughout time and helps prevent efficiency discrepancies brought on by dust collection.",
-        icon: Settings,
+        icon: Ticket,
         image: PerformanceReliability,
       },
       {
         title: "No Damage to the Panels",
         description:
           "The cleaning mechanism is made to function safely without damaging the surface or structure of the panel. While producing efficient outcomes, controlled movement and gentle procedures safeguard system components and ensure long-term operational reliability.",
-        icon: Settings,
+        icon: ShieldAlert,
         image: NoDamage,
       },
        {
         title: "Long-Term Reliability",
         description:
           "Constructed from robust materials, the system is designed to function continuously in a variety of settings. For many years, it provides dependable cleaning results with little interruption, ensuring durability and consistent long-term performance.",
-        icon: Settings,
+        icon: Scroll,
         image: LongTermReliability,
       },
        {
         title: "Minimal Maintenance",
         description:
           "System Long-term smooth and reliable operation of the system is made possible by minimum maintenance requirements. By doing this, operating effort is decreased and maximum efficiency may be maintained without regular maintenance",
-        icon: Settings,
+        icon: TvMinimal ,
         image: MinimalMaintenance,
       },
     ],
@@ -322,7 +341,7 @@ const serviceScopeData = {
         title: "Effective for Industrial Use",
         description:
           "Our solar pump systems are engineered to support industrial operations with high efficiency. They handle large-scale water requirements, making them ideal for factories, farms, and commercial setups with reliable performance and durability.",
-        icon: Settings,
+        icon: FactoryIcon,
         image: EffectiveforIndustrial,
       },
   
@@ -330,20 +349,20 @@ const serviceScopeData = {
         title: "Energy Saving Operations",
         description:
           "Save on electricity bills with our solar pump solutions that utilize free solar energy. These systems minimize operational costs while maintaining excellent performance throughout the year with long-term reliability and efficiency.",
-        icon: Settings,
+        icon: Save,
         image: EnergySavingOperation,
       },
       {
         title: "Installation & Support",
         description:"We provide complete installation & after-sales support for solar pump systems. Our team ensures smooth setup and quick assistance whenever required with dedicated service and prompt technical support, ensuring customer satisfaction and long-term system reliability.",
-        icon: Settings,
+        icon: Inspect,
         image: InstallationSupport,
       },
       {
         title: "Suitable for Every Application",
         description:
           "From agriculture to residential and industrial needs, our solar pump systems are adaptable. They are designed to meet various water requirements efficiently across different environments with advanced technology and optimized performance solutions.",
-        icon: Settings,
+        icon: AppWindow,
         image: SuitableApplication,
       },
       

@@ -15,31 +15,31 @@ const processSectionData = {
         number: "01",
         title: "Site Analysis & Requirement Study",
         description:
-          "We analyse energy, location, roof, and sunlight for optimal solutions.",
+          "We analyse energy consumption patterns, location conditions, roof structure, and sunlight exposure to design the most efficient solar solution.",
       },
       {
         number: "02",
         title: "System Design & Planning",
         description:
-          "A customized solar system is designed for maximum efficiency.",
+          "A customized solar system is designed for maximum efficiency, tailored to meet specific energy requirements and site conditions.",
       },
       {
         number: "03",
         title: "Procurement of Materials",
         description:
-          "We procure quality solar materials for durability, safety, reliability.",
+          "We procure high-quality solar materials to ensure durability, safety, and long-term reliability across all installations.",
       },
       {
         number: "04",
-        title: "Installation & Execution",
+        title: "Installation and Execution",
         description:
-          "The solar system is installed by professionals to ensure maximum efficiency.",
+          "The solar system is installed by professionals to ensure maximum efficiency and optimal performance from day one.",
       },
       {
         number: "05",
         title: "Testing, Commissioning & Support",
         description:
-          "The solar system is tested, commissioned, and supported for maximum performance",
+          "The solar system is thoroughly tested, carefully commissioned, and continuously supported to ensure maximum performance at all times.",
       },
     ],
     path: "/solar-epc-solutions",

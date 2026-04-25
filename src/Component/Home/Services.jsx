@@ -4,8 +4,12 @@ import {
   Sun,
   BatteryCharging,
   Wrench,
-  Settings,
   ArrowUpRight,
+  Eclipse,
+  Syringe,
+  Bot,
+  Barcode,
+
 } from "lucide-react";
 // import AnimatedEnergyBackground from "./Flowanimate";
 
@@ -16,7 +20,7 @@ const services = [
     path: "/services/solar-epc-solutions",
     description:
       "End-to-end engineering, procurement, and construction services for commercial, industrial, and utility-scale solar projects with a focus on quality, safety, and performance.",
-    icon: Sun,
+    icon: Eclipse,
   },
   {
     id: "02",
@@ -24,7 +28,7 @@ const services = [
     path: "/services/solar-plant-management",
     description:
       "Advanced monitoring, performance optimization, and management services to ensure maximum energy generation and long-term system efficiency.",
-    icon: BatteryCharging,
+    icon: Sun,
   },
   {
     id: "03",
@@ -40,7 +44,7 @@ const services = [
     path: "/services/battery-storage",
     description:
       "Smart energy storage solutions that help manage peak demand, store excess power, and ensure uninterrupted energy supply.",
-    icon: Settings,
+    icon: BatteryCharging,
   },
   {
     id: "05",
@@ -48,7 +52,7 @@ const services = [
     path: "/services/solar-pump",
     description:
       "Efficient solar-powered pumping systems designed for agriculture and industrial applications, ensuring reliable and cost-effective water management.",
-    icon: Settings,
+    icon: Syringe,
   },
   {
     id: "06",
@@ -56,7 +60,7 @@ const services = [
     path: "/services/solar-plant-cleaning-robots",
     description:
       "Automated cleaning solutions that improve panel efficiency, reduce manual effort, and maintain optimal energy generation.",
-    icon: Settings,
+   icon: Bot,
   },
   {
     id: "07",
@@ -64,7 +68,7 @@ const services = [
     path: "/services/third-party-power-purchase",
     description:
       "Flexible power purchase solutions that allow businesses to use solar energy without upfront investment, reducing energy costs and risks.",
-    icon: Settings,
+    icon: Barcode,
   },
 ];
 
