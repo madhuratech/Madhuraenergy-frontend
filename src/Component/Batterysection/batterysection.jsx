@@ -20,11 +20,11 @@ function BatterySection() {
           </div>
 
           <h2 className="mt-6 text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl">
-            Battery Energy Storage Systems
+             Solar Battery Storage Services in India
           </h2>
 
           <p className="mt-6 text-base leading-8 text-slate-300 sm:text-lg">
-            Battery energy storage helps to store more electricity, which can be used later as required. It helps to support homes and businesses by offering a power backup during a power cut and reducing the waste of energy. Madhura Energy offers simple and efficient battery energy storage solutions to reduce the overall cost of electricity for all users by ensuring a smooth flow of power.
+            Solar battery storage services in India helps to store more electricity, which can be used later as required. It helps to support homes and businesses by offering a power backup during a power cut and reducing the waste of energy. Madhura Energy offers simple and efficient battery energy storage solutions to reduce the overall cost of electricity for all users by ensuring a smooth flow of power.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">

@@ -10,12 +10,18 @@ import FAQ from "../Component/Questions/questions";
 import IndustriesSection from "../Component/Industry/industries";
 import Summary from "../Component/summary/summary";
 import CTASection from "../Component/CallToAction/calltoaction";
+import SEO from "../Component/SEO/seo";
 
 
 
 function SolarPlantManagement() {
   return (
     <div className="bg-slate-950 text-white">
+      <SEO
+      title="Solar Plant Management in India | Madhura Energy Smart Monitoring"
+      description="Madhura Energy provides advanced solar plant management in India, ensuring real-time monitoring, optimized performance, and maximum energy output for your solar assets."
+      keywords="Solar Plant Management"
+      />
 
       <Banner />
       <Aboutservice />

@@ -18,7 +18,7 @@ const faqPagesData = {
     },
     faqData: [
       {
-        question: "What are Solar EPC Services?",
+        question: "What are Solar EPC Services in India?",
         answer:
           "They include engineering, procurement, and construction services required to design, source, build, and complete efficient solar energy systems for various applications.",
       },
@@ -55,9 +55,9 @@ const faqPagesData = {
       title: "Frequently Asked",
       highlight: "Questions",
       description:
-        "Get answers to common questions about our solar plant management services, monitoring capabilities, maintenance support, and performance optimization.",
+        "Get answers to common questions about our solar plant management in India, monitoring capabilities, maintenance support, and performance optimization.",
       contactTag: "Need more help?",
-      contactTitle: "Let’s discuss your solar plant management needs.",
+      contactTitle: "Let’s discuss your solar plant management in India needs.",
       contactDescription:
         "Our experts can help you with monitoring, maintenance, performance optimization, and long-term reliability for your commercial or industrial solar plant.",
       buttonText: "Contact Us",
@@ -103,7 +103,7 @@ const faqPagesData = {
       title: "Operations &",
       highlight: "Maintenance",
       description:
-        "Discover comprehensive information about our operations and maintenance services, which include performance optimization, preventative care, and monitoring. ",
+        "Discover comprehensive information about our solar operations and maintenance services, which include performance optimization, preventative care, and monitoring. ",
       contactTag: "Need more help?",
       contactTitle: "Require More Assistance",
       contactDescription:
@@ -113,7 +113,7 @@ const faqPagesData = {
     },
     faqData: [
       {
-        question: ". Do you offer more assistance when required? ",
+        question: "Do you offer more assistance when required? ",
         answer:
           "In order to guarantee continued system performance, we do provide continuing assistance, which includes monitoring, maintenance, and prompt issue resolution.",
       },
@@ -198,10 +198,10 @@ const faqPagesData = {
   solarPlantCleaningRobots: {
     sectionData: {
       badge: "FAQs",
-      title: "Solar Plant Cleaning Robots",
+      title: "Solar Panel Cleaning Robots",
       highlight: "Questions",
       description:
-        "Discover the answers to commonly asked concerns concerning our solar cleaning robot solutions, such as operation, maintenance requirements, and system compatibility.",
+        "Discover the answers to commonly asked concerns concerning our solar panel cleaning robot solutions, such as operation, maintenance requirements, and system compatibility.",
       contactTag: "Do You require more assistance?",
       contactTitle: "Let’s plan your energy strategy.",
       contactDescription:
@@ -294,7 +294,7 @@ const faqPagesData = {
       title: "Third Party Power Purchase",
       highlight: "Questions",
       description:
-        "Get answers to common questions about our third party power purchase solutions, including cost savings, reliability, and contract flexibility.",
+        "Get answers to common questions about our third party solar power purchase in India, including cost savings, reliability, and contract flexibility.",
       contactTag: "Need more help?",
       contactTitle: "Let’s discuss your power procurement needs.",    
       contactDescription:
@@ -303,7 +303,7 @@ const faqPagesData = {
     },
     faqData: [
       {
-        question: "What is third-party power purchase?",
+        question: "What is third party solar power purchase?",
         answer:
           "It is a method where businesses buy electricity directly from independent power producers instead of relying on traditional electricity providers."
       },

@@ -17,7 +17,7 @@ function Aboutservice() {
   const serviceContent = {
     "solar-epc-solutions": {
       tag: "About Our Solutions",
-      title: "Efficient and Reliable Solar EPC Services for smarter, and sustainable energy",
+      title: "Efficient and Reliable Solar EPC Services in India for smarter, and sustainable energy",
       description:
         "At our company, we provide complete solar EPC services, making your energy journey easier with efficient, reliable, and cost-effective services for both residential and commercial needs.",
       points: [
@@ -37,7 +37,7 @@ function Aboutservice() {
 
     "solar-plant-management": {
       tag: "About Our Solutions",
-      title: "Smart Solar Plant Management for a Sustainable Future",
+      title: "Smart Solar Plant Management in India for a Sustainable Future",
       description:
         "At Madhura Energy, we offer companies various intelligent, sophisticated solar energy management solutions to enable businesses to achieve optimal performance, increased output and long-term reliability of their solar plants through intelligent monitoring and management.",
       points: [
@@ -59,9 +59,9 @@ function Aboutservice() {
 
     "operation-maintenance": {
       tag: "About Our Solutions",
-      title: "Dependable Operations and Maintenance Services",
+      title: "Dependable Solar Operation and Maintenance Services",
       description:
-        "With proactive monitoring, preventative maintenance, and quick problem solving, our operations and maintenance services guarantee optimal solar performance, reducing downtime and optimizing long-term energy output.",
+        "With proactive monitoring, preventative maintenance, and quick problem solving, our solar operation and maintenance services in India guarantee optimal solar performance, reducing downtime and optimizing long-term energy output.",
       points: [
         "Regular monitoring and maintenance ",
         "System control for better performance ",
@@ -99,9 +99,9 @@ function Aboutservice() {
 
    "solar-pump": {
       tag: "About Our Solutions",
-      title: "Smart solar pump solutions for efficient water management",     
+      title: "Smart solar pump services for efficient water management",     
       description:
-        "Our solar pump solutions are designed to deliver consistent water supply using renewable energy. We help reduce electricity costs while ensuring high performance. Perfect for agriculture, residential, and industrial water needs",
+        "Our solar pump services in India are designed to deliver consistent water supply using renewable energy. We help reduce electricity costs while ensuring high performance. Perfect for agriculture, residential, and industrial water needs",
       points: [
         "Reliable equipment that is sustainable",
         "Runs efficiently even in low light conditions",
@@ -119,7 +119,7 @@ function Aboutservice() {
 
     "solar-plant-cleaning-robots": {
       tag: "About Our Solutions",
-      title: "Solar Cleaning Robots Designed to Preserve Solar Panel Performance",
+      title: "Solar Panel Cleaning Robots in India Designed to Preserve Solar Panel Performance",
       description:
         "Dust accumulation on solar panels is eliminated by automatic cleaning machines that don't need human help. Regular cleaning can help you maintain system efficiency, minimize performance loss, and encourage dependable energy generation. The efficiency of solar panels can be progressively diminished by prolonged exposure to dust, dirt, and environmental accumulation. Manual cleaning is frequently intensive, unreliable, and time-consuming. By completely automating the cleaning process, solar cleaning robots provide a methodical and dependable solution.",
       points: [
@@ -139,7 +139,7 @@ function Aboutservice() {
 
       "third-party-power-purchase": { 
       tag: "About Our Solutions",
-      title: "We provide end-to-end third party power purchase solutions tailored for your business needs",
+      title: "We provide end-to-end third party solar power purchase in India tailored for your business needs",
       description:
         "Our team handles power sourcing, agreements, and compliance smoothly, making the entire process hassle-free for your business. We ensure a cost-effective and uninterrupted power supply to support your daily operations without any disruption. With our service, you can also move towards smarter and greener energy usage, helping your business become more efficient and environmentally responsible.",
       points: [

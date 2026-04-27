@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const processSectionData = {
   solarEpc: {
     badge: "How It Works",
-    title: "Simple and Efficient Solar EPC Services from Start to Finish",
+    title: "Simple and Efficient Solar EPC Services in India from Start to Finish",
     // highlightedLine: "To Work On Your Solar Project",
     description:
       "At solar EPC solutions, our focus is to provide quality, maintain transparency, and ensure that high performance standards are met in all projects that we handle.",
@@ -47,7 +47,7 @@ const processSectionData = {
 
   solarplant: {
     badge: "Our Process",
-    title: "Comprehensive Solar Plant Management",
+    title: "Comprehensive Solar Plant Management in India",
     highlightedLine: "From Planning To Commissioning",
     description:
       "We provide step-by-step support to our customers so they can experience the successful, long-term operation of a Solar Plant.",
@@ -175,7 +175,7 @@ const processSectionData = {
   },
   solarPlantCleaningRobots: {
     badge: "Execution Process",
-    title: "Our Approach to Automated Solar Cleaning Robots",
+    title: "Our Approach to Automated Solar Panel Cleaning Robots in India",
     highlightedLine: "For Optimal Performance",
     description:
       "Our methodical and transparent approach guarantees that your solar panels are cleaned on a regular basis, preserving efficiency and reducing manual effort.",
@@ -212,7 +212,7 @@ const processSectionData = {
   },
   solarPump: {
     badge: "Execution Process",
-    title: "Efficient solar pump system converts sunlight into water power",
+    title: "Efficient solar pump services in India converts sunlight into water power",
     // highlightedLine: "For Optimal Performance",
     description:
       "Solar pump systems use sunlight to generate electricity, powering motors that draw water from sources like wells or tanks, ensuring a continuous, eco-friendly water supply without grid dependency.",

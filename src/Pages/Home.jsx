@@ -1,4 +1,6 @@
 import React from 'react'
+import SEO from '../Component/SEO/seo'
+
 
 // Import your sections
 import Herosection from '../Component/Home/Herosection'
@@ -12,9 +14,15 @@ import WhyChooseUs from '../Component/Home/WhyUs'
 import FAQSection from '../Component/Home/FAQ'
 import CallToActionCard from '../Component/Home/CallTo'
 
+
 const Home = () => {
   return (
     <div>
+      <SEO
+      title= "Trusted Solar Plant Installation & Maintenance Services in India | Madhura Energy"
+      description="Madhura Energy provides advanced solar plant installation & maintenance services in India,
+      ensuring cost savings, clean energy, and customized solar solutions for every need."
+      />
       <Herosection />
       <AboutUs />
       <Services />
@@ -25,7 +33,6 @@ const Home = () => {
       <CallToActionCard/>
       <BlogSection/>
       <FAQSection/>
-
     </div>
   )
 }

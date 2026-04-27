@@ -20,11 +20,11 @@ function PartySection() {
           </div>
 
           <h2 className="mt-6 text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl">
-            Third Party Power Purchase
+            Third Party Solar Power Purchase in India
           </h2>
 
           <p className="mt-6 text-base leading-8 text-slate-300 sm:text-lg">
-            Third party power purchase is a reliable solution for businesses looking to reduce electricity costs and improve efficiency. Through this model, companies can directly procure power from independent producers instead of relying only on traditional utility providers. This approach ensures competitive pricing, stable supply, and better control over energy usage. It is highly beneficial for industries aiming for long-term savings and sustainable power solutions.
+            Third party solar power purchase in India is a reliable solution for businesses looking to reduce electricity costs and improve efficiency. Through this model, companies can directly procure power from independent producers instead of relying only on traditional utility providers. This approach ensures competitive pricing, stable supply, and better control over energy usage. It is highly beneficial for industries aiming for long-term savings and sustainable power solutions.
 
           </p>
 

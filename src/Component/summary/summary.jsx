@@ -30,14 +30,14 @@ const serviceContent = {
 
   "operation-maintenance": {
     tag: "About the Service",
-    title: "Operation and Maintenance Services for Solar Systems",
+    title: "Solar Operation and Maintenance Services in India for Solar Systems",
     description:
-      "Your solar systems will operate at peak efficiency and dependability thanks to our operations and maintenance services. To identify problems early and prevent unplanned breakdowns, we offer preventative maintenance, routine inspections, and continuous monitoring. To reduce downtime and safeguard your investment, our methodical approach includes real-time performance tracking, prompt servicing, and quick problem solving. We increase system longevity and energy output by maintaining every part, from panels to inverters. You may make better decisions and achieve long-term operational success by having clear visibility into system health, maintenance activities, and performance trends through transparent reporting and data-driven insights.",
+      "Your solar systems will operate at peak efficiency and dependability thanks to our solar operation and maintenance services. To identify problems early and prevent unplanned breakdowns, we offer preventative maintenance, routine inspections, and continuous monitoring. To reduce downtime and safeguard your investment, our methodical approach includes real-time performance tracking, prompt servicing, and quick problem solving. We increase system longevity and energy output by maintaining every part, from panels to inverters. You may make better decisions and achieve long-term operational success by having clear visibility into system health, maintenance activities, and performance trends through transparent reporting and data-driven insights.",
     path: "/operation-maintenance",
   },
   "solar-plant-cleaning-robots": {
     tag: "About the Service",
-    title: "Automated Solar Panel Cleaning Solutions",
+    title: "Automated Solar Panel Cleaning Robots Solutions",
     description:
       "Continuous exposure to dust, grime, and environmental buildup can progressively lower solar panel's overall energy output and efficiency. This accumulation could result in poor performance and increased maintenance requirements if it is not cleaned on a regular basis. This problem is solved by solar cleaning robots, which offer a dependable, automated solution that preserves panel efficiency without the need for human interaction.These systems guarantee that panels are cleaned effectively and reliably under a variety of circumstances by adhering to predetermined cycles. They remove dust and grime effectively, promoting stable energy output and reducing efficiency fluctuations. The automated approach also makes maintenance more predictable and organized by minimizing the need for manual labor.",
     path: "/solar-plant-cleaning-robots",
@@ -53,7 +53,7 @@ const serviceContent = {
     tag: "About the Service",
     title: "Efficient and cost-saving power procurement solution",
     description:
-      "Third party power purchase is an advanced energy solution designed for businesses seeking cost savings and reliability. By purchasing electricity directly from independent power producers, companies can reduce dependence on traditional electricity boards and gain better control over energy expenses. Our service ensures a smooth process, starting from understanding your requirements to final execution and ongoing support. We handle supplier identification, agreement drafting, compliance, and power transmission coordination. This solution is ideal for industries aiming to improve efficiency and adopt sustainable practices. With our expertise, businesses can enjoy uninterrupted power supply, predictable costs, and long-term financial benefits. We focus on delivering customised solutions that match your operational needs while ensuring compliance with all regulatory norms.",
+      "Third party solar power purchase in India is an advanced energy solution designed for businesses seeking cost savings and reliability. By purchasing electricity directly from independent power producers, companies can reduce dependence on traditional electricity boards and gain better control over energy expenses. Our service ensures a smooth process, starting from understanding your requirements to final execution and ongoing support. We handle supplier identification, agreement drafting, compliance, and power transmission coordination. This solution is ideal for industries aiming to improve efficiency and adopt sustainable practices. With our expertise, businesses can enjoy uninterrupted power supply, predictable costs, and long-term financial benefits. We focus on delivering customised solutions that match your operational needs while ensuring compliance with all regulatory norms.",
     path: "/third-party-power-purchase"
   }
 

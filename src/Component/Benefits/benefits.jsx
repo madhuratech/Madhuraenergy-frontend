@@ -19,7 +19,7 @@ const benefitsContent = {
 
   solarplantmanagement: {
     tag: "Benefits",
-    title: "Why Businesses Choose Our Solar Plant Management Services",
+    title: "Why Businesses Choose Our Solar Plant Management in India",
     benefits: [
       "Increases energy production and overall performance of the system",
       "Lowers operation costs by improving efficiency in the management of the system",
@@ -35,7 +35,7 @@ const benefitsContent = {
 
   operationMaintenance: {
     tag: "Benefits",
-    title: "Benefits of Operations and Maintenance Services ",
+    title: "Benefits of solar Operation and Maintenance Services in India",
     benefits: [
       "Consistent and dependable solar energy performance is guaranteed.",
       "Early problem identification lowers failure rates and maintains.",

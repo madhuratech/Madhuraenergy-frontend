@@ -47,9 +47,9 @@ function Banner() {
 
     "operation-maintenance": {
       tag: "Service Details",
-      title: "Operations and Maintenance Services",
+      title: "Solar Operation and Maintenance Services",
       description:
-        "Utilize professional operations and maintenance services to optimize solar performance. Through proactive monitoring, prompt service, and data driven optimization, we guarantee system efficiency, minimize downtime, and prolong asset life.",
+        "Utilize professional solar operation and maintenance services in India to optimize solar performance. Through proactive monitoring, prompt service, and data driven optimization, we guarantee system efficiency, minimize downtime, and prolong asset life.",
       video: OM,
       primaryButtonText: "Get Consultation",
       primaryButtonLink: "#contact",
@@ -60,7 +60,7 @@ function Banner() {
 
     "battery-storage": {
       tag: "Service Details",
-      title: "Battery Energy Storage Systems",
+      title: "Solar Battery Storage Services",
       description:
         "Store energy smarter, cut costs more efficiently, and stay powered anytime with our advanced and dependable energy solutions that are thoughtfully crafted to deliver on the escalating and evolving needs of contemporary power requirements.",
       video: batteryStorage,
@@ -73,7 +73,7 @@ function Banner() {
 
     "solar-pump": {
       tag: "Service Details",
-      title: "Solar Pump",
+      title: "Solar Pump Services",
       description: "Our solar-powered pumping solutions allow us to give you access to clean water supplies powered by renewable energy sources. This service will not only reduce your power expenses but also guarantee efficient performance of your system.",
       video: solarPump,
       primaryButtonText: "Get Consultation",
@@ -98,8 +98,7 @@ function Banner() {
 
     "third-party-power-purchase": {
       tag: "Service Details",
-      title: "Third Party Power Purchase",
-      highlight: "Services",
+      title: "Third Party Solar Power Purchase",
       description:
       "We help your business get affordable electricity through third party power purchase solutions. Our team takes care of sourcing power, handling the process smoothly, and managing all approvals. We make sure you get continuous power supply at better rates with long-term cost savings.",
       video: thirdParty,

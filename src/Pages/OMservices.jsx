@@ -1,4 +1,5 @@
 import React from "react";
+import SEO from "../Component/SEO/seo";
 
 import Banner from "../Component/Hero/Banner";
 import Aboutservice from "../Component/AboutServices/AboutServices";
@@ -17,6 +18,11 @@ import CTASection from "../Component/CallToAction/calltoaction";
 function OMservice() {
   return (
     <div className="bg-slate-950 text-white">
+      <SEO
+      title="Solar Operation and Maintenance Services in India | Madhura Energy"
+      description="Get advanced solar operation and maintenance services in India with Madhura Energy to ensure smooth functioning, preventive care, and enhanced system productivity "
+      keywords="Solar Operation and Maintenance Services"
+      />
       {/* HERO */}
       <Banner />
       <Aboutservice />

@@ -9,10 +9,17 @@ import CTASection from '../Component/CallToAction/calltoaction'
 import IndustriesWeServe from '../Component/Industry/industries'
 import Summary from '../Component/summary/summary'
 import PartySection from '../Component/PartySection/partysection'
+import SEO from '../Component/SEO/seo'
 
 function ThirdParty() {
   return (
     <div className="bg-slate-950 text-white">
+      <SEO
+      title="Affordable Third Party Solar Power Purchase Services in India | Madhura Energy"
+      description="Madhura Energy delivers third party solar power purchase services in India with competitive pricing and tailored solutions to ensure stable and sustainable power supply."
+      keywords="Third Party Solar Power Purchase"
+      />
+
       <Banner />
       <Aboutservice />
       <PartySection/>

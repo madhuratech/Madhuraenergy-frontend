@@ -30,7 +30,7 @@ import Thirdparty from "../../assets/Choose/Thirdparty.JPG"
 const whyChooseData = {
   solarEpc: {
     badge: "Why Choose Us",
-    heading: "Why choose Madhura Energy for reliable and efficient Solar EPC Services solutions",
+    heading: "Why choose Madhura Energy for reliable and efficient Solar EPC Services in India",
     image: solarEPC,
     description:
       "At Madhura Energy, we provide our customers with the most efficient and cost-effective solar solutions with our expertise and make your solar experience smooth and hassle-free",
@@ -113,10 +113,10 @@ const whyChooseData = {
 
   operationMaintenance: {
     badge: "Why Choose Us",
-    heading: "Why Choose Our Team For Operation & Maintenance Services?",
+    heading: "Why Choose Our Team For Solar Operation & Maintenance Services in India?",
     image: OM,
     description:
-      "Our operations and maintenance services are designed to maximize solar system performance, reduce unplanned failures, and increase asset longevity. With a proactive approach, real-time monitoring, and expert support, we ensure consistent energy output and long-term dependability. ",
+      "Our solar operation and maintenance services in India are designed to maximize solar system performance, reduce unplanned failures, and increase asset longevity. With a proactive approach, real-time monitoring, and expert support, we ensure consistent energy output and long-term dependability. ",
     points: [
       {
         title: "Dependable System Performance Assistance",
@@ -182,10 +182,10 @@ const whyChooseData = {
   },
   solarPlantCleaningRobots: {
     badge: "Why Choose Us",
-    heading: "Why Choose Solar Cleaning Robots for a Practical Approach to Reliable and Efficient Solar Cleaning?",
+    heading: "Why Choose Solar Panel Cleaning Robots in India for a Practical Approach to Reliable and Efficient Solar Cleaning?",
     image: solarClean,
     description:
-      "Our solar plant cleaning robot solutions are designed to maximize the efficiency and performance of your solar panels while minimizing manual labor and maintenance costs. With our advanced technology and expertise, we provide reliable and cost-effective cleaning solutions that ensure your solar panels operate at their best, even in challenging environments.",
+      "Our solar panel cleaning robot solutions are designed to maximize the efficiency and performance of your solar panels while minimizing manual labor and maintenance costs. With our advanced technology and expertise, we provide reliable and cost-effective cleaning solutions that ensure your solar panels operate at their best, even in challenging environments.",
     points: [
       {
         title: "Solutions Focused on Performance ",
@@ -217,10 +217,10 @@ const whyChooseData = {
   },
   solarPump: {
     badge: "Why Choose Us",
-    heading: "Trusted solar pump solutions for reliable and efficient performance",
+    heading: "Trusted solar pump services in India for reliable and efficient performance",
     image: SolarPump,
     description:
-      "We deliver high-quality solar pump systems tailored to your needs. Our focus is on performance, durability, and customer satisfaction. With expert support and advanced technology, we ensure reliable water solutions for every application.",
+      "We deliver high-quality solar pump services in India tailored to your needs. Our focus is on performance, durability, and customer satisfaction. With expert support and advanced technology, we ensure reliable water solutions for every application.",
     points: [
       {
         title: "Expert Solutions",
@@ -252,10 +252,10 @@ const whyChooseData = {
   },
   thirdParty: {
     badge: "Why Choose Us",
-    heading: "Reliable third party power purchase solutions for your business",  
+    heading: "Reliable third party solar power purchase solutions for your business",  
     image: Thirdparty,
     description:
-      "We deliver cost-effective third party power purchase solutions with expert support, seamless process, and reliable power supply for your business needs.",
+      "We deliver cost-effective third party solar power purchase in India with expert support, seamless process, and reliable power supply for your business needs.",
     points: [
       {
         title: "Expert Guidance",

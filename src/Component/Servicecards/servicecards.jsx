@@ -256,7 +256,7 @@ const serviceScopeData = {
 
   solarPlantCleaningRobots:{
     tag: "Innovative Solutions",
-    title: "Intelligent Features for Reliable and Effective Solar Panel Cleaning",
+    title: "Intelligent Features for Reliable and Effective Solar Panel Cleaning Robots in India",
     items: [
       {
         title: "Automated Panel Cleaning ",
@@ -321,12 +321,12 @@ const serviceScopeData = {
   },
    solarPump:{
     tag: "Innovative Solutions",
-    title: "We deliver reliable solar pumps for efficient water use everyday",
+    title: "We deliver reliable solar pump services for efficient water use everyday",
     items: [
       {
         title: "Reliable Water Supply",
         description:
-          "We ensure uninterrupted water flow with advanced solar pump systems designed for consistent performance. Even in remote areas, our solutions deliver dependable and reliable water access without relying on traditional electricity sources.",
+          "We ensure uninterrupted water flow with advanced solar pump services designed for consistent performance. Even in remote areas, our solutions deliver dependable and reliable water access without relying on traditional electricity sources.",
         icon: Wrench,
         image: ReliableWaterSupply,
       },

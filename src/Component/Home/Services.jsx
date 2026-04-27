@@ -60,7 +60,7 @@ const services = [
     path: "/services/solar-plant-cleaning-robots",
     description:
       "Automated cleaning solutions that improve panel efficiency, reduce manual effort, and maintain optimal energy generation.",
-   icon: Bot,
+    icon: Bot,
   },
   {
     id: "07",
@@ -142,12 +142,82 @@ function ServicesSection() {
           </p>
         </div>
 
-        
+
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((service) => (
-            <ServiceCard key={service.id} service={service} />
+          {services.map((service, index) => (
+            <React.Fragment key={service.id}>
+
+              {/* Service Card */}
+              <ServiceCard service={service} />
+
+              {/* Insert CTA after 7th item (index 6) */}
+              {index === 6 && (
+                <div className="lg:col-span-2 relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 p-6 md:p-8 flex flex-col md:flex-row items-center gap-6 transition duration-300 hover:scale-[1.01]">
+
+                  {/* Glow Effect */}
+                  <div className="absolute -top-10 -right-10 h-40 w-40 bg-emerald-500/20 blur-3xl rounded-full" />
+                  <div className="absolute -bottom-10 -left-10 h-40 w-40 bg-blue-500/20 blur-3xl rounded-full" />
+
+                  {/* LEFT CONTENT */}
+                  <div className="flex-1 text-center md:text-left">
+                    <h3 className="text-2xl md:text-3xl font-bold text-white mb-3 leading-snug">
+                      Ready to Switch to Solar?
+                    </h3>
+
+                    <p className="text-slate-300 text-sm md:text-base leading-6 max-w-md">
+                      Get a customized solar solution designed for your home or business.
+                      Reduce electricity costs and move toward sustainable energy today.
+                    </p>
+
+                    {/* CTA BUTTON */}
+                    <div className="mt-5 flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+                      <button className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-400 transition shadow-lg shadow-emerald-500/20">
+                        Get Free Consultation
+                      </button>
+
+                      <button className="rounded-lg border border-white/20 px-5 py-2.5 text-sm font-semibold text-white hover:bg-white/10 transition">
+                        View Projects
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* RIGHT VISUAL */}
+                  <div className="lg:col-span-2 relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 p-6 md:p-8 flex flex-col md:flex-row items-center gap-6 transition duration-300 hover:scale-[1.01]">
+
+                    {/* Glow Effects */}
+                    <div className="absolute -top-10 -right-10 h-40 w-40 bg-emerald-500/20 blur-3xl rounded-full" />
+                    <div className="absolute -bottom-10 -left-10 h-40 w-40 bg-blue-500/20 blur-3xl rounded-full" />
+
+                    {/* LEFT CONTENT */}
+
+
+                    {/* RIGHT IMAGE */}
+                    <div className="flex-1 w-full h-48 md:h-56 relative rounded-xl overflow-hidden">
+
+                      <img
+                        src="https://images.unsplash.com/photo-1509395176047-4a66953fd231"
+                        alt="Solar Panels"
+                        className="w-full h-full object-cover"
+                      />
+
+                      {/* Dark overlay for readability */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+
+                      {/* Glow border effect */}
+                      <div className="absolute inset-0 rounded-xl ring-1 ring-white/10" />
+
+                    </div>
+
+                  </div>
+
+                </div>
+              )}
+
+            </React.Fragment>
           ))}
         </div>
+
+
       </div>
     </section>
   );
