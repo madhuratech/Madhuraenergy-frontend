@@ -25,19 +25,19 @@ import ThirdParty from './Pages/ThirdParty'
 const ServiceRouter = () => {
   const { slug } = useParams();
   switch (slug) {
-    case 'solar-epc-solutions':
+    case 'solar-epc-services':
       return <SolarEpcSolutionsPage />;
     case 'solar-plant-management':
       return <SolarPlantManagement />;
-    case 'operation-maintenance':
+    case 'solar-operation-and-maintenance-services':
       return <OMservices />;
-    case 'battery-storage':
+    case 'solar-battery-storage-services':
       return <Batterystorage />;
-    case 'solar-plant-cleaning-robots':
+    case 'solar-panel-cleaning-robot-services':
       return <SolarPlantCleaningRobots />;
-    case 'solar-pump':
+    case 'solar-pump-services':
       return <SolarPump/>;
-    case 'third-party-power-purchase':
+    case 'third-party-solar-power-purchase-services':
       return <ThirdParty/>
     default:
       return <SolarEpcSolutionsPage />;
@@ -58,7 +58,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
 
-        <Route path="/services/:slug" element={<ServiceRouter />} />
+        <Route path="/:slug" element={<ServiceRouter />} />
 
         <Route path="/hero/:slug" element={<Banner />} />
         

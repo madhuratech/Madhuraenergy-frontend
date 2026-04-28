@@ -18,6 +18,7 @@ const services = [
     id: "01",
     title: "Solar EPC Solutions",
     path: "/services/solar-epc-solutions",
+    slug:"solar-epc-services",
     description:
       "End-to-end engineering, procurement, and construction services for commercial, industrial, and utility-scale solar projects with a focus on quality, safety, and performance.",
     icon: Eclipse,
@@ -26,6 +27,7 @@ const services = [
     id: "02",
     title: "Solar Plant Management",
     path: "/services/solar-plant-management",
+    slug:"solar-plant-management",
     description:
       "Advanced monitoring, performance optimization, and management services to ensure maximum energy generation and long-term system efficiency.",
     icon: Sun,
@@ -34,6 +36,7 @@ const services = [
     id: "03",
     title: "Operation & Maintenance",
     path: "/services/operation-maintenance",
+    slug:"solar-operation-and-maintenance-services",
     description:
       "Comprehensive preventive and corrective maintenance services to reduce downtime, improve safety, and extend the lifespan of your solar assets.",
     icon: Wrench,
@@ -42,6 +45,7 @@ const services = [
     id: "04",
     title: "Battery Energy Storage",
     path: "/services/battery-storage",
+    slug:"solar-battery-storage-services",
     description:
       "Smart energy storage solutions that help manage peak demand, store excess power, and ensure uninterrupted energy supply.",
     icon: BatteryCharging,
@@ -50,6 +54,7 @@ const services = [
     id: "05",
     title: "Solar Pump",
     path: "/services/solar-pump",
+    slug:"solar-pump-services", 
     description:
       "Efficient solar-powered pumping systems designed for agriculture and industrial applications, ensuring reliable and cost-effective water management.",
     icon: Syringe,
@@ -58,6 +63,7 @@ const services = [
     id: "06",
     title: "Solar Plant Cleaning Robots",
     path: "/services/solar-plant-cleaning-robots",
+    slug:"solar-panel-cleaning-robot-services",
     description:
       "Automated cleaning solutions that improve panel efficiency, reduce manual effort, and maintain optimal energy generation.",
     icon: Bot,
@@ -66,6 +72,7 @@ const services = [
     id: "07",
     title: "Third party power purchase",
     path: "/services/third-party-power-purchase",
+    slug:"third-party-solar-power-purchase-services",
     description:
       "Flexible power purchase solutions that allow businesses to use solar energy without upfront investment, reducing energy costs and risks.",
     icon: Barcode,
@@ -77,7 +84,7 @@ function ServiceCard({ service }) {
 
   return (
     <Link
-      to={service.path}
+      to={`/${service.slug}`}
       className="group relative flex min-h-[360px] flex-col overflow-hidden rounded-[28px] border border-white/10 bg-white/5 p-7 shadow-[0_20px_60px_-30px_rgba(0,0,0,0.55)] backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-emerald-950/30 hover:bg-white/[0.07] hover:shadow-[0_25px_70px_-30px_rgba(16,185,129,0.25)] sm:p-8"
     >
       <div className="absolute inset-0 bg-gradient-to-br from-emerald-950/10 via-white/[0.02] to-emerald-950/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />

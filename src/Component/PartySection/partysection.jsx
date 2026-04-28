@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { BatteryCharging, ArrowRight } from "lucide-react";
-import batterystorage from "../../assets/services/service-batterystorage/batterystorage.jpg";
+import partythird from "../../assets/services/Service-party/partythird.jpg";
 
 function PartySection() {
   return (
@@ -56,7 +56,7 @@ function PartySection() {
           <div className="absolute -inset-4 rounded-[30px] bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.18),transparent_40%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.12),transparent_40%)] blur-2xl" />
           <div className="relative overflow-hidden rounded-[28px] border border-white/10 bg-white/5 shadow-2xl">
             <img
-              src={batterystorage}
+              src={partythird}
               alt="Third Party Solar Purchase"
               className="h-[420px] w-full object-cover"
             />

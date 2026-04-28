@@ -18,7 +18,7 @@ function Banner() {
   const { slug } = useParams();
 
   const services = {
-    "solar-epc-solutions": {
+    "solar-epc-services": {
       tag: "Service Details",
       title: "Solar EPC Services",
       highlight: "Solutions",
@@ -45,7 +45,7 @@ function Banner() {
       path: "/services/solar-plant-management",
     },
 
-    "operation-maintenance": {
+    "solar-operation-and-maintenance-services": {
       tag: "Service Details",
       title: "Solar Operation and Maintenance Services",
       description:
@@ -58,7 +58,7 @@ function Banner() {
       path: "/services/operation-maintenance",
     },
 
-    "battery-storage": {
+    "solar-battery-storage-services": {
       tag: "Service Details",
       title: "Solar Battery Storage Services",
       description:
@@ -71,7 +71,7 @@ function Banner() {
       path: "/services/battery-storage",
     },
 
-    "solar-pump": {
+    "solar-pump-services": {
       tag: "Service Details",
       title: "Solar Pump Services",
       description: "Our solar-powered pumping solutions allow us to give you access to clean water supplies powered by renewable energy sources. This service will not only reduce your power expenses but also guarantee efficient performance of your system.",
@@ -83,7 +83,7 @@ function Banner() {
       path: "/services/solar-pump",
 
     },
-    "solar-plant-cleaning-robots": {
+    "solar-panel-cleaning-robot-services": {
       tag: "Service Details",
       title: "Robotic Solar Cleaners for Dependable and Efficient Panel Operation",
       description:
@@ -96,7 +96,7 @@ function Banner() {
       path: "/services/solar-plant-cleaning-robots",
     },
 
-    "third-party-power-purchase": {
+    "third-party-solar-power-purchase-services": {
       tag: "Service Details",
       title: "Third Party Solar Power Purchase",
       description:

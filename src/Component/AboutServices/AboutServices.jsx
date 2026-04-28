@@ -15,7 +15,7 @@ function Aboutservice() {
   const { slug } = useParams();
 
   const serviceContent = {
-    "solar-epc-solutions": {
+    "solar-epc-services": {
       tag: "About Our Solutions",
       title: "Efficient and Reliable Solar EPC Services in India for smarter, and sustainable energy",
       description:
@@ -57,7 +57,7 @@ function Aboutservice() {
       path:"/solar-plant-management",
     },
 
-    "operation-maintenance": {
+    "solar-operation-and-maintenance-services": {
       tag: "About Our Solutions",
       title: "Dependable Solar Operation and Maintenance Services",
       description:
@@ -77,7 +77,7 @@ function Aboutservice() {
       path: "/operation-maintenance",
     },
 
-    "battery-storage": {
+    "solar-battery-storage-services": {
       tag: "About Our Solutions",
       title: "Smart Energy Storage for a Better Tomorrow - Future",
       description:
@@ -97,7 +97,7 @@ function Aboutservice() {
       path:" /battery-storage",
     },
 
-   "solar-pump": {
+   "solar-pump-services": {
       tag: "About Our Solutions",
       title: "Smart solar pump services for efficient water management",     
       description:
@@ -117,7 +117,7 @@ function Aboutservice() {
       path: "/solar-pump",
     },
 
-    "solar-plant-cleaning-robots": {
+    "solar-panel-cleaning-robot-services": {
       tag: "About Our Solutions",
       title: "Solar Panel Cleaning Robots in India Designed to Preserve Solar Panel Performance",
       description:
@@ -137,7 +137,7 @@ function Aboutservice() {
       path: "/solar-plant-cleaning-robots",
     },
 
-      "third-party-power-purchase": { 
+      "third-party-solar-power-purchase-services": { 
       tag: "About Our Solutions",
       title: "We provide end-to-end third party solar power purchase in India tailored for your business needs",
       description:
