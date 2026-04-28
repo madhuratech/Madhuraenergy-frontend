@@ -63,7 +63,7 @@ function CallToActionCard() {
                       Fast & Reliable Execution
                     </h3>
                     <p className="mt-1 text-sm leading-6 text-slate-300">
-                      Efficient planning, expert engineering, and structured delivery ensure your projects are completed on time without compromising quality.
+                      Efficient planning and structured delivery ensure your projects are completed on time without compromising quality.
                     </p>
                   </div>
 
@@ -72,7 +72,7 @@ function CallToActionCard() {
                       Proven Quality Standards
                     </h3>
                     <p className="mt-1 text-sm leading-6 text-slate-300">
-                      We use high-performance components and follow strict quality and safety standards to deliver dependable and long-lasting solutions.
+                      We use high-performance components and follow strict quality  to deliver dependable and long-lasting solutions.
                     </p>
                   </div>
 

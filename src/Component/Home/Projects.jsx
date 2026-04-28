@@ -159,7 +159,9 @@ function ProjectCard({ project }) {
             type="button"
             className="mt-6 inline-flex min-h-[44px] items-center gap-2 rounded-full bg-emerald-700 px-5 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600"
           >
-            View Project
+            <a href="/contact/#ContactFormSection" className="text-white no-underline">
+              Connect with Us
+            </a>
             <ArrowRight size={18} />
           </button>
         </div>

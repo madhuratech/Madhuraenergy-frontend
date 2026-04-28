@@ -272,17 +272,17 @@ function ContactFormSection() {
               {
                 icon: Building2,
                 title: "Head Office",
-                text: "Chennai, Tamil Nadu, India",
+                text: "Virudhunagar, Tamil Nadu, India",
               },
               {
                 icon: Mail,
                 title: "Email Address",
-                text: "kiruthikamadhura@gmail.com",
+                text: "madhuraecc@gmail.com",
               },
               {
                 icon: Phone,
                 title: "Phone Number",
-                text: "+91 12345 67890",
+                text: "+91 9003663660",
               },
               {
                 icon: Clock3,

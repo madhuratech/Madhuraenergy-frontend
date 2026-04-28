@@ -1,5 +1,6 @@
 import React from "react";
 import about from "../../assets/Hero/about.png"
+import { Link } from "react-router-dom";
 
 function WhoWeAre() {
   return (
@@ -61,15 +62,18 @@ function WhoWeAre() {
                 </h3>
 
                 <p className="mt-4 flex-1 text-base leading-7 text-slate-600">
-                  We design and execute high-quality solar EPC projects with a strong focus on 
+                  We design and execute high-quality solar EPC projects with a strong focus on
                   precision engineering, safety standards, and long-term performance to deliver
-                   maximum energy output.
+                  maximum energy output.
                 </p>
 
-                <button className="mt-8 inline-flex w-fit items-center gap-2 rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600">
+                <Link
+                  to="/solar-epc-services"
+                  className="mt-8 inline-flex w-fit items-center gap-2 rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600"
+                >
                   Read More
                   <span className="text-base">→</span>
-                </button>
+                </Link>
               </div>
 
               <div className="group flex h-full flex-col rounded-[32px] bg-[#e9eef8] p-8 shadow-sm ring-1 ring-slate-200/70 transition duration-300 hover:-translate-y-1 hover:shadow-xl">
@@ -87,10 +91,13 @@ function WhoWeAre() {
                   running efficiently at all times.
                 </p>
 
-                <button className="mt-8 inline-flex w-fit items-center gap-2 rounded-xl bg-white px-6 py-3 text-sm font-semibold text-slate-900 ring-1 ring-slate-200 transition hover:bg-slate-900 hover:text-white">
+                <Link
+                  to="/solar-operation-and-maintenance-services"
+                  className="mt-8 inline-flex w-fit items-center gap-2 rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600"
+                >
                   Read More
                   <span className="text-base">→</span>
-                </button>
+                </Link>
               </div>
             </div>
 
@@ -110,14 +117,17 @@ function WhoWeAre() {
 
                 <p className="mt-4 max-w-3xl text-base leading-7 text-slate-300 sm:text-lg">
                   We provide smart energy optimization and management solutions that help businesses
-                  improve efficiency, reduce energy costs, and achieve better control 
+                  improve efficiency, reduce energy costs, and achieve better control
                   over their power usage.
                 </p>
-
-                <button className="mt-8 inline-flex items-center gap-2 rounded-xl bg-emerald-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600">
+                <Link
+                  to="/solar-battery-storage-services"
+                  className="mt-8 inline-flex w-fit items-center gap-2 rounded-xl bg-emerald-600  px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-900"
+                >
                   Read More
                   <span className="text-base">→</span>
-                </button>
+                </Link>
+
               </div>
             </div>
           </div>

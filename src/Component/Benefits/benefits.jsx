@@ -21,8 +21,8 @@ const benefitsContent = {
     tag: "Benefits",
     title: "Why Businesses Choose Our Solar Plant Management in India",
     benefits: [
-      "Increases energy production and overall performance of the system",
-      "Lowers operation costs by improving efficiency in the management of the system",
+      "Increases energy production and overall performance of the system.",
+      "Lowers operation costs by improving efficiency in the management system.",
       "Lessens downtime through proactive monitoring and maintenance.",
       "Increases the efficiency of the system and extends equipment longevity.",
       "Provides consistent and reliable power production.",
@@ -91,14 +91,14 @@ const benefitsContent = {
   thirdParty:{
     tag: "Benefits",
     title: "Smart energy solution for cost saving and efficiency",
-    benefits: [  
-      "Reduces electricity costs by enabling businesses to purchase power directly from independent producers at competitive and flexible pricing.",
-      "Ensures uninterrupted power supply, helping industries maintain smooth operations without downtime or productivity loss due to power issues.",
-      "Provides flexibility in choosing power sources, allowing businesses to optimise energy usage based on their specific operational requirements.",
-      "Supports long-term savings through stable pricing agreements and reduced dependence on fluctuating utility electricity tariffs.",          
-      "Encourages use of renewable energy sources, helping businesses move towards sustainable and environmentally friendly power consumption practices.",
-      "Simplifies energy management with expert support in sourcing, compliance, and monitoring for efficient and hassle-free operations."     
-    ],
+    benefits: [
+  "Reduce electricity costs with flexible power purchase options.",
+  "Ensure uninterrupted power for smooth operations.",
+  "Choose energy sources based on your needs.",
+  "Save long-term with stable and predictable pricing.",
+  "Support renewable energy and sustainable practices.",
+  "Simplify energy management with expert support."
+],
     path:"/services/third-party-power-purchase"
   }
 };

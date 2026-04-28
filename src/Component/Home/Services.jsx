@@ -178,12 +178,14 @@ function ServicesSection() {
 
                     {/* CTA BUTTON */}
                     <div className="mt-5 flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
-                      <button className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-400 transition shadow-lg shadow-emerald-500/20">
-                        Get Free Consultation
+                      <button className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-400 transition shadow-lg shadow-emerald-500/20" >
+                        <a href="/contact/#ContactFormSection" className="text-white no-underline">
+                          Get Free Consultation
+                        </a>
                       </button>
 
                       <button className="rounded-lg border border-white/20 px-5 py-2.5 text-sm font-semibold text-white hover:bg-white/10 transition">
-                        View Projects
+                       <a href="#projects"> View Projects</a> 
                       </button>
                     </div>
                   </div>

@@ -158,7 +158,7 @@ function FAQSection() {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <div className="px-6 pb-6 pl-[4.9rem] pr-6 text-sm leading-7 text-slate-600 sm:px-7 sm:pb-7 sm:pl-[5.4rem] sm:text-base">
+                        <div className="px-2 pb-2 pl-[4.9rem] pr-6 text-sm leading-7 text-slate-600 sm:px-7 sm:pb-7 sm:pl-[5.4rem] sm:text-base">
                           {item.answer}
                         </div>
                       </div>

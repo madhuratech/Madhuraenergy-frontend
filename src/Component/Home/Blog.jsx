@@ -68,7 +68,7 @@ function BlogSection() {
           </div>
 
           <div>
-            <a
+            {/* <a
               href="/blog"
               className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition-all duration-500 ease-out hover:border-emerald-500/40 hover:bg-emerald-500/10 hover:text-emerald-300"
             >
@@ -77,7 +77,7 @@ function BlogSection() {
                 size={18}
                 className="transition-transform duration-500 ease-out group-hover:translate-x-1"
               />
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -126,7 +126,7 @@ function BlogSection() {
                 </p>
 
                 <div className="mt-6">
-                  <a
+                  {/* <a
                     href="/blog"
                     className="inline-flex items-center gap-2 text-sm font-semibold text-white transition-colors duration-500 ease-out hover:text-emerald-300"
                   >
@@ -135,7 +135,7 @@ function BlogSection() {
                       size={18}
                       className="transition-transform duration-500 ease-out group-hover:translate-x-1.5"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </article>
