@@ -14,7 +14,7 @@ const benefitsContent = {
       "Increase your home’s value with solar systems.",
       "Live with sustainable, renewable energy."
     ],
-    path:"/services/solar-epc-solutions",
+    path: "/services/solar-epc-solutions",
   },
 
   solarplantmanagement: {
@@ -57,8 +57,6 @@ const benefitsContent = {
       "Ensures continuous and stable power supply for operations",
       "Reduces energy waste with smarter and more efficient usage",
       "Simple and easy to use, with efficient management and low-maintenance operation for smoothness",
-
-
     ],
     path: "/services/battery-energy-storage",
   },
@@ -67,40 +65,40 @@ const benefitsContent = {
     tag: "Benefits",
     title: "Cutting Maintenance Costs and Boosting Output",
     benefits: [
-      "Frequent cleaning reduces performance loss and encourages consistent energy output by keeping panels free of dust and debris.",
-      "Automation reduces operational reliance on manpower and saves time by doing away with the requirement for regular manual cleaning",
-      "Clean panels function more effectively, sustaining anticipated performance levels and boosting system output as a whole.",
-      "Panels receive continuous maintenance thanks to scheduled cleaning, which eventually increases system reliability.",
-      "The technology minimizes incremental efficiency losses and supports continuous operation by minimizing dust collection.",
-      "System longevity is increased and long-term performance is improved by routine cleaning and decreased component stress."
-    ]
-  },
-  solarPump:{
-    tag: "Benefits",
-    title: "Power your water needs with solar efficiency",
-    benefits: [
-      "Reduces electricity costs with renewable solar energy powered pump systems",
-      "Ensures continuous water supply even in remote locations without electricity",
-      "Eco-friendly solution reducing carbon emissions and environmental impact significantly",
-      "Low maintenance system with long-lasting performance and durable components",
-      "Ideal for agriculture, residential, and industrial water pumping applications",
-      "Easy installation with reliable performance and minimal operational challenges",
+      "Prevents dust buildup for consistent energy output.",
+      "Reduces manual effort through automation.",
+      "Improves efficiency and system performance.",
+      "Ensures regular maintenance and reliability.",
+      "Minimizes efficiency loss from dust accumulation issues.",
+      "Extends system lifespan and durability over time."
     ],
-    path:"/services/solar-pump"
   },
-  thirdParty:{
-    tag: "Benefits",
+solarPump: {
+  tag: "Benefits",
+    title: "Power your water needs with solar efficiency",
+      benefits: [
+        "Reduces electricity costs with renewable solar energy powered pump systems",
+        "Ensures continuous water supply even in remote locations without electricity",
+        "Eco-friendly solution reducing carbon emissions and environmental impact significantly",
+        "Low maintenance system with long-lasting performance and durable components",
+        "Ideal for agriculture, residential, and industrial water pumping applications",
+        "Easy installation with reliable performance and minimal operational challenges",
+      ],
+        path: "/services/solar-pump"
+},
+thirdParty: {
+  tag: "Benefits",
     title: "Smart energy solution for cost saving and efficiency",
-    benefits: [
-  "Reduce electricity costs with flexible power purchase options.",
-  "Ensure uninterrupted power for smooth operations.",
-  "Choose energy sources based on your needs.",
-  "Save long-term with stable and predictable pricing.",
-  "Support renewable energy and sustainable practices.",
-  "Simplify energy management with expert support."
-],
-    path:"/services/third-party-power-purchase"
-  }
+      benefits: [
+        "Reduce electricity costs with flexible power purchase options.",
+        "Ensure uninterrupted power for smooth operations.",
+        "Choose energy sources based on your needs.",
+        "Save long-term with stable and predictable pricing.",
+        "Support renewable energy and sustainable practices.",
+        "Simplify energy management with expert support."
+      ],
+        path: "/services/third-party-power-purchase"
+}
 };
 
 function Benefits({ pageKey }) {

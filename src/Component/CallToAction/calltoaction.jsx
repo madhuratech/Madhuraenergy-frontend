@@ -12,8 +12,7 @@ const ctaData = {
       "Start your journey with Madhura Energy today",
     primaryButtonText: "Get Free Consultation",
     primaryButtonLink: "/contact/#ContactFormSection",
-    secondaryButtonText: "View Projects",
-    secondaryButtonLink: "#projects",
+    
     path: "/services/solar-epc-solutions",
   },
   solarPlant: {
@@ -22,8 +21,6 @@ const ctaData = {
       "Start taking control of your solar production today by maximizing your energy production through our advanced solar plants.",
     primaryButtonText: "Get Free Consultation",
     primaryButtonLink: "/contact/#ContactFormSection",
-    secondaryButtonText: "View Projects",
-    secondaryButtonLink: "#projects",
     path: "/services/solar-plant-management",
   },
 
@@ -33,8 +30,6 @@ const ctaData = {
       "Start saving power and enjoy uninterrupted electricity with our smart solutions.",
     primaryButtonText: "Request Consultation",
     primaryButtonLink: "/contact/#ContactFormSection",
-    secondaryButtonText: "Explore Service",
-    secondaryButtonLink: "/services/battery-storage",
     path: "/services/battery-storage",
   },
 
@@ -44,8 +39,6 @@ const ctaData = {
       "Keep your solar assets running at peak performance with our technical support.",
     primaryButtonText: "Get Started",
     primaryButtonLink: "/contact/#ContactFormSection",
-    secondaryButtonText: "View Service",
-    secondaryButtonLink: "/services/operations-maintenance",
     path: "/services/operation-maintenance",
   },
 
@@ -54,8 +47,6 @@ const ctaData = {
     title: "Let’s connect and power your solar journey",
     primaryButtonText: "Get Free Consultation",
     primaryButtonLink: "/contact/#ContactFormSection",
-    secondaryButtonText: "Learn More",
-    secondaryButtonLink: "/services/solar-pump",
   },
 
   solarCleaningRobot: {
@@ -63,8 +54,7 @@ const ctaData = {
     title: "Let’s connect and power your solar journey",
     primaryButtonText: "Get Free Consultation",
     primaryButtonLink: "/contact/#ContactFormSection",
-    secondaryButtonText: "Learn More",
-    secondaryButtonLink: "/services/solar-cleaning-robots",
+  
   },
   
   thirdParty: {
@@ -72,8 +62,7 @@ const ctaData = {
     title: "Get in touch today for reliable and cost-effective power solutions",
     primaryButtonText: "Request Consultation",
     primaryButtonLink: "/contact/#ContactFormSection",
-    secondaryButtonText: "Explore Service",
-    secondaryButtonLink: "/services/third-party-power-purchase",
+    
   }
 };
 
@@ -112,12 +101,12 @@ function CTASection({ page }) {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
 
-              <a
+              {/* <a
                 href={data.secondaryButtonLink}
                 className="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-7 py-3.5 text-base font-semibold text-white transition hover:bg-white/10"
               >
                 {data.secondaryButtonText}
-              </a>
+              </a> */}
             </div>
           </motion.div>
         </div>

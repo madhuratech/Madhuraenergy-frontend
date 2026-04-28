@@ -61,7 +61,6 @@ const faqPagesData = {
       contactDescription:
         "Our experts can help you with monitoring, maintenance, performance optimization, and long-term reliability for your commercial or industrial solar plant.",
       buttonText: "Contact Us",
-      path: "/solar-epc-solutions",
     },
     faqData: [
       {
@@ -379,7 +378,9 @@ function FAQ({ page = "solarEpc" }) {
                 </p>
 
                 <button className="mt-6 inline-flex items-center rounded-full bg-emerald-950 px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-emerald-600 hover:shadow-lg">
-                  {sectionData.buttonText}
+                  <a href="/contact" className="text-white hover:text-emerald-400">
+                    {sectionData.buttonText}
+                  </a>
                 </button>
               </div>
             </div>

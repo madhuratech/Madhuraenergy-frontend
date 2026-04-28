@@ -192,7 +192,7 @@ const processSectionData = {
         number: "02",
         title: "Creating Cleaning Schedule",
         description:
-       "Cleaning cycles that guarantee consistent results and optimal energy output throughout the year are defined based on dust levels and system performance requirements.",
+          "Cleaning cycles that guarantee consistent results and optimal energy output throughout the year are defined based on dust levels and system performance requirements.",
       },
       {
         number: "03",
@@ -206,7 +206,13 @@ const processSectionData = {
         description:
           "To ensure long-term dependability, we monitor cleaning results and verify that the system operates as intended while monitoring performance data.",
       },
-      
+      {
+        number: "05",
+        title: "Maintenance and Performance Optimization",
+        description:
+          "Regular inspections and preventive maintenance are carried out to ensure the robots operate efficiently, extend their lifespan, and continuously maintain peak solar panel performance.",
+      }
+
     ],
     path: "/solar-plant-cleaning-robots",
   },
@@ -229,7 +235,7 @@ const processSectionData = {
         number: "02",
         title: "Controller Regulates Power Flow",
         description:
-       "The controller manages the electricity generated, ensuring stable voltage and current supply to protect the motor and improve system performance.",
+          "The controller manages the electricity generated, ensuring stable voltage and current supply to protect the motor and improve system performance.",
       },
       {
         number: "03",
@@ -255,7 +261,7 @@ const processSectionData = {
       //   description:
       //     "With minimal moving parts and no fuel dependency, solar pumps require very little maintenance, making them cost-effective and reliable.",
       // },  
-      
+
     ],
     path: "/solar-plant-cleaning-robots",
   },
@@ -278,7 +284,7 @@ const processSectionData = {
         number: "02",
         title: "Supplier Identification",
         description:
-        "We connect you with reliable third-party power producers offering competitive rates and stable supply.",
+          "We connect you with reliable third-party power producers offering competitive rates and stable supply.",
       },
       {
         number: "03",
@@ -292,7 +298,7 @@ const processSectionData = {
         description:
           "Our team manages all approvals and documentation required for smooth power procurement.",
       },
-       {
+      {
         number: "04",
         title: "Power Transmission Setup",
         description:
@@ -302,70 +308,70 @@ const processSectionData = {
   },
 };
 
-  
 
-  function ProcessSection({ serviceKey = "solarEpc" }) {
-    const service = processSectionData[serviceKey];
 
-if (!service) return null;
+function ProcessSection({ serviceKey = "solarEpc" }) {
+  const service = processSectionData[serviceKey];
 
-return (
-  <section className="relative bg-slate-100 px-4 py-20 sm:px-6 lg:px-8">
-    <div className="mx-auto max-w-7xl">
-      {/* Top Banner */}
-      <div className="relative overflow-hidden rounded-[24px] bg-slate-900">
-        <img
-          src={service.backgroundImage}
-          alt={service.title}
-          className="h-[260px] w-full object-cover opacity-20 sm:h-[300px] lg:h-[340px]"
-        />
+  if (!service) return null;
 
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,23,42,0.55),rgba(2,6,23,0.88))]" />
+  return (
+    <section className="relative bg-slate-100 px-4 py-20 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl">
+        {/* Top Banner */}
+        <div className="relative overflow-hidden rounded-[24px] bg-slate-900">
+          <img
+            src={service.backgroundImage}
+            alt={service.title}
+            className="h-[260px] w-full object-cover opacity-20 sm:h-[300px] lg:h-[340px]"
+          />
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-orange-500">
-            {service.badge}
-          </p>
- 
-          <h2 className="mt-4 max-w-4xl text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
-            {service.title}
-            <span className="block">{service.highlightedLine}</span>
-          </h2>
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,23,42,0.55),rgba(2,6,23,0.88))]" />
 
-          <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
-            {service.description}
-          </p>
+          <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
+            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-orange-500">
+              {service.badge}
+            </p>
+
+            <h2 className="mt-4 max-w-4xl text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+              {service.title}
+              <span className="block">{service.highlightedLine}</span>
+            </h2>
+
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
+              {service.description}
+            </p>
+          </div>
+        </div>
+
+        {/* Floating Step Cards */}
+        <div className="relative z-10 mx-auto -mt-10 grid max-w-8xl gap-5 sm:grid-cols-2 lg:mt-2 lg:grid-cols-5">
+          {service.processSteps.map((step, index) => (
+            <motion.div
+              key={step.number}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.55, delay: index * 0.08 }}
+              className="rounded-[20px] bg-white px-5 pb-6 pt-10 shadow-[0_12px_30px_rgba(15,23,42,0.10)] transition duration-300 hover:-translate-y-1"
+            >
+              <div className="mx-auto -mt-16 mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-orange-500 text-base font-bold text-white shadow-lg">
+                {step.number}
+              </div>
+
+              <h3 className="text-lg font-bold leading-snug text-slate-800">
+                {step.title}
+              </h3>
+
+              <p className="mt-3 text-sm leading-7 text-slate-600">
+                {step.description}
+              </p>
+            </motion.div>
+          ))}
         </div>
       </div>
-
-      {/* Floating Step Cards */}
-      <div className="relative z-10 mx-auto -mt-10 grid max-w-8xl gap-5 sm:grid-cols-2 lg:mt-2 lg:grid-cols-5">
-        {service.processSteps.map((step, index) => (
-          <motion.div
-            key={step.number}
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ duration: 0.55, delay: index * 0.08 }}
-            className="rounded-[20px] bg-white px-5 pb-6 pt-10 shadow-[0_12px_30px_rgba(15,23,42,0.10)] transition duration-300 hover:-translate-y-1"
-          >
-            <div className="mx-auto -mt-16 mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-orange-500 text-base font-bold text-white shadow-lg">
-              {step.number}
-            </div>
-
-            <h3 className="text-lg font-bold leading-snug text-slate-800">
-              {step.title}
-            </h3>
-
-            <p className="mt-3 text-sm leading-7 text-slate-600">
-              {step.description}
-            </p>
-          </motion.div>
-        ))}
-      </div>
-    </div>
-  </section>
-);
+    </section>
+  );
 }
 
 export default ProcessSection;

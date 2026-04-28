@@ -102,11 +102,11 @@ function Footer() {
                   Projects
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/blog" className="transition hover:text-emerald-400">
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to="/contact"
@@ -124,7 +124,7 @@ function Footer() {
             <ul className="space-y-4 text-base text-slate-300">
               <li>
                 <Link
-                  to="/services/solar-epc-solutions"
+                  to="solar-epc-services"
                   className="transition hover:text-emerald-400"
                 >
                   Solar EPC Solutions
@@ -132,23 +132,7 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to="/services/operation-maintenance"
-                  className="transition hover:text-emerald-400"
-                >
-                  Operation &amp; Maintenance
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/services/battery-energy-storage"
-                  className="transition hover:text-emerald-400"
-                >
-                  Energy Storage Systems
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/services/solar-plant-management"
+                  to="solar-plant-management"
                   className="transition hover:text-emerald-400"
                 >
                   Solar Plant Management
@@ -156,10 +140,43 @@ function Footer() {
               </li>
               <li>
                 <Link
-                  to="/services/third-party-om"
+                  to="solar-operation-and-maintenance-services"
                   className="transition hover:text-emerald-400"
                 >
-                  Third Party O&amp;M
+                  Operation &amp; Maintenance
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="solar-battery-storage-services"
+                  className="transition hover:text-emerald-400"
+                >
+                  Battery Energy storage system
+                </Link>
+              </li>
+              
+              <li>
+                <Link
+                  to="solar-pump-services"
+                  className="transition hover:text-emerald-400"
+                >
+                  Solar Pump
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="solar-panel-cleaning-robot-services"
+                  className="transition hover:text-emerald-400"
+                >
+                  Solar Panel Cleaning robot
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="third-party-solar-power-purchase-services"
+                  className="transition hover:text-emerald-400"
+                >
+                  Third Party Power Purchase
                 </Link>
               </li>
             </ul>
@@ -192,7 +209,7 @@ function Footer() {
                   href="mailto:info@yourcompany.com"
                   className="transition hover:text-emerald-400"
                 >
-                  info@madhuraecc.com
+                  madhuraecc.com
                 </a>
               </div>
             </div>
