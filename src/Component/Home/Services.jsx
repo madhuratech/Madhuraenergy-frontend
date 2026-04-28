@@ -196,7 +196,7 @@ function ServicesSection() {
 
                       <img
                         src="https://images.unsplash.com/photo-1509395176047-4a66953fd231"
-                        alt="Solar Panels"
+                        alt="Solar Installation Maintenance Services"
                         className="w-full h-full object-cover"
                       />
 

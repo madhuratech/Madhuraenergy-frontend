@@ -31,6 +31,7 @@ const projects = [
       "Optimized for continuous operations",
       "500 kW installed capacity",
     ],
+    imageAlt:"Solar Plant Installation Services 9"
   },
   {
     id: "02",
@@ -46,6 +47,7 @@ const projects = [
       "3.5-year payback period",
       "2 MW installed capacity",
     ],
+    imageAlt:"Solar Plant Installation Services 10"
   },
   {
     id: "03",
@@ -61,6 +63,7 @@ const projects = [
       "Supports net-zero targets",
       "Scalable and efficient design",
     ],
+    imageAlt:"Solar Plant Installation Services 11"
   },
   {
     id: "04",
@@ -76,6 +79,7 @@ const projects = [
       "Optimized for large-scale deployment",
       "800 kW installed capacity",
     ],
+    imageAlt:"Solar Plant Installation Services 12"
   },
   {
     id: "05",
@@ -91,6 +95,7 @@ const projects = [
       "22% performance recovery in 3 months",
       "2 MW plant capacity",
     ],
+    imageAlt:"Solar Plant Installation Services 13"
   },
   {
     id: "06",
@@ -106,6 +111,7 @@ const projects = [
       "Supports net-zero targets",
       "Scalable rooftop deployment",
     ],
+    imageAlt:"Solar Plant Installation Services 14"
   },
 ];
 
@@ -117,7 +123,7 @@ function ProjectCard({ project }) {
       <div className="relative h-[220px] overflow-hidden sm:h-[280px]">
         <img
           src={project.image}
-          alt={project.title}
+          alt={project.imageAlt}
           className="h-full w-full object-cover"
         />
 

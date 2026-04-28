@@ -16,51 +16,61 @@ const partners = [
     id: 1,
     name: "L&T",
     logo: LT,
+    imageAlt:"Solar Plant Setup Maintenance"
   },
   {
     id: 2,
     name: "Continuum Green Energy",
     logo: CGE,
+    imageAlt:"Solar Plant Installation Work"
   },
   {
     id: 3,
     name: "Harsha Engineers",
     logo: Harsha,
+    imageAlt:"Solar Plant Installation Services 1"
   },
   {
     id: 4,
     name: "NHPC Limited",
     logo: NHPC,
+    imageAlt:"Solar Plant Installation Services 2"
   },
   {
     id: 5,
     name: "RRECL",
     logo: RRECL,
+    imageAlt:"Solar Plant Installation Services 3"
   },
   {
     id: 6,
     name: "Everrenew",
     logo: Everrenew,
+    imageAlt:"Solar Plant Installation Services 4" 
   },
   {
     id: 7,
     name: "Tirupati Energy",
     logo: Tirupati,
+    imageAlt:"Solar Plant Installation Services 5"
   },
   {
     id: 8,
     name: "TSECL",
     logo: TSECL,
+    imageAlt:"Solar Plant Installation Services 6"
   },
   {
     id: 9,
     name: "Harsha Abakus",
     logo: Abakus,
+    imageAlt:"Solar Plant Installation Services 7"
   },
   {
     id: 10,
     name: "NLC India Limited",
     logo: NLC,
+    imageAlt:"Solar Plant Installation Services 8"
   }
 
 
@@ -115,7 +125,7 @@ function ChannelPartners() {
                 <div className="flex h-24 w-full items-center justify-center rounded-2xl bg-white/95 p-4 shadow-inner transition duration-500 group-hover:scale-105">
                   <img
                     src={partner.logo}
-                    alt={partner.name}
+                    alt={partner.imageAlt}
                     className="max-h-14 w-auto object-contain transition duration-500"
                   />
                 </div>
@@ -145,7 +155,7 @@ function ChannelPartners() {
                   <div className="flex h-24 w-full items-center justify-center rounded-2xl bg-white/95 p-4 shadow-inner">
                     <img
                       src={partner.logo}
-                      alt={partner.name}
+                      alt="Solar Plant Setup Maintenance"
                       className="max-h-14 w-auto object-contain"
                     />
                   </div>

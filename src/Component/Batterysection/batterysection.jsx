@@ -58,7 +58,7 @@ function BatterySection() {
           <div className="relative overflow-hidden rounded-[28px] border border-white/10 bg-white/5 shadow-2xl">
             <img
               src={batterystorage}
-              alt="Battery storage system"
+              alt="Solar Battery Storage"
               className="h-[420px] w-full object-cover"
             />
           </div>

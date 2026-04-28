@@ -32,6 +32,7 @@ const whyChooseData = {
     badge: "Why Choose Us",
     heading: "Why choose Madhura Energy for reliable and efficient Solar EPC Services in India",
     image: solarEPC,
+    imageAlt:"Solar EPC Services 4",
     description:
       "At Madhura Energy, we provide our customers with the most efficient and cost-effective solar solutions with our expertise and make your solar experience smooth and hassle-free",
     points: [
@@ -79,6 +80,7 @@ const whyChooseData = {
     badge: "Why Choose Us",
     heading: "Choose Madhura Energy for intelligent and efficient solar plant management solutions you can trust.",
     image: solarPlant,
+    imageAlt:"Solar Plant Management 3",
     description:
       "The technology we use to provide our customers with the management and monitoring services necessary to provide peace of mind is designed to make your solar investment as profitable and efficient as possible.",
     points: [
@@ -115,6 +117,7 @@ const whyChooseData = {
     badge: "Why Choose Us",
     heading: "Why Choose Our Team For Solar Operation & Maintenance Services in India?",
     image: OM,
+    imageAlt:"Solar Operation and Maintenance Services 7",
     description:
       "Our solar operation and maintenance services in India are designed to maximize solar system performance, reduce unplanned failures, and increase asset longevity. With a proactive approach, real-time monitoring, and expert support, we ensure consistent energy output and long-term dependability. ",
     points: [
@@ -150,6 +153,7 @@ const whyChooseData = {
     badge: "Why Choose Us",
     heading: "Choose Madhura Energy for reliable and efficient battery energy storage solutions you can trust.",
     image: BatteryStorage,
+    imageAlt:"Solar Battery Storage",
     description:
       "We are dedicated to providing you with efficient and reliable energy solutions that are easy to understand and implement. Our team of experts will ensure that you have the best energy solution that meets your needs. Our energy solutions will help you save on energy costs while providing you with reliable power to keep your business running smoothly. Our energy solutions are designed to make your life easy by providing you with uninterrupted power while saving you money in the long run.",
     points: [
@@ -184,6 +188,7 @@ const whyChooseData = {
     badge: "Why Choose Us",
     heading: "Why Choose Solar Panel Cleaning Robots in India for a Practical Approach to Reliable and Efficient Solar Cleaning?",
     image: solarClean,
+    imageAlt:"Solar Panel Cleaning Robot 4",
     description:
       "Our solar panel cleaning robot solutions are designed to maximize the efficiency and performance of your solar panels while minimizing manual labor and maintenance costs. With our advanced technology and expertise, we provide reliable and cost-effective cleaning solutions that ensure your solar panels operate at their best, even in challenging environments.",
     points: [
@@ -219,6 +224,7 @@ const whyChooseData = {
     badge: "Why Choose Us",
     heading: "Trusted solar pump services in India for reliable and efficient performance",
     image: SolarPump,
+    imageAlt:"Solar Pump Operation",
     description:
       "We deliver high-quality solar pump services in India tailored to your needs. Our focus is on performance, durability, and customer satisfaction. With expert support and advanced technology, we ensure reliable water solutions for every application.",
     points: [
@@ -254,6 +260,7 @@ const whyChooseData = {
     badge: "Why Choose Us",
     heading: "Reliable third party solar power purchase solutions for your business",  
     image: Thirdparty,
+    imageAlt:"Solar Power Purchase Services",
     description:
       "We deliver cost-effective third party solar power purchase in India with expert support, seamless process, and reliable power supply for your business needs.",
     points: [
@@ -320,7 +327,7 @@ function WhyChooseSection({ serviceKey = "solarEpc" }) {
                 <div className="overflow-hidden rounded-[20px]">
                   <img
                     src={service.image}
-                    alt={service.heading}
+                    alt={service.imageAlt}
                     className="h-[320px] w-full object-cover sm:h-[420px]"
                   />
                 </div>

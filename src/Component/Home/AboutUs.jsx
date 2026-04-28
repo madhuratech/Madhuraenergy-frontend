@@ -28,7 +28,7 @@ function WhoWeAre() {
             <div className="group relative h-full overflow-hidden rounded-[32px]">
               <img
                 src={about}
-                alt="Solar energy project"
+                alt="Solar Plant Maintenance Services"
                 className="h-[320px] w-full object-cover transition duration-700 group-hover:scale-105 sm:h-[420px] lg:h-full lg:min-h-[640px]"
               />
 

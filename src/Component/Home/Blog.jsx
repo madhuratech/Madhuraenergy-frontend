@@ -14,6 +14,7 @@ const blogs = [
     image: CoEmission,
     date: "12 Mar 2026",
     readTime: "5 min read",
+    imageAlt:"Solar Plant Installation Services 19"
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ const blogs = [
     image: EnergyUnits,
     date: "08 Mar 2026",
     readTime: "4 min read",
+    imageAlt:"Solar Plant Installation Services 20"
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ const blogs = [
     image: Renewable,
     date: "02 Mar 2026",
     readTime: "6 min read",
+    imageAlt:"Solar Plant Installation Services 21"
   },
 ];
 
@@ -94,7 +97,7 @@ function BlogSection() {
               <div className="relative overflow-hidden">
                 <img
                   src={blog.image}
-                  alt={blog.title}
+                  alt={blog.imageAlt}
                   className="h-64 w-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] will-change-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/75 via-slate-950/25 to-transparent transition-opacity duration-500 group-hover:from-slate-950/65" />

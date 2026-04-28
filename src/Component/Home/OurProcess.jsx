@@ -19,6 +19,7 @@ const steps = [
       "We start by analysing your energy needs, site conditions, and business goals to design the most effective solar solution.",
     icon: SearchCheck,
     image: Discovery,
+    alt:"Solar Plant Installation Services 15"
   },
   {
     number: "02",
@@ -27,6 +28,7 @@ const steps = [
       "Our team develops optimized system designs and technical plans focused on efficiency, safety, and long-term performance.",
     icon: FileText,
     image: Planning,
+    alt:"Solar Plant Installation Services 16"
   },
   {
     number: "03",
@@ -35,6 +37,7 @@ const steps = [
       "We deliver seamless installation using high-quality components, skilled professionals, and strict quality standards.",
     icon: Settings2,
     image: Engineering,
+    alt:"Solar Plant Installation Services 17"
   },
   {
     number: "04",
@@ -43,6 +46,7 @@ const steps = [
       "Post-installation, we ensure continuous performance through real-time monitoring, maintenance, and system optimization.",
     icon: BadgeCheck,
     image: Testing,
+    alt:"Solar Plant Installation Services 18"
   },
 ];
 
@@ -182,7 +186,7 @@ function WhatWeDoProcess() {
                     <div className="relative h-48 overflow-hidden">
                       <motion.img
                         src={step.image}
-                        alt={step.title}
+                        alt={step.alt}
                         whileHover={{ scale: 1.08 }}
                         transition={{ duration: 0.7, ease: "easeOut" }}
                         className="h-full w-full object-cover"

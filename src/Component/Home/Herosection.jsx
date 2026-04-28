@@ -103,7 +103,7 @@ function HeroSection() {
           <div className="relative mx-auto h-[520px] w-full max-w-xl overflow-hidden rounded-[28px] border border-white/10 bg-white/5 shadow-2xl backdrop-blur-sm">
             <img
               src={images[currentSlide]}
-              alt="Solar power installation"
+              alt="Solar Plant Installation Services"
               className="h-full w-full object-cover transition-all duration-1000"
             />
 
